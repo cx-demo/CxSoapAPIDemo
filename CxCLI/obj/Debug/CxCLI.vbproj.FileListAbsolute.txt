@@ -1,0 +1,15 @@
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\bin\Debug\CxCLI.exe.config
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\bin\Debug\CxCLI.exe
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\bin\Debug\CxCLI.pdb
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\bin\Debug\CxCLI.xml
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.vbprojResolveAssemblyReference.cache
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.Resources.resources
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.vbproj.GenerateResource.Cache
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.vbproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.exe
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.xml
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.pdb
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\bin\Debug\CxCLI.exe.manifest
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\bin\Debug\CxCLI.application
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.exe.manifest
+C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.application

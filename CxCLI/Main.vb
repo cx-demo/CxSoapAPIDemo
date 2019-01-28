@@ -381,7 +381,20 @@ Module Module1
             addLOG("CONSOLE:Cannot find in LDAP: " + U.UserName)
             Exit Sub
         End If
+        Dim auditNDXopt As Integer = 0
 
+        Dim useLDAP As Boolean
+        Dim nameNoLDAP$ = ""
+        nameNoLDAP = stripToFilename(U.UserName)
+        Dim emailNDX As Integer = 0
+        Dim lastNameNDX As Integer = 0
+        Dim phoneNDXopt As Integer = 0
+        Dim cellNDXopt As Integer = 0
+        Dim activeNDXopt As Integer = 0
+        Dim lcidNDXopt As Integer = 0
+
+        Dim expireNDXopt As Integer = 0
+        Dim jobNDXopt As Integer = 0
 
         If currDomainList.Count > 1 Then
             addLOG("CONSOLE:WARNING: MULTIPLE USERS FOUND IN LDAP FOR " + nameNoLDAP + " - Choosing first, email " + currDomainList(0).Email)
@@ -399,30 +412,27 @@ Module Module1
 
         U.IsActive = True
 
-        '------------------------------------------------------------
-
+        '--------------Dim tempBOOL$ = ""----------------------------------------------
+        Dim tempBOOL$ = ""
         'audit or not
         If auditNDXopt = 0 Then
             U.AuditUser = False
-        Else
-            tempBOOL = CStr(big3D(curRow, auditNDXopt - 1))
-            If LCase(tempBOOL) = "yes" Or LCase(tempBOOL) = "true" Then tempBOOL = "True" Else tempBOOL = "False"
-            U.AuditUser = CBool(tempBOOL)
+
         End If
 
         'phone
         If phoneNDXopt Then
-            U.Phone = CStr(big3D(curRow, phoneNDXopt - 1))
+            ' U.Phone = CStr(big3D(curRow, phoneNDXopt - 1))
         End If
 
         'jobtitle
         If jobNDXopt Then
-            U.JobTitle = CStr(big3D(curRow, jobNDXopt - 1))
+            'U.JobTitle = CStr(big3D(curRow, jobNDXopt - 1))
         End If
 
         'cell
         If cellNDXopt Then
-            U.CellPhone = CStr(big3D(curRow, cellNDXopt - 1))
+            'U.CellPhone = CStr(big3D(curRow, cellNDXopt - 1))
         End If
 
         Dim tDate$ = ""
@@ -444,7 +454,7 @@ Module Module1
 
             U.willExpireAfterDays = Val(a)
         Else
-            tDate$ = CStr(big3D(curRow, expireNDXopt - 1))
+            'tDate$ = CStr(big3D(curRow, expireNDXopt - 1))
             If InStr(tDate, "/") Then a = Trim(Str(DateDiff(DateInterval.Day, Today, CDate(tDate)))) Else a = tDate
             If Val(a) = 0 Then a = "365"
             U.willExpireAfterDays = Val(a)
@@ -456,21 +466,7 @@ Module Module1
         Dim numGroups As Integer = 0
         'now groups
 
-        For curRow = 0 To numRows - 1
-            currUser = big3D(curRow, userNDX - 1)
 
-            If currUser = uniqueUsers(K) Or currUser = nameNoLDAP Then
-
-                'adding group GUIDs
-                a$ = big3D(curRow, groupNDX - 1)
-                If Len(a) Then
-                    G(numGroups) = returnGroupOfGUID(getGUIDofTEAM(a, True)) ' New CxPortal.Group
-                    numGroups += 1
-                Else
-                    addLOG("Could not locate group specified on row " + Trim(Str(curRow + 1)) + " for " + nameNoLDAP)
-                End If
-            End If
-        Next
 
         If numGroups Then
             Array.Resize(G, numGroups)
@@ -478,7 +474,7 @@ Module Module1
             '                addLOG("Added " + Trim(Str(numGroups)) + " to profile of " + nameNoLDAP)
         Else
             addLOG("ERROR: No groups to define for user " + nameNoLDAP + " - Users must belong to at least 1 group.")
-            GoTo nextRow
+            '    GoTo nextRow
         End If
 
 
@@ -486,7 +482,7 @@ Module Module1
         addArgs.addORedit = "add"
         addArgs.isLDAP = useLDAP
         addArgs.U = U
-        addArgs.changeActiveState = changeActiveState
+        ' addArgs.changeActiveState = changeActiveState
 
         If editORaddUser(addArgs) = False Then
 
@@ -498,6 +494,15 @@ Module Module1
         startSession = False
         CxWrap = New CxWrapper
         Dim getSession$ = CxWrap.ActivateSession
+        'here some change to trigger a push
+
+
+        'here some change to trigger a push
+        'here some change to trigger a push
+        'here some change to trigger a push
+        'here some change to trigger a push
+        'here some change to trigger a push
+        'here some change to trigger a push
 
         addLOG("Activating Session:" + getSession)
         If getSession <> "True" Then

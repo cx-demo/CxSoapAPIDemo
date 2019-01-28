@@ -1,0 +1,84 @@
+12/14/2018 2:28:22 PM: ------------------------------------------
+12/14/2018 2:28:22 PM: Argument: help
+12/14/2018 2:28:22 PM: Argument: loggingenabled=true
+12/14/2018 2:28:22 PM: CLI Action - help
+12/14/2018 2:28:22 PM: CONSOLE:CxCLI allows SOAP interaction with CxServer via Windows Command Line
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:Submit KEY/VALUE (K/V) pairs in the form key=value, example user=mhorty
+12/14/2018 2:28:22 PM: CONSOLE:Optional - use quotes around values to preserve text with spaces
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:For all calls, loggingenabled=true details activity inside currutil_log.txt
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:COMMAND       K/V Pairs            DETAIL
+12/14/2018 2:28:22 PM: CONSOLE:help                               Produces this help file
+12/14/2018 2:28:22 PM: CONSOLE:encrypt       text                 TEXT=text to encrypt - Returns encrypted data (ie for CxPassword in config.txt)
+12/14/2018 2:28:22 PM: CONSOLE:userexist     user,match           MATCH=username/mail, USER=user data - Returns true if user exists
+12/14/2018 2:28:22 PM: CONSOLE:enableusers   file,match           MATCH=username/mail, FILE=text file of users, 1 per line
+12/14/2018 2:28:22 PM: CONSOLE:disableusers  file,match           MATCH=username/mail, FILE=text file of users, 1 per line
+12/14/2018 2:28:22 PM: CONSOLE:deleteusers   file,match           MATCH=username/mail, FILE=text file of users, 1 per line
+12/14/2018 2:28:22 PM: CONSOLE:edituser      addgroup,match       MATCH=username/mail, ADDGROUP=group(s) to add user to
+12/14/2018 2:28:22 PM: CONSOLE:edituser      subtractgroup,match  MATCH=username/mail, SUBTRACTGROUP=group(s) to remove user from
+12/14/2018 2:28:22 PM: CONSOLE:edituser      changerole,match     MATCH=username/mail, CHANGEROLE=Scanner or Reviewer - Change role of user
+12/14/2018 2:28:22 PM: CONSOLE:edituser      status,match         MATCH=username/mail, STATUS=enable/disable/delete - Change status of user
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:Example, encrypt your password:
+12/14/2018 2:28:22 PM: CONSOLE:CMD>cxcli encrypt text=passwordtext
+12/14/2018 2:28:22 PM: CONSOLE:encrypted_text=yADi4Mkw3cUqC8mtiUOyh/dZ5TuzCl5i4Gx0hmVftw8=
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:Example, check user's existence:
+12/14/2018 2:28:22 PM: CONSOLE:CMD>cxcli userexist user=mhorty match=username
+12/14/2018 2:28:22 PM: CONSOLE:TRUE
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:Examples, enable/disable/delete users from file:
+12/14/2018 2:28:22 PM: CONSOLE:------------------------------------------------ 
+12/14/2018 2:28:22 PM: CONSOLE:CMD>cxcli disableusers file="c:\Folder Name\some_file_1_username_per_line.txt" match=username
+12/14/2018 2:28:22 PM: CONSOLE:Matching username on  3 entries
+12/14/2018 2:28:22 PM: CONSOLE:User SAML\testuser1: testuser@cx.com  disabled
+12/14/2018 2:28:22 PM: CONSOLE:User tnusertest: tnu@cx.com  disabled
+12/14/2018 2:28:22 PM: CONSOLE:User miketyson: mt@cx.com  disabled
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:CMD>CxCLI enableusers file="c:\Folder Name\some_file_1_email_per_line.txt" match=mail
+12/14/2018 2:28:22 PM: CONSOLE:Matching mail on  3 entries
+12/14/2018 2:28:22 PM: CONSOLE:User SAML\testuser1: testuser@cx.com  enabled
+12/14/2018 2:28:22 PM: CONSOLE:User tnusertest: tnu@cx.com  enabled
+12/14/2018 2:28:22 PM: CONSOLE:User miketyson: mt@cx.com  enabled
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:Examples, various functions of edituser:
+12/14/2018 2:28:22 PM: CONSOLE:---------------------------------------- 
+12/14/2018 2:28:22 PM: CONSOLE:-------Roles
+12/14/2018 2:28:22 PM: CONSOLE:CMD>CxCLI edituser user=mt@cx.com match=mail changerole=Reviewer
+12/14/2018 2:28:22 PM: CONSOLE:changerole = reviewer miketyson: mt@cx.com
+12/14/2018 2:28:22 PM: CONSOLE:No change necessary
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:CMD>cxcli edituser user=miketyson match=username changerole=Scanner
+12/14/2018 2:28:22 PM: CONSOLE:changerole = scanner miketyson: mt@cx.com
+12/14/2018 2:28:22 PM: CONSOLE:Changing role from Scanner To Scanner
+12/14/2018 2:28:22 PM: CONSOLE:Submitting Role Change:   True
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:------Groups
+12/14/2018 2:28:22 PM: CONSOLE:CMD>CxCLI edituser user=def111@cx.com match=mail addgroup=TeamA
+12/14/2018 2:28:22 PM: CONSOLEaddgroup = teama def111:def111@cx.com
+12/14/2018 2:28:22 PM: CONSOLE:Submitting change - True
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:CMD>cxcli edituser user=def111@cx.com match=mail subtractgroup=TeamA,ProjectComponent1
+12/14/2018 2:28:22 PM: CONSOLE:subtractgroup = teama,projectcomponent1 def111:def111@cx.com
+12/14/2018 2:28:22 PM: CONSOLE:Submitting change - True
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:CMD>CxCLI edituser user=def111@cx.com match=mail addgroup=NonExistTeam
+12/14/2018 2:28:22 PM: CONSOLE:addgroup = nonexistteam def111def111@cx.com
+12/14/2018 2:28:22 PM: CONSOLE:Submitting change - ERROR: def111 -General error occurred. Please refer to application admin - Could Not update groups
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:------Status
+12/14/2018 2:28:22 PM: CONSOLE:CMD>CxCLI edituser user=502752445 match=username status=delete
+12/14/2018 2:28:22 PM: CONSOLE:status = delete 502752445:Service.account@cust.com
+12/14/2018 2:28:22 PM: CONSOLE:User 502752445:Service.account@cust.com  deleted
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:CMD>CxCLI edituser user=def111@cx.com match=mail status=enable
+12/14/2018 2:28:22 PM: CONSOLE:status = enable def111:def111@cx.com
+12/14/2018 2:28:22 PM: CONSOLE:User def111:def111@cx.com  enabled
+12/14/2018 2:28:22 PM: CONSOLE: 
+12/14/2018 2:28:22 PM: CONSOLE:CMD>CxCLI edituser user=def111@cx.com match=mail status=disable
+12/14/2018 2:28:22 PM: CONSOLE:status = disable def111:def111@cx.com
+12/14/2018 2:28:22 PM: CONSOLE:User def111:def111@cx.com  disabled

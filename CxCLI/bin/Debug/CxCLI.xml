@@ -1,0 +1,4571 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CxCLI
+</name>
+</assembly>
+<members>
+<member name="T:CxCLI.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CxCLI.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CxCLI.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSBasicRepsonse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSBasicRepsonse.IsSuccesfull">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSBasicRepsonse.ErrorMessage">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxDomainUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDomainUser.Username">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDomainUser.FirstName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDomainUser.LastName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDomainUser.Email">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDomainUser.UPN">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSActiveDirectoryDomainDetails">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSActiveDirectoryDomainDetails.NetbiosName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSActiveDirectoryDomainDetails.FullyQualifiedName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSActiveDirectoryDomainDetails.IsMappedToLdap">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSActiveDirectoryDomainDetails.HasDomainUsers">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ProfileData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.UserName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.FirstName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.UserPreferedLanguageLCID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.LastName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.JobTitle">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.Email">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.Phone">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.CellPhone">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.Skype">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.Country">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.AuditUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.LastLoginDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProfileData.UserTeams">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.WebClientApprovedUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientApprovedUser.UserID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientApprovedUser.UserName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientApprovedUser.CompanyID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientApprovedUser.ExpirationDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientApprovedUser.TeamId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientApprovedUser.LoginUrl">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.WebClientPendingUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.ID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.FirstName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.LastName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.Password">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.Email">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.JobTitle">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.UserName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.Phone">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.CellPhone">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.Skype">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.CompanyID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.CompanyName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.Country">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.Groups">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.CreatedDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientPendingUser.AuditUser">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.Group">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Group.GroupName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Group.ID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Group.Type">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Group.Guid">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Group.FullPath">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Group.Path">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.GroupType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.GroupType.Team">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.GroupType.Company">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.GroupType.SP">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.GroupType.Server">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.HierarchyGroupNode">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.HierarchyGroupNode.Childs">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.HierarchyGroupNode.Membership">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxDateTime">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDateTime.Hour">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDateTime.Minute">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDateTime.Second">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDateTime.Day">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDateTime.Month">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDateTime.Year">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ResultState">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ResultState.ResultName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ResultState.ResultID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSRequestDeleteScans">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRequestDeleteScans.SessionID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRequestDeleteScans.ScanIDs">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRequestDeleteScans.Flags">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.DeleteFlags">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.DeleteFlags.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.DeleteFlags.RunningScans">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.DeleteFlags.OnlyAllowedProjects">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSRequestScanLog">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRequestScanLog.SessionID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSRequestScanLogUnfinishedScan">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRequestScanLogUnfinishedScan.ScanRequestId">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSRequestScanLogFinishedScan">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRequestScanLogFinishedScan.ScanId">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSRequestScanLogFailedScan">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRequestScanLogFailedScan.ID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWsScanCompareCount">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWsScanCompareCount.New">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWsScanCompareCount.Fixed">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWsScanCompareCount.ReOccured">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSQueryLanguageState">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryLanguageState.LanguageID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryLanguageState.LanguageName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryLanguageState.LanguageHash">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryLanguageState.StateCreationDate">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.PartialSASTScansDTO">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.PartialSASTScansDTO.AbortedMessage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.PartialSASTScansDTO.AbortedStatus">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SASTScanAbortedStatus">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SASTScanAbortedStatus.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SASTScanAbortedStatus.Queries">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SASTScanAbortedStatus.Stages">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SASTScanAbortedStatus.QueriesExceededResultThreshold">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.Vulerability">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Vulerability.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Vulerability.Severity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Vulerability.Count">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScanDisplayData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.ScanID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.IsAllowedToDelete">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.QueuedDateTime">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.RiskLevelScore">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.FinishedDateTime">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.ProjectId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.InitiatorName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.TeamName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.IsIncremental">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.CxVersion">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.LOC">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.HighSeverityResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.MediumSeverityResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.LowSeverityResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.Comments">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.ScanDisplayType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.ServerName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.Origin">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.FailedLOC">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.StatisticsCalculationDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.IsPublic">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayData.IsLocked">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScanType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanType.UNKNOWN">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanType.ALLSCANS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanType.REGULAR">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanType.SUBSET">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanType.PARTIAL">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanType.RUNNING">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScanDisplayDataExtended">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayDataExtended.PartialScanAboartedMessage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanDisplayDataExtended.ScanCompletedStatus">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScanCompletedStatus">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanCompletedStatus.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanCompletedStatus.Completed">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanCompletedStatus.Partial">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.UndeletedObject">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UndeletedObject.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UndeletedObject.ErrorCode">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UndeletedObject.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UndeletedObject.TeamPath">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UndeletedObject.StartTime">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UndeletedObject.ErrorMessage">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.UndeletedObjectCode">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.UndeletedObjectCode.Authorization">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.UndeletedObjectCode.Locked">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSRequestDeleteProjects">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRequestDeleteProjects.SessionID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRequestDeleteProjects.ProjectIDs">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRequestDeleteProjects.Flags">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResultPathDisplayDetails">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPathDisplayDetails.ProjectId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPathDisplayDetails.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPathDisplayDetails.ScanId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPathDisplayDetails.ScanDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPathDisplayDetails.PathIds">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ResultStateData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ResultStateData.scanId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ResultStateData.PathId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ResultStateData.projectId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ResultStateData.Remarks">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ResultStateData.ResultLabelType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ResultStateData.data">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScanRiskLevel">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanRiskLevel.Quantity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanRiskLevel.Severity">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ProjectScansRiskLevel">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScansRiskLevel.Label">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScansRiskLevel.ScanRiskParams">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ProjectScansResultSummary">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScansResultSummary.Label">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScansResultSummary.High">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScansResultSummary.Medium">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScansResultSummary.Low">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScansResultSummary.Info">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.UserPermission">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UserPermission.IsAllowedToDelete">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UserPermission.IsAllowedToDuplicate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UserPermission.IsAllowedToRun">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UserPermission.IsAllowedToUpdate">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ProjectDisplayData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.Permission">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.projectID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.ServiceProvider">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.Company">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.Owner">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.Group">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.Preset">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.LastScanDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.TotalScans">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.IsPublic">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectDisplayData.TotalOsaScans">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxProjectData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxProjectData.ProjectID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxProjectData.SourceType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxProjectData.Company">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxProjectData.Owner">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxProjectData.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxProjectData.Group">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxProjectSourceType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxProjectSourceType.LocalPath">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxProjectSourceType.UNC">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxProjectSourceType.TFS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxProjectSourceType.SVN">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxProjectSourceType.SourceSafe">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxProjectSourceType.External">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxProjectSourceType.CVS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxProjectSourceType.Perforce">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.DataRetentionSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.DataRetentionSettings.NumOfScansToKeep">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSProjectCustomField">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSProjectCustomField.CustomFieldId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSProjectCustomField.Value">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSProjectIssueTrackingSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSProjectIssueTrackingSettings.TrackingSystemID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSProjectIssueTrackingSettings.Params">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingParam">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingParam.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingParam.Value">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingParam.Type">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScanAction">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanAction.Parameters">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanAction.Trigger">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanAction.Action">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScanEventType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanEventType.BeforeScanStarts">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanEventType.AfterScanSucceeds">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanEventType.OnScanFailure">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScanActionType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanActionType.EmailNotification">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScanActionType.PostScanAction">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScanActionSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanActionSettings.ScanActionList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScheduleSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScheduleSettings.Schedule">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScheduleSettings.ScheduledDays">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScheduleSettings.Time">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScheduleSettings.StartSchedulingPeriod">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScheduleSettings.EndSchedulingPeriod">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScheduleSettings.SchedulingFrequency">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScheduleType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScheduleType.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScheduleType.Now">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ScheduleType.Weekly">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.DayOfWeek">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.DayOfWeek.Sunday">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.DayOfWeek.Monday">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.DayOfWeek.Tuesday">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.DayOfWeek.Wednesday">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.DayOfWeek.Thursday">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.DayOfWeek.Friday">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.DayOfWeek.Saturday">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ProjectConfiguration">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectConfiguration.ProjectSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectConfiguration.SourceCodeSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectConfiguration.ScheduleSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectConfiguration.ScanActionSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectConfiguration.ProjectIssueTrackingSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectConfiguration.CustomFields">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectConfiguration.DataRetentionSettings">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ProjectSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.projectID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.PresetID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.TaskId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.AssociatedGroupID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.ScanConfigurationID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.Description">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.Owner">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.IsPublic">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.OpenSourceSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSettings.OpenSourceAnalysisOrigin">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ProjectSharedLocation">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSharedLocation.Path">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectSharedLocation.Credentials">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.Credentials">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Credentials.User">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Credentials.Pass">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ProjectOrigin">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ProjectOrigin.LocalPath">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ProjectOrigin.SharedPath">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ProjectOrigin.TFS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ProjectOrigin.External">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ProjectOrigin.SVN">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ProjectOrigin.CVS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ProjectOrigin.GIT">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ProjectOrigin.Perforce">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SourceCodeSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceCodeSettings.SourceOrigin">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceCodeSettings.UserCredentials">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceCodeSettings.PathList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceCodeSettings.SourceControlSetting">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceCodeSettings.PackagedCode">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceCodeSettings.SourcePullingAction">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceCodeSettings.SourceControlCommandId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceCodeSettings.SourceFilterLists">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SourceLocationType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SourceLocationType.Local">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SourceLocationType.Shared">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SourceLocationType.SourceControl">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SourceLocationType.SourcePulling">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ScanPath">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanPath.Path">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ScanPath.IncludeSubTree">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SourceControlSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.Port">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.UseSSL">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.UseSSH">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.ServerName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.Repository">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.UserCredentials">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.Protocol">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.RepositoryName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.ProtocolParameters">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.GITBranch">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.GitLsViewType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.SSHPublicKey">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.SSHPrivateKey">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.GitHubSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceControlSettings.PerforceBrowsingMode">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.RepositoryType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.RepositoryType.TFS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.RepositoryType.SVN">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.RepositoryType.CVS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.RepositoryType.GIT">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.RepositoryType.Perforce">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.RepositoryType.NONE">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SourceControlProtocolType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SourceControlProtocolType.WindowsAuthentication">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SourceControlProtocolType.SSL">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SourceControlProtocolType.SSH">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.SourceControlProtocolType.PasswordServer">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.GitLsRemoteViewType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.GitLsRemoteViewType.TAGS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.GitLsRemoteViewType.HEADS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.GitLsRemoteViewType.TAGS_AND_HEADS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.GitLsRemoteViewType.ALL">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.GitHubIntegrationSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.GitHubIntegrationSettings.ContributorCredentials">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.GitHubIntegrationSettings.OwnerCredentials">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.GitHubIntegrationSettings.EventsThreshold">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSPerforceBrowsingMode">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSPerforceBrowsingMode.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSPerforceBrowsingMode.Depot">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSPerforceBrowsingMode.Workspace">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.LocalCodeContainer">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.LocalCodeContainer.ZippedFile">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.LocalCodeContainer.FileName">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SourceFilterPatterns">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceFilterPatterns.ExcludeFilesPatterns">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SourceFilterPatterns.ExcludeFoldersPatterns">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.Action">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Action.ActionName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Action.Id">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ConfigurationSet">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ConfigurationSet.ConfigSetName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ConfigurationSet.ID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResultSummary">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultSummary.QueryId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultSummary.QueryName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultSummary.QueryGroupName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultSummary.Count">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultSummary.Severity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultSummary.Cwe">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.AuditScanResult">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditScanResult.QueryId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditScanResult.QueryName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditScanResult.QuerySource">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditScanResult.Severity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditScanResult.QueryGroupName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditScanResult.CWE">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditScanResult.QueryVersionCode">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditScanResult.DebugMessages">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditScanResult.CompilationMessages">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditScanResult.PathPerResult">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResultPath">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPath.SimilarityId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPath.PathId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPath.Comment">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPath.State">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPath.Severity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPath.AssignedUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultPath.Nodes">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSPathNode">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSPathNode.Column">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSPathNode.FullName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSPathNode.FileName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSPathNode.Length">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSPathNode.Line">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSPathNode.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSPathNode.DOM_Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSPathNode.MethodLine">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSPathNode.PathNodeId">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.AuditResultsCollection">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditResultsCollection.Results">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AuditResultsCollection.FailedLOC">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ProjectBasicSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectBasicSettings.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectBasicSettings.AssociatedGroupID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseBasicProjectData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseBasicProjectData.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseBasicProjectData.ID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseBasicProjectData.scans">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseBasicScanData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseBasicScanData.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseBasicScanData.ID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseBasicScanData.SourceId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseBasicScanData.Comment">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseBasicScanData.ResultId">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSDataRetentionRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.RequestDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.RequestEndDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.InitiatorName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.RequestTimeLimitation">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.Stage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.CurrentProgress">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.TotalProgress">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.StageError">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.IsDone">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequest.OriginalConfiguration">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxDataRetentionStatus">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxDataRetentionStatus.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxDataRetentionStatus.New">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxDataRetentionStatus.Cleanup">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxDataRetentionStatus.Deletion">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxDataRetentionStatus.Stopping">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxDataRetentionStatus.Stopped">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxDataRetentionStatus.Failed">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxDataRetentionStatus.Finished">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxDataRetentionConfiguration">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDataRetentionConfiguration.DataRetentionType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDataRetentionConfiguration.NumOfScansToPreserve">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDataRetentionConfiguration.StartDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDataRetentionConfiguration.EndDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxDataRetentionConfiguration.DurationLimitInHours">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxDataRetentionType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxDataRetentionType.NumOfScansToPreserve">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxDataRetentionType.DatesRange">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIdNamePair">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIdNamePair.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIdNamePair.Name">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSLdapDomainMappingSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapDomainMappingSettings.IsMappedToDomain">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapDomainMappingSettings.DomainNetbiosName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapDomainMappingSettings.DomainFQname">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSLdapAdvancedRoleMapping">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapAdvancedRoleMapping.ScannerWithoutRoleAttributesGroupDnList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapAdvancedRoleMapping.ScannerWithNotExploitableGroupDnList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapAdvancedRoleMapping.ScannerWithDeleteGroupDnList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapAdvancedRoleMapping.ScannerWithNotExploitableAndDeleteGroupDnList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapAdvancedRoleMapping.ReviewerWithoutRoleAttributesGroupDnList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapAdvancedRoleMapping.ReviewerWithSeverityStatusChangeGroupDnList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSLdapRoleMapping">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapRoleMapping.DefaultRoleId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapRoleMapping.AdvancedRoleMappingEnabled">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapRoleMapping.DefaultRoleApplyNotExploitable">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapRoleMapping.DefaultRoleDeleteProjectsAndScans">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapRoleMapping.DefaultRoleAllowStatusSeverityChanges">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapRoleMapping.WsLdapAdvancedRoleMapping">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSLdapServerSyncSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerSyncSettings.Enabled">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerSyncSettings.AdditionalGroupDN">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerSyncSettings.GroupObjectClass">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerSyncSettings.GroupObjectFilter">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerSyncSettings.GroupIdAttribute">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerSyncSettings.GroupNameAttribute">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerSyncSettings.GroupMembersAttribute">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerSyncSettings.UserMemberShipAttribute">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerSyncSettings.LdapRoleMapping">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSLdapServerConfiguration">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.DirectoryType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.Action">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.HostName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.Port">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.UseSSL">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.VerifySslCertificate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.Username">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.Password">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.BaseDn">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.AdditionalUserDn">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.UserObjectClass">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.UserObjectFilter">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.UsernameAttribute">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.UserRdnAttribute">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.FirstNameAttribute">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.LastNameAttribute">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.EmailAttribute">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.SyncSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapServerConfiguration.DomainMapSettings">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSLdapDirectoryType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSLdapDirectoryType.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSLdapDirectoryType.ActiveDirectory">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSLdapDirectoryType.OpenLDAP">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSLdapDirectoryType.CustomLDAPServer">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSLdapServerConfigurationAction">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSLdapServerConfigurationAction.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSLdapServerConfigurationAction.Create">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSLdapServerConfigurationAction.Update">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSLdapServerConfigurationAction.Delete">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.FailedScansDisplayData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.ScanRequestId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.ProjectId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.TaskId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.TaskScanId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.ConfigurationId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.PresetId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.IsIncremental">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.RunId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.CreatedOn">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.UpdatedOn">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.QueuedOn">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.EngineStartedOn">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.EngineFinishedOn">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.CompletedOn">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.SourceLocationPath">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.SourceId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.LOC">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.Language">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.PartialResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.Comments">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.ServerId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.Initiator">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.FailedScansDisplayData.Details">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ProjectScannedDisplayData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.ProjectID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.LastScanID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.LastScanDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.TeamName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.RiskLevelScore">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.LOC">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.HighVulnerabilities">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.MediumVulnerabilities">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.LowVulnerabilities">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.InfoVulnerabilities">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.TotalVulnerabilities">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.QueueTime">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.ScanTime">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.FailedLOC">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.ProjectScannedDisplayData.StatisticsCalculationDate">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemMeta">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSJIRAIssueCreateMeta">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAIssueCreateMeta.Projects">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSJIRAProjectMeta">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAProjectMeta.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAProjectMeta.Key">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAProjectMeta.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAProjectMeta.IssueTypes">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSJIRAIssueType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAIssueType.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAIssueType.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAIssueType.Subtask">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAIssueType.Fields">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSJIRAFields">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAFields.JiraFieldName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAFields.DefaultValues">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAFields.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAFields.Required">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAFields.Schema">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAFields.AllowedValues">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSJIRASchema">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRASchema.System">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRASchema.Type">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRASchema.Items">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRASchema.Custom">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSJIRAAllowedValues">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAAllowedValues.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAAllowedValues.Value">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSJIRAAllowedValues.Name">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystem">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystem.SystemType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystem.ID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystem.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystem.ServerURL">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystem.Username">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystem.Password">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSIssueTrackingType.JIRA">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSJIRATrackingSystem">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingMetaRequestParam">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingMetaRequestParam.Key">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingMetaRequestParam.Value">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemRequest.SessionID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemSaveRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemSaveRequest.TrackingSystem">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemDeleteRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemDeleteRequest.IDs">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemRetrieveRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemRetrieveRequest.IDs">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemValidateConnectRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemValidateConnectRequest.TrackingSystem">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemMetaRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemMetaRequest.TrackingSystemID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemMetaRequest.Params">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemCreateIssueRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemCreateIssueRequest.TrackingSystemID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemCreateIssueRequest.ScanID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemCreateIssueRequest.ResultIDs">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemCreateIssueRequest.Params">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxUserPreferences">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxUserReportPreferences">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.Link2OnlineResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.Team">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.CheckmarxVersion">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.ScanComments">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.ScanType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.SourceOrigin">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.ScanDensity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.TableOfContents">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.ExecutiveSummary">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.DisplayCategories">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.DisplayLanguageHashNumber">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.ScannedQueries">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.ScannedFiles">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.AssignedTo">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.Comments">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.Link2Online">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.ResultDescription">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.OnlyExecutiveSummary">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.ResultsPerQueryLimit">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.VulnerabilityDescription">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxUserReportPreferences.SnippetsMode">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxReportVulnerabilityDescription">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxReportVulnerabilityDescription.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxReportVulnerabilityDescription.Embeded">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxReportVulnerabilityDescription.Online">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxReportSnippetsMode">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxReportSnippetsMode.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxReportSnippetsMode.SourceAndDestination">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxReportSnippetsMode.Full">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResultDisplayOptions">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultDisplayOptions.AssignedTo">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultDisplayOptions.Comments">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultDisplayOptions.Link2Online">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultDisplayOptions.ResultDescription">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultDisplayOptions.SnippetsMode">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSSnippetsModeDisplayOptions">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSSnippetsModeDisplayOptions.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSSnippetsModeDisplayOptions.SourceAndDestination">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSSnippetsModeDisplayOptions.Full">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSGeneralDisplayOptions">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSGeneralDisplayOptions.OnlyExecutiveSummary">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSGeneralDisplayOptions.TableOfContents">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSGeneralDisplayOptions.ExecutiveSummary">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSGeneralDisplayOptions.DisplayCategories">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSGeneralDisplayOptions.DisplayLanguageHashNumber">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSGeneralDisplayOptions.ScannedQueries">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSGeneralDisplayOptions.ScannedFiles">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSGeneralDisplayOptions.VulnerabilitiesDescription">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSVulnerabilitiesDisplayOptions">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSVulnerabilitiesDisplayOptions.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSVulnerabilitiesDisplayOptions.Attached2Appendix">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSVulnerabilitiesDisplayOptions.Linked2Online">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSHeaderDisplayOptions">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSHeaderDisplayOptions.Link2OnlineResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSHeaderDisplayOptions.Team">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSHeaderDisplayOptions.CheckmarxVersion">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSHeaderDisplayOptions.ScanComments">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSHeaderDisplayOptions.ScanType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSHeaderDisplayOptions.SourceOrigin">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSHeaderDisplayOptions.ScanDensity">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResultsPerVulnerabilityFilter">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsPerVulnerabilityFilter.All">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsPerVulnerabilityFilter.Maximimum">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResultsAssignedToFilter">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsAssignedToFilter.All">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsAssignedToFilter.IDs">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsAssignedToFilter.Usernames">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSDisplayCategoriesFilter">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDisplayCategoriesFilter.All">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDisplayCategoriesFilter.IDs">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResultsStateFilter">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsStateFilter.All">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsStateFilter.IDs">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResultsSeverityFilter">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsSeverityFilter.All">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsSeverityFilter.High">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsSeverityFilter.Medium">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsSeverityFilter.Low">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResultsSeverityFilter.Info">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSQueriesFilter">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueriesFilter.All">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueriesFilter.IDs">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSReportDisplayData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportDisplayData.Queries">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportDisplayData.ResultsSeverity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportDisplayData.ResultsState">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportDisplayData.DisplayCategories">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportDisplayData.ResultsAssigedTo">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportDisplayData.ResultsPerVulnerability">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportDisplayData.HeaderOptions">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportDisplayData.GeneralOption">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportDisplayData.ResultsDisplayOption">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSReportRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportRequest.Type">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportRequest.ScanID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSReportType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSReportType.PDF">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSReportType.RTF">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSReportType.CSV">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSReportType.XML">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSFilteredReportRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSFilteredReportRequest.DisplayData">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSTransportedQuery">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.QueryId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.PackageId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.Cwe">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.IsExecutable">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.Severity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.LanguageName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.PackageTypeName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.GroupName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.Source">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSTransportedQuery.EngineMetadata">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CliScanArgs">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CliScanArgs.PrjSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CliScanArgs.SrcCodeSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CliScanArgs.IsPrivateScan">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CliScanArgs.IsIncremental">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CliScanArgs.Comment">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CliScanArgs.IgnoreScanWithUnchangedCode">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CliScanArgs.ClientOrigin">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxClientType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.WebPortal">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.CLI">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.Eclipse">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.VS">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.InteliJ">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.Audit">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.SDK">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.Jenkins">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.TFSBuild">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.Importer">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.Other">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxClientType.Sonar">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxEngineServer">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxEngineServer.id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxEngineServer.uri">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxEngineServer.maxScans">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxEngineServer.serverName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxEngineServer.maxScanLoc">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxEngineServer.minScanLoc">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.EmailForSalesData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.EmailForSalesData.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.EmailForSalesData.Email">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.EmailForSalesData.Company">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.EmailForSalesData.Phone">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.EmailForSalesData.EmailBody">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SaasPackage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.Users">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.Languages">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.LOC">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.PresetsNumber">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.PresetsIds">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.Free">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.SourceControlEnabled">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.CreatePDFEnabled">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.OnlineViewerEnabled">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.PluginsEnabled">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.System">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.ScansToDisplay">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPackage.Is_Deprecated">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SaasPendingUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.ID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.FirstName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.LastName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.Password">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.UserName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.Phone">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.CompanyName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.Industry">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.ActivationToken">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.Languages">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.PackageId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.CreatedDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SaasPendingUser.IsActivated">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxPivotLayout">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.Owner">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.SerializedData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.ChartType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.IsSystem">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.Owner_Team">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.IsPublic">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.ViewId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.Teams">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotLayout.Criteria">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.PivotClientBaseParam">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.PivotClientDateRangeParam">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.PivotClientDateRangeParam.RangeType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.PivotClientDateRangeParam.DateFrom">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.PivotClientDateRangeParam.DateTo">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.PivotClientDateRanges">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotClientDateRanges.ALL">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotClientDateRanges.PAST_DAY">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotClientDateRanges.PAST_WEEK">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotClientDateRanges.PAST_MONTH">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotClientDateRanges.PAST_3_MONTH">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotClientDateRanges.PAST_YEAR">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotClientDateRanges.CUSTOM">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.PivotClientExploitabilityParam">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.PivotClientExploitabilityParam.IncludeNotExploitable">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxPivotDataRequest">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotDataRequest.ViewName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotDataRequest.Criteria">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.PivotViewClientType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotViewClientType.AllProjectScans">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotViewClientType.LastMonthProjectScans">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotViewClientType.ProjectsLastScan">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.PivotViewClientType.LastWeekOWASPTop10">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxPivotRow">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotRow.Data">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxPivotColumn">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotColumn.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotColumn.DataTypeName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotColumn.DisplayName">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxPivotTable">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotTable.Columns">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPivotTable.Rows">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.AssignUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AssignUser.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AssignUser.UserName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AssignUser.FirstName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AssignUser.LastName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AssignUser.Email">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.AssignUser.UserPreferedLanguageLCID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSEnableCRUDAction">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSEnableCRUDAction.Type">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSEnableCRUDAction.Enable">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSCrudEnum">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSCrudEnum.Create">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSCrudEnum.Delete">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSCrudEnum.Update">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSCrudEnum.View">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSCrudEnum.Run">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSCrudEnum.Investigate">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSItemAndCRUD">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSItemAndCRUD.Type">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSItemAndCRUD.CRUDActionList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSItemTypeEnum">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.Project">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.Task">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.Scan">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.Preset">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.Configuration">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.Users">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.Roles">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.Other">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.SystemSettings">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.Ignore_Path">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.ResultComment">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.ResultSeverity">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.ResultStatus">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSItemTypeEnum.AuditUser">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.Role">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Role.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Role.ID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSRoleWithUserPrivileges">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSRoleWithUserPrivileges.ItemsCRUD">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.WebClientUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.ID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.FirstName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.LastName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.UserPreferedLanguageLCID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.Password">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.JobTitle">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.Email">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.UserName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.UPN">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.Phone">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.CellPhone">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.Skype">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.CompanyID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.CompanyName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.willExpireAfterDays">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.country">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.DateCreated">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.AuditUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.GroupList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.LastLoginDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.LimitAccessByIPAddress">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.WebClientUser.AllowedIPs">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.UserData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UserData.IsActive">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.UserData.RoleData">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSCustomField">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSCustomField.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSCustomField.Name">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSEdge">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSEdge.StartNode">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSEdge.EndNode">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSNode">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.NodeId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.DOM_Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.State">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.PathIds">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.FullName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.FileName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.isBFL">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.Column">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.Line">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSNode.Length">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSSingleResultData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.QueryId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.PathId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.SourceFolder">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.SourceFile">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.SourceLine">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.SourceObject">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.DestFolder">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.DestFile">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.DestLine">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.NumberOfNodes">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.DestObject">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.Comment">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.State">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.Severity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.AssignedUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.ConfidenceLevel">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.ResultStatus">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.IssueTicketID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultData.QueryVersionCode">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CompareStatusType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CompareStatusType.Fixed">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CompareStatusType.Reoccured">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CompareStatusType.New">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSSingleResultCompareData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultCompareData.ScanId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultCompareData.ComparedToScanId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultCompareData.ComparedToScanPathId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSSingleResultCompareData.QueryName">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSQueryVulnerabilityData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVulnerabilityData.Categories">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVulnerabilityData.QueryId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVulnerabilityData.QueryName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVulnerabilityData.GroupId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVulnerabilityData.GroupName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVulnerabilityData.Severity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVulnerabilityData.CWE">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVulnerabilityData.AmountOfResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVulnerabilityData.LanguageName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVulnerabilityData.QueryVersionCode">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxQueryCategory">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxQueryCategory.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxQueryCategory.CategoryName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxQueryCategory.CategoryType">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxCategoryType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxCategoryType.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxCategoryType.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxCategoryType.Order">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSQueryVersionDetails">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVersionDetails.QueryPath">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVersionDetails.QuerySource">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxPresetDetails">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPresetDetails.queryIds">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPresetDetails.id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPresetDetails.name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPresetDetails.owningteam">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPresetDetails.isPublic">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPresetDetails.owner">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPresetDetails.isUserAllowToUpdate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPresetDetails.isUserAllowToDelete">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPresetDetails.IsDuplicate">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSQuery">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.QueryId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.Source">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.Cwe">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.IsExecutable">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.IsEncrypted">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.Severity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.PackageId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.Status">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.Type">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.Categories">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.CxDescriptionID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.QueryVersionCode">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQuery.EngineMetadata">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.QueryStatus">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.QueryStatus.Original">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.QueryStatus.New">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.QueryStatus.Edited">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.QueryStatus.Deleted">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSQueryType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSQueryType.Draft">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSQueryType.Regular">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSQueryGroup">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.Impacts">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.PackageId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.Queries">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.IsReadOnly">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.IsEncrypted">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.Description">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.Language">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.LanguageName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.PackageTypeName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.ProjectId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.PackageType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.PackageFullName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.OwningTeam">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.Status">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.LanguageStateHash">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryGroup.LanguageStateDate">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSPackageTypeEnum">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSPackageTypeEnum.Cx">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSPackageTypeEnum.Corporate">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSPackageTypeEnum.Project">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSPackageTypeEnum.Team">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.Preset">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Preset.PresetName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Preset.ID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Preset.owningUser">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Preset.isUserAllowToUpdate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.Preset.isUserAllowToDelete">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.InstallationSetting">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.InstallationSetting.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.InstallationSetting.ID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.InstallationSetting.DNSName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.InstallationSetting.IP">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.InstallationSetting.State">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.InstallationSetting.Version">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.InstallationSetting.Hotfix">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.InstallationSetting.InstllationPath">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.InstallationSetting.IsInstalled">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxPredefinedCommand">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPredefinedCommand.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPredefinedCommand.Name">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPredefinedCommand.Command">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPredefinedCommand.CommandType">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxPredefinedCommandType">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxPredefinedCommandType.SourceControlCommand">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxPredefinedCommandType.PostScan">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SystemSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.ReportFolder">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.ResultFolder">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.ExecutablesFolder">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.SMTPHost">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.SMTPPort">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.EMailFromAddress">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.SMTPUserName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.SMTPPassword">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.SMTPUseDefaultCredentials">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.SmtpOverSsl">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.SMTPEncryption">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.MaxScans">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.CompletedScanShowTimeInMin">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.commands">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.WebServer">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.DefaultLanguage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.AllowAutoSignIn">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.DefaultGitHubEventThreshold">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.NotifyLicenseExpiration">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.GitExePath">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemSettings.PerforceExePath">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SystemLanguage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemLanguage.languageLCID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SystemLanguage.isDefault">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.SupportedLanguage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SupportedLanguage.language">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.SupportedLanguage.isSupported">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxPermission">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPermission.Id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPermission.ViewPreScanActions">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxPermission.ViewPostScanActions">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSLdapGroup">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapGroup.DN">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapGroup.Name">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSLdapGroupMapping">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapGroupMapping.LdapServerId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSLdapGroupMapping.LdapGroup">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.TeamData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.TeamData.Team">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.TeamData.Company">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.TeamData.ServiceProvider">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.TeamData.LdapGroupMappings">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseDomainUserList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseDomainUserList.UserList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseUserDirectories">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseUserDirectories.Domains">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseHierarchyGroupNodes">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseHierarchyGroupNodes.HierarchyGroupNodes">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSingleUserData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSingleUserData.UserData">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseProfileData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseProfileData.ProfileData">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponsePendingUsersList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsePendingUsersList.pendingUsersList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseResultStateList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseResultStateList.ResultStateList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSourcesContent">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSourcesContent.cxWSResponseSourcesContent">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSourcesContent.Encode">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSourceContent">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSourceContent.Source">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSourceContent.Encode">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseResultDescription">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseResultDescription.ResultDescription">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseQueryDescription">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseQueryDescription.QueryDescription">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseDeleteScans">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseDeleteScans.IsConfirmation">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseDeleteScans.Flags">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseDeleteScans.UndeletedScans">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseDeleteScans.NumOfDeletedScans">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseScanLog">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanLog.ScanLog">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponceScanCompareResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponceScanCompareResults.Results">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseScanCompareSummary">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanCompareSummary.Total">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanCompareSummary.High">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanCompareSummary.Medium">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanCompareSummary.Low">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanCompareSummary.Info">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseScanSummary">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.Started">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.Finished">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.ScanRisk">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.Preset">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.Path">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.Comment">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.LOC">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.FilesCount">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.High">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.Medium">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.Low">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.Info">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.ScanRiskSeverity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.ScanRiskQuantity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.IsIncremental">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.ScanType">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.ScanLanguageStateCollection">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.EngineStart">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.EngineFinish">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.ScanQueued">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.TotalScanTime">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.StatisticsCalculationDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummary.TeamName">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseScanSummaryExtended">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummaryExtended.ScanCompletedStatus">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanSummaryExtended.PartialSASTScans">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseScansDisplayExtendedData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScansDisplayExtendedData.ScanList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseScanProperties">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanProperties.Top5Vulnes">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanProperties.ScanRiskParams">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanProperties.Comment">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanProperties.StatisticsCalculationDate">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseScansDisplayData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScansDisplayData.ScanList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseDeleteProjects">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseDeleteProjects.IsConfirmation">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseDeleteProjects.Flags">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseDeleteProjects.UndeletedProjects">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseDeleteProjects.NumOfDeletedProjects">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseResultStateUpdate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseResultStateUpdate.PathInfluenceExists">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseResultStateUpdate.UpdatedResultState">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseResultStateUpdate.InfluencedPathsDetails">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponsProjectChartData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsProjectChartData.ScansRiskLevelList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsProjectChartData.ScanResultSummaryList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsProjectChartData.LastStatisticsCalcDate">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponsProjectProperties">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsProjectProperties.ProjectConfig">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsProjectProperties.ProjectChartData">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseProjectConfig">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseProjectConfig.ProjectConfig">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseProjectConfig.Permission">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseProjectsDisplayData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseProjectsDisplayData.projectList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseProjectsData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseProjectsData.ProjectsList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseQueueRunID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseQueueRunID.RunId">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseExtendedScanStatusArray">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseExtendedScanStatusArray.statusArr">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseExtendedScanStatus">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseExtendedScanStatus.IsIncremental">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseScanStatus">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.CurrentStage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.QueuePosition">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.TotalPercent">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.CurrentStagePercent">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.Owner">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.StageName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.StageMessage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.StepMessage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.StepDetails">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.ResultId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.ScanId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.ProjectId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.TaskId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.TaskName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.ProjectName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.RunId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.SourceId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.LOC">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.TimeScheduled">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.ElapsedTime">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.TimeFinished">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.TimeBeginWorking">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.CurrentStatus">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.ServerName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.Origin">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.IsPublic">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanStatus.PartialResults">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CurrentStatusEnum">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CurrentStatusEnum.Queued">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CurrentStatusEnum.Working">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CurrentStatusEnum.Finished">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CurrentStatusEnum.Failed">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CurrentStatusEnum.Canceled">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CurrentStatusEnum.Deleted">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CurrentStatusEnum.Unknown">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CurrentStatusEnum.Unzipping">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CurrentStatusEnum.WaitingToProcess">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseCountLines">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseCountLines.NumOfLines">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSourceActionList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSourceActionList.ActionList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseFileSystemLayer">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseFileSystemLayer.FolderList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseConfigSetList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseConfigSetList.ConfigSetList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseGroupList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseGroupList.GroupList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseCache">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseCache.Cache">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CXWSResponseResultSummary">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CXWSResponseResultSummary.SummaryList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseResultCollection">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseResultCollection.ResultCollection">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSourceContainer">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSourceContainer.sourceCodeContainer">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSourceID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSourceID.ProjectID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSourceID.SourceID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseProjectsScansList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseProjectsScansList.projects">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseLicenseExpirationDateDetails">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLicenseExpirationDateDetails.LicenseExpirationDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLicenseExpirationDateDetails.ShouldDisplayExpirationDate">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSDataRetentionRequestResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionRequestResponse.DataRetentionRequest">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSDataRetentionStatusResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionStatusResponse.Status">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionStatusResponse.CurrentProgress">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionStatusResponse.TotalProgress">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSDataRetentionStatusResponse.StageError">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseTeamLdapGroupMappingData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseTeamLdapGroupMappingData.TeamId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseTeamLdapGroupMappingData.LdapGroups">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseLDAPServerGroups">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLDAPServerGroups.Groups">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseIdNamePairList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseIdNamePairList.Items">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseLDAPServersConfiguration">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLDAPServersConfiguration.serverConfigs">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseJSONData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseJSONData.JSONData">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseFailedScansDisplayData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseFailedScansDisplayData.FailedScansList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseProjectScannedDisplayData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseProjectScannedDisplayData.ProjectScannedList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxTeamPathsResponseResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxTeamPathsResponseResponse.sourceTeamFullPath">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxTeamPathsResponseResponse.destinationTeamFullPath">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSCxMoveTeamResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSCxMoveTeamResponse.Message">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSCxVersionResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSCxVersionResponse.Version">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemResponse">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemRetrieveResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemRetrieveResponse.TrackingSystems">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemSaveResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemSaveResponse.TrackingSystem">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSIssueTrackingSystemMetaResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSIssueTrackingSystemMetaResponse.MetaData">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSUserPreferencesResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSUserPreferencesResponse.Preferences">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseScanResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanResults.ScanResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseScanResults.containsAllResults">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSReportStatusResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportStatusResponse.IsReady">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSReportStatusResponse.IsFailed">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSProjectBranchingStatusResponse">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSCreateReportResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSCreateReportResponse.ID">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseTransportedQueries">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseTransportedQueries.Queries">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseExistsingTransportedPresetQueries">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseExistsingTransportedPresetQueries.PresetNameExists">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseExistsingTransportedPresetQueries.PresetName">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSImportQueriesRepsonse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSImportQueriesRepsonse.requestId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSImportQueriesRepsonse.importQueryStatus">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ImportQueryStatus">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ImportQueryStatus.New">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ImportQueryStatus.OnProgress">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ImportQueryStatus.Failed">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ImportQueryStatus.Succeeded">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponsePreset">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsePreset.Preset">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsePreset.OverridenCorpQueryNames">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseQueries">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseQueries.Queries">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseRunID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseRunID.ProjectID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseRunID.RunId">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseEngineServerId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseEngineServerId.id">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseEngineServerId.isContinuousRange">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseEngineServerId.continuousRangeWarningMessage">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseEngineServers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseEngineServers.list">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSaasPackage">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasPackage.packages">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSessionID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSessionID.SessionId">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseLoginData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.FamilyName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.FirstName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.UserName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.Email">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.UserID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.UserPreferedLanguageLCID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToCreateProject">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToChangeProject">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToManageUsers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToViewCompanies">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToManageCompanies">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToManageServer">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToViewInstallationData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToViewSp">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToManageSp">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsScanner">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAuditor">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToManagePresets">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.isAllowedToManagePredefinedCommand">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToManagePostScanAction">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToModifyResultDetails">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.EnableIncrementalScan">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.ShowSaaSPackageNotificationAndErrors">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.ShowSaaSPackageDetails">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAdviseChangePassword">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToManageITSServers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.AllowedToChangeNotExploitable">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseLoginData.IsAllowedToDeleteScans">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSaasLoginData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToUseSourceControl">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.isAllowedToCreatePDF">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToUseOnlineViewer">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToUsePlugins">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToViewResultState">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToEditResultState">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToViewResultSeverity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToEditResultSeverity">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToViewAssignTo">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToEditAssignTo">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToViewComments">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSaasLoginData.IsAllowedToEditComments">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseShortQueryDescription">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseShortQueryDescription.QueryId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseShortQueryDescription.CweId">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseShortQueryDescription.QueryDescription">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponsePivotLayouts">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsePivotLayouts.Layouts">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponsePivotTable">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsePivotTable.PivotTable">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseBool">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseBool.result">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseAssignUsers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseAssignUsers.AssignUsers">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseUserData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseUserData.UserDataList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseNameList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseNameList.NameList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponsePredefinedCommands">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsePredefinedCommands.commands">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseCustomFieldValues">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseCustomFieldValues.Values">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseCustomFields">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseCustomFields.fieldsArray">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseResultGraph">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseResultGraph.Nodes">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseResultGraph.Edges">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseResultGraph.Partial">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseResultPaths">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseResultPaths.Paths">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponceFileNames">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponceFileNames.fileNames">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponceResultPath">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponceResultPath.Path">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponceScanResults">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponceScanResults.Results">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponceQuerisForScan">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponceQuerisForScan.Queries">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSQueryVersionDetailsResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSQueryVersionDetailsResponse.QueryDetails">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseQueriesCategories">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseQueriesCategories.QueriesCategories">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponsePresetDetails">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsePresetDetails.preset">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxQueryCollectionResponse">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxQueryCollectionResponse.QueryGroups">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponsePresetList">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponsePresetList.PresetList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseInstallationSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseInstallationSettings.InstallationSettingsList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWsResponseSystemSettings">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWsResponseSystemSettings.SysSettings">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSystemLanguages">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSystemLanguages.list">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseUsersLicenseData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseUsersLicenseData.MaxReviewers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseUsersLicenseData.CurrentReviewers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseUsersLicenseData.MaxScanners">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseUsersLicenseData.CurrentScanners">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseCompaniesLicenseData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseCompaniesLicenseData.MaxCompanyManagers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseCompaniesLicenseData.CurrentCompanyManagers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseCompaniesLicenseData.MaxCompanyManagersWithAudit">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseCompaniesLicenseData.CurrentCompanyManagersWithAudit">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseCompaniesLicenseData.MaxCompanies">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseCompaniesLicenseData.CurrentCompanies">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseSPLicenseData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSPLicenseData.MaxSPManagers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSPLicenseData.CurrentSPManagers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSPLicenseData.CurrentSPs">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseSPLicenseData.MaxSPs">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseServerManagersLicenseData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerManagersLicenseData.MaxServerManagers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerManagersLicenseData.CurrentServerManagers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerManagersLicenseData.MaxServerManagersWithAudit">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerManagersLicenseData.CurrentServerManagersWithAudit">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseServerLicenseData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.ExpirationDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.MaxConcurrentScans">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.MaxLOC">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.HID">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.SupportedLanguages">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.MaxUsers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.CurrentUsers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.MaxAuditUsers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.CurrentAuditUsers">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.IsOsaEnabled">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.OsaExpirationDate">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.Edition">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.ProjectsAllowed">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseServerLicenseData.CurrentProjectsCount">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.LicenseEdition">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.LicenseEdition.SDLC">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.LicenseEdition.SecurityGate">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWsResponseCompanyProperties">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWsResponseCompanyProperties.CompanyName">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWsResponseCompanyProperties.permission">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSResponseTeamData">
+<remarks/>
+</member>
+<member name="P:CxCLI.CxPortal.CxWSResponseTeamData.TeamDataList">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.ResultLabelTypeEnum">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ResultLabelTypeEnum.IgnorePath">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ResultLabelTypeEnum.Remark">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ResultLabelTypeEnum.Severity">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ResultLabelTypeEnum.State">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ResultLabelTypeEnum.Assign">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.ResultLabelTypeEnum.IssueTracking">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSGraphTypeEnum">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSGraphTypeEnum.Full">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSGraphTypeEnum.KeyPoints">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSGraphTypeEnum.Ends">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSGraphTypeEnum.none">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxWSSearchPatternOption">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSSearchPatternOption.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSSearchPatternOption.StartsWith">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxWSSearchPatternOption.Contains">
+<remarks/>
+</member>
+<member name="T:CxCLI.CxPortal.CxUserTypes">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxUserTypes.None">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxUserTypes.Domain">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxUserTypes.Application">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxUserTypes.OpenID">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxUserTypes.SSO">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxUserTypes.LDAP">
+<remarks/>
+</member>
+<member name="F:CxCLI.CxPortal.CxUserTypes.SAML">
+<remarks/>
+</member>
+</members>
+</doc>
