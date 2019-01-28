@@ -496,9 +496,6 @@ Module Module1
         Dim getSession$ = CxWrap.ActivateSession
         'here some change to trigger a push
 
-
-        'here some change to trigger a push
-        'here some change to trigger a push
         'here some change to trigger a push
         'here some change to trigger a push
         'here some change to trigger a push
@@ -514,6 +511,8 @@ Module Module1
 
     End Function
 
+
+
     Private Sub dumpInstructs()
         addLOG("CONSOLE:CxCLI allows SOAP interaction with CxServer via Windows Command Line")
         addLOG("CONSOLE: ")
@@ -522,6 +521,8 @@ Module Module1
         addLOG("CONSOLE: ")
         addLOG("CONSOLE:For all calls, loggingenabled=true details activity inside currutil_log.txt")
         addLOG("CONSOLE: ")
+
+        '        addLOG("CONSOLE: ")
 
         addLOG("CONSOLE:COMMAND       K/V Pairs            DETAIL")
         addLOG("CONSOLE:help                               Produces this help file")
