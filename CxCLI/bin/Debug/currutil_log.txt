@@ -82,3 +82,18 @@
 12/14/2018 2:28:22 PM: CONSOLE:CMD>CxCLI edituser user=def111@cx.com match=mail status=disable
 12/14/2018 2:28:22 PM: CONSOLE:status = disable def111:def111@cx.com
 12/14/2018 2:28:22 PM: CONSOLE:User def111:def111@cx.com  disabled
+2/12/2019 9:51:03 PM: ------------------------------------------
+2/12/2019 9:51:03 PM: Argument: cancelscans
+2/12/2019 9:51:03 PM: Argument: loggingenabled=true
+2/12/2019 9:51:03 PM: CLI Action - Cancel Scans
+2/12/2019 9:51:05 PM: Obtained Session IDs For PORTAL And SDK APIs
+2/12/2019 9:51:05 PM: Activating Session:True
+2/12/2019 9:51:05 PM: CURRENT SCANS
+2/12/2019 9:51:45 PM: ------------------------------------------
+2/12/2019 9:51:45 PM: Argument: cancelscans
+2/12/2019 9:51:45 PM: Argument: loggingenabled=true
+2/12/2019 9:51:45 PM: CLI Action - Cancel Scans
+2/12/2019 9:51:45 PM: CONSOLE:Current Scans
+2/12/2019 9:51:48 PM: Obtained Session IDs For PORTAL And SDK APIs
+2/12/2019 9:51:48 PM: Activating Session:True
+2/12/2019 9:51:48 PM: CONSOLE:CURRENT SCANS

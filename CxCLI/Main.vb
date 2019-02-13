@@ -122,6 +122,7 @@ Module Module1
             If InStr(Arg, "getpresetdef") Then exeAction = "Get Preset Details"
             If InStr(Arg, "addpreset") Then exeAction = "Add Preset"
 
+            If InStr(Arg, "cancelscans") Then exeAction = "Cancel Scans"
 
             'If InStr(Arg, "filediff") Then exeAction = "Perform DIFF analysis of File Listings"
             'If InStr(Arg, "addsamlxls") Then exeAction = "Add SAML users from XLS"
@@ -159,6 +160,12 @@ Module Module1
                 Dim pW3DES As New Simple3Des("2&#263gdjSiUEYkadhEII276#*763298")
                 addLOG("CONSOLE:encrypted_text=" + pW3DES.Encode(argPROP("text", True)))
                 pW3DES = Nothing
+                End
+
+
+            Case "Cancel Scans"
+                addLOG("CONSOLE:Current Scans")
+                Call cancelScans
                 End
 
 
@@ -357,6 +364,23 @@ Module Module1
 
     End Sub
 
+    Public Sub cancelScans()
+        startSession()
+
+        Dim SS As CxPortal.CxWSResponseExtendedScanStatus()
+
+        SS = CxWrap.getScansInQueue
+
+        addLOG("CONSOLE:CURRENT SCANS")
+        For Each S In SS
+            addLOG("CONSOLE:STATUS:" + S.CurrentStatus.ToString + " STAGE:" + S.CurrentStage.ToString + " RUNID:" + S.RunId.ToString)
+        Next
+
+        For Each S In SS
+            If S.CurrentStatus.ToString = "Queued" Then addLOG("CONSOLE:CANCEL " + S.RunId.ToString + ":" + CxWrap.cancelScanID(S.RunId.ToString))
+        Next
+
+    End Sub
     Private Sub getLDAPservers()
         CXldapServers = New List(Of CxPortal.CxWSLdapServerConfiguration)
         Dim getLDAP$ = ""
@@ -531,7 +555,7 @@ Module Module1
         addLOG("CONSOLE:getpresets                         Get list of Presets by ID")
         addLOG("CONSOLE:getpresetdef  id                   id=[PresetID] - Returns details of Preset")
         addLOG("CONSOLE:addpreset     name,queries         Name of Preset,Queries separated by commas to Add Preset")
-
+        addLOG("CONSOLE:cancelscans                        Cancels all in Queued Status")
         addLOG("CONSOLE: ")
         addLOG("CONSOLE:enableusers   file,match           MATCH=username/mail, FILE=text file of users, 1 per line")
         addLOG("CONSOLE:disableusers  file,match           MATCH=username/mail, FILE=text file of users, 1 per line")

@@ -306,6 +306,34 @@ Public Class CxWrapper
 
     End Function
 
+    Public Function getScansInQueue() As CxPortal.CxWSResponseExtendedScanStatus()
+        CxProxy = New CxPortal.CxPortalWebServiceSoapClient
+
+        Dim cxScans As New CxPortal.CxWSResponseScanStatus
+        Dim cxS As New CxPortal.CxWSResponseExtendedScanStatusArray
+
+        cxS = CxProxy.GetScansStatuses(sessionID)
+
+        Dim SS() As CxPortal.CxWSResponseExtendedScanStatus
+
+        SS = cxS.statusArr
+
+        Return SS
+    End Function
+
+    Public Function cancelScanID(runID As String) As String
+        Dim resP As CxPortal.CxWSBasicRepsonse
+
+        resP = CxProxy.CancelScan(sessionID, runID)
+
+        If resP.IsSuccesfull = False Then
+            cancelScanID = resP.ErrorMessage.ToString
+        Else
+            cancelScanID = resP.IsSuccesfull.ToString
+        End If
+
+    End Function
+
     Public Function CXaddUser(ByRef U As CxPortal.UserData, Optional ByVal useLDAP As Boolean = False, Optional ByVal useSAML As Boolean = False) As String
         CXaddUser = "Unidentified Failure"
 
