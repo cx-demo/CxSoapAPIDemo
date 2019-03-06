@@ -653,6 +653,7 @@ wasSAML:
     Public Sub CXgetScans(ByRef allScans As CxSDKns.CxWSResponseScansDisplayData, Optional ByVal forceREFRESH As Boolean = False, Optional ByRef errorMsg$ = "")
         Static alreadyGotScans As Boolean = False
 
+
         On Error GoTo errorMessage
 
         If alreadyGotScans = True And forceREFRESH = False Then
@@ -680,6 +681,22 @@ errorMessage:
 
     End Sub
 
+    Public Function CXgetFailedScans(ByRef allFailed As CxPortal.CxWSResponseFailedScansDisplayData) As String
+        CxProxy = New CxPortal.CxPortalWebServiceSoapClient
+
+
+        allFailed = New CxPortal.CxWSResponseFailedScansDisplayData
+        allFailed = CxProxy.GetFailedScansDisplayData(sessionID)
+
+
+        If allFailed.IsSuccesfull = False Then
+            CXgetFailedScans = allFailed.ErrorMessage
+        Else
+            CXgetFailedScans = "TRUE"
+        End If
+
+
+    End Function
     Public Sub CXgetProjectScansDisplayData(ByRef allScans As CxPortal.CxWSResponseProjectScannedDisplayData, Optional ByVal forceREFRESH As Boolean = False, Optional ByRef errorMsg$ = "")
         Static alreadyGotScans As Boolean = False
 

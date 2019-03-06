@@ -20,7 +20,9 @@ Module Module1
     Private sessionID$
     Private sdkID$
     Private allUsers As CxPortal.CxWSResponseUserData
-    '  Private allScanS As CxSDKns.CxWSResponseScansDisplayData
+    Private allScanS As CxSDKns.CxWSResponseScansDisplayData
+
+
     ' Private showingADdropdown As Boolean
 
     Private allProjScans As CxPortal.CxWSResponseProjectScannedDisplayData
@@ -123,6 +125,9 @@ Module Module1
             If InStr(Arg, "addpreset") Then exeAction = "Add Preset"
 
             If InStr(Arg, "cancelscans") Then exeAction = "Cancel Scans"
+            If InStr(Arg, "showscans") Then exeAction = "Show Scans"
+            If InStr(Arg, "numscans") Then exeAction = "Number of Scans"
+
 
             'If InStr(Arg, "filediff") Then exeAction = "Perform DIFF analysis of File Listings"
             'If InStr(Arg, "addsamlxls") Then exeAction = "Add SAML users from XLS"
@@ -168,6 +173,18 @@ Module Module1
                 Call cancelScans
                 End
 
+            Case "Show Scans", "Number of Scans"
+                Dim numOnly As Boolean = False
+                If exeAction = "Number of Scans" Then numOnly = True
+
+                Dim minS As Long
+                If Val(argPROP("mins")) > 0 Then minS = Val(argPROP("mins"))
+                Dim echoS = ""
+                echoS = "CONSOLE:Show Scans of TYPE:" + argPROP("type")
+                If minS Then echoS += " since " + DateAdd(DateInterval.Minute, Val(argPROP("mins")) * -1, Date.Now)
+                addLOG(echoS)
+                Call showScans(argPROP("type"), argPROP("mins"), numOnly)
+                End
 
             Case "Get List of Presets"
                 allPresets = New CxPortal.CxWSResponsePresetList
@@ -364,6 +381,109 @@ Module Module1
 
     End Sub
 
+    Public Sub showScans(typeOfScan$, pastMins$, Optional ByVal numOnly As Boolean = False)
+        startSession()
+
+        Dim calcDate As Boolean = False
+        Dim minS As Long
+        If Len(pastMins) Then
+            minS = Val(pastMins)
+            calcDate = True
+        End If
+
+        Dim datesAfter As Date
+        datesAfter = DateAdd(DateInterval.Minute, Val(argPROP("mins")) * -1, Date.Now)
+
+        Dim tlScans As Long = 0
+
+        Select Case typeOfScan
+
+            Case "queued"
+                Dim SS As CxPortal.CxWSResponseExtendedScanStatus()
+
+                SS = CxWrap.getScansInQueue
+
+
+                For Each S In SS
+                    If CXconvertDTportal(S.TimeBeginWorking) >= datesAfter Or calcDate = False Then
+                        tlScans += 1
+                    End If
+                Next
+
+                addLOG("CONSOLE:TOTAL NUM SCANS:" + Trim(Str(tlScans)))
+
+                If numOnly = True Then Exit Sub
+
+                For Each S In SS
+                    If CXconvertDTportal(S.TimeBeginWorking) >= datesAfter Or calcDate = False Then
+                        addLOG("CONSOLE:STATUS:" + S.CurrentStatus.ToString + " STAGE:" + S.CurrentStage.ToString + " RUNID:" + S.RunId.ToString)
+                    End If
+                Next
+
+
+            Case "completed"
+
+                Dim eM$ = ""
+                Call CxWrap.CXgetScans(allScanS,, eM)
+
+                If Len(eM) Then
+                    addLOG("CONSOLE:ERROR:" + eM)
+                    Exit Sub
+                End If
+
+                Dim S As CxSDKns.ScanDisplayData
+
+                For Each S In allScanS.ScanList
+                    If CXconvertDT(S.FinishedDateTime) >= datesAfter Or calcDate = False Then
+                        tlScans += 1
+                    End If
+                Next
+
+                addLOG("CONSOLE:TOTAL NUM SCANS:" + Trim(Str(tlScans)))
+
+                If numOnly = True Then Exit Sub
+
+                For Each S In allScanS.ScanList
+                    If CXconvertDT(S.FinishedDateTime) >= datesAfter Or calcDate = False Then
+                        addLOG("CONSOLE:PROJECT:" + S.ProjectName + " SCANID:" + S.ScanID.ToString + " LOC:" + S.LOC.ToString + " COMPLETED:" + CXconvertDT(S.FinishedDateTime).ToString + " COMMENTS:" + S.Comments)
+                    End If
+                Next
+
+
+            Case "failed"
+                Dim allFailed As New CxPortal.CxWSResponseFailedScansDisplayData
+                Dim eS$
+                eS = CxWrap.CXgetFailedScans(allFailed)
+                If eS <> "TRUE" Then
+                    addLOG("CONSOLE:ERROR:" + eS)
+                    Exit Sub
+                End If
+
+                Dim S As CxPortal.FailedScansDisplayData
+
+                For Each S In allFailed.FailedScansList
+                    If New Date(S.CreatedOn).ToString >= datesAfter Or calcDate = False Then
+                        tlScans += 1
+                    End If
+                Next
+
+                addLOG("CONSOLE:TOTAL NUM SCANS:" + Trim(Str(tlScans)))
+
+                If numOnly = True Then Exit Sub
+
+                For Each S In allFailed.FailedScansList
+                    If New Date(S.CreatedOn).ToString >= datesAfter Or calcDate = False Then
+                        addLOG("CONSOLE:PROJECT:" + S.ProjectName + " DETAILS:" + S.Details + " LOC:" + S.LOC.ToString + " COMPLETED:" + New Date(S.CreatedOn).ToString + " COMMENTS:" + S.Comments)
+                    End If
+                Next
+
+
+
+        End Select
+
+
+    End Sub
+
     Public Sub cancelScans()
         startSession()
 
@@ -555,7 +675,9 @@ Module Module1
         addLOG("CONSOLE:getpresets                         Get list of Presets by ID")
         addLOG("CONSOLE:getpresetdef  id                   id=[PresetID] - Returns details of Preset")
         addLOG("CONSOLE:addpreset     name,queries         Name of Preset,Queries separated by commas to Add Preset")
-        addLOG("CONSOLE:cancelscans                        Cancels all in Queued Status")
+        addLOG("CONSOLE:cancelscans                        Cancels all active scans in Queued Status")
+        addLOG("CONSOLE:showscans     type,mins            TYPE=queued/failed/completed, MINS(optional)=Summarize for past X minutes")
+        addLOG("CONSOLE:numscans      type,mins            TYPE=queued/failed/completed, MINS(optional)=Summarize for past X minutes")
         addLOG("CONSOLE: ")
         addLOG("CONSOLE:enableusers   file,match           MATCH=username/mail, FILE=text file of users, 1 per line")
         addLOG("CONSOLE:disableusers  file,match           MATCH=username/mail, FILE=text file of users, 1 per line")

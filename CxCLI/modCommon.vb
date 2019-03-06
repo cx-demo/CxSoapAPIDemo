@@ -71,6 +71,24 @@ errorcatch:
         Return CDate(a)
     End Function
 
+    Public Function CXconvertDTportal(ByRef CD As CxPortal.CxDateTime) As DateTime
+        On Error GoTo errorcatch
+
+        Dim a$ = ""
+        With CD
+            a$ += Trim(Str(.Month)) + "/" + Trim(Str(.Day)) + "/" + Trim(Str(.Year))
+            'theres the date
+            a += " "
+            a += Trim(Str(.Hour)) + ":" + Trim(Str(.Minute)) + ":" + Trim(Str(.Second))
+        End With
+        Return CDate(a)
+
+errorcatch:
+        'saw this when trying to convert dates from Yuval
+
+        a$ = CD.ToString
+        Return CDate(a)
+    End Function
 
     Public Function listNDX(ByRef C As List(Of String), ByRef a$) As Integer
         Dim K As Integer = 0
