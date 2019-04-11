@@ -115,6 +115,9 @@ Module Module1
             If InStr(Arg, "edituser") Then exeAction = "CLI Edit User"
             If InStr(Arg, "enableusers") Then exeAction = "Enable Users from File"
 
+            If InStr(Arg, "userexpire") Then exeAction = "Show Expiring Users"
+            If InStr(Arg, "setuserexpire") Then exeAction = "Set New Expiration for Users"
+
             If InStr(Arg, "userexist") Then exeAction = "Determine if User Exists"
 
             If InStr(Arg, "encrypt") Then exeAction = "Encrypt Text"
@@ -311,6 +314,44 @@ Module Module1
                 GC.Collect()
 
                 End
+
+            Case "Show Expiring Users"
+                startSession()
+                Call CxWrap.CXgetUsers(allUsers)
+                Dim numDays As Integer = CInt(argPROP("days"))
+                Dim numExpired As Integer = 0
+                Dim a$ = ""
+
+                For Each U In allUsers.UserDataList
+                    numExpired = U.willExpireAfterDays
+                    If numExpired <= 0 Then a$ = " *EXPIRED*" Else a$ = ""
+                    If numExpired <= numDays Then addLOG("CONSOLE:" + U.UserName + " " + U.Email + " expires in " + U.willExpireAfterDays.ToString + " days" + a)
+                Next
+
+                GC.Collect()
+
+                End
+
+            Case "Set New Expiration for Users"
+                startSession()
+                Call CxWrap.CXgetUsers(allUsers)
+                Dim numDays As Integer = CInt(argPROP("days"))
+                Dim newDays As Long = DateDiff(DateInterval.Day, Today, CDate(argPROP("newdate")))
+                addLOG("CONSOLE:For users expiring in <" + numDays.ToString + " days, set to " + newDays.ToString + " days (" + argPROP("newdate") + ")")
+                Dim numExpired As Integer = 0
+
+                For Each U In allUsers.UserDataList
+                    numExpired = U.willExpireAfterDays
+                    If numExpired <= numDays Then
+                        U.willExpireAfterDays = newDays
+                        addLOG("CONSOLE:" + U.UserName + " " + U.Email + " now expires in " + U.willExpireAfterDays.ToString + " days: " + CxWrap.CXeditUser(U))
+                    End If
+                Next
+
+                GC.Collect()
+
+                End
+
 
 
             Case "CLI Edit User"
@@ -682,6 +723,8 @@ Module Module1
         addLOG("CONSOLE:enableusers   file,match           MATCH=username/mail, FILE=text file of users, 1 per line")
         addLOG("CONSOLE:disableusers  file,match           MATCH=username/mail, FILE=text file of users, 1 per line")
         addLOG("CONSOLE:deleteusers   file,match           MATCH=username/mail, FILE=text file of users, 1 per line")
+        addLOG("CONSOLE:userexpire    days                 DAYS=show users expiring within X days")
+        addLOG("CONSOLE:setuserexpire days,newdate         DAYS=Users expiring within X days,NEWDATE=MM/DD/YYYY")
         addLOG("CONSOLE:edituser      addgroup,match       MATCH=username/mail, ADDGROUP=group(s) to add user to")
         addLOG("CONSOLE:edituser      subtractgroup,match  MATCH=username/mail, SUBTRACTGROUP=group(s) to remove user from")
         addLOG("CONSOLE:edituser      changerole,match     MATCH=username/mail, CHANGEROLE=Scanner or Reviewer - Change role of user")
@@ -695,6 +738,23 @@ Module Module1
         addLOG("CONSOLE:Example, check user's existence:")
         addLOG("CONSOLE:CMD>cxcli userexist user=mhorty match=username")
         addLOG("CONSOLE:TRUE")
+        addLOG("CONSOLE: ")
+        addLOG("CONSOLE: ")
+
+        addLOG("Example,Show all users expiring within a certain number of days:")
+        addLOG("CONSOLE:--------------------------------------------------------")
+        addLOG("CONSOLE:C:\>cxcli userexpire days=365")
+        addLOG("CONSOLE:miketyson mt@cx.com expires in 76 days")
+        addLOG("CONSOLE:jerryseinfeld jf@cx.com expires in -119 days *EXPIRED*")
+        addLOG("CONSOLE:janedoe jd@cx.com expires in -119 days *EXPIRED*")
+        addLOG("CONSOLE: ")
+        addLOG("CONSOLE: ")
+
+        addLOG("Example,Set *new* expiration for all users expiring within a certain number of days:")
+        addLOG("CONSOLE:C:\>cxcli setuserexpire days=-100 newdate=4/15/2019")
+        addLOG("CONSOLE:For users expiring in <-100 days, set to 4 days (4/15/2019)")
+        addLOG("CONSOLE:jerryseinfeld jf@cx.com now expires in 4 days: True")
+        addLOG("CONSOLE:janedoe jd@cx.com now expires in 4 days: True")
         addLOG("CONSOLE: ")
         addLOG("CONSOLE: ")
 
@@ -834,6 +894,11 @@ Module Module1
         End Select
 
 
+    End Sub
+
+    Private Sub editExpiration(ByRef U As CxPortal.UserData, ByVal numDaysToExpire As Integer)
+        U.willExpireAfterDays = numDaysToExpire
+        Call addLOG("CONSOLE:" + U.UserName + " " + U.Email + " setting to expire in " + numDaysToExpire.ToString + " days " + CxWrap.CXeditUser(U))
     End Sub
 
 
