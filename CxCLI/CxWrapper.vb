@@ -343,6 +343,7 @@ Public Class CxWrapper
 
         If useSAML = True Then
             U.Password = "" 'this doesn't matter, but being rejected if not set
+            'U.UserName = "SAML\" + U.UserName
             resP = CxProxy.AddNewUser(sessionID, U, CxPortal.CxUserTypes.SAML)
             GoTo wasSAML
         End If

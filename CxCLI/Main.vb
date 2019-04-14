@@ -99,6 +99,13 @@ Module Module1
             addLOG("------------------------------------------")
         End If
 
+        '        startSession()
+        '        Call CxWrap.CXgetGroups(allGroups)
+        '        Call CxWrap.CXgetUsers(allUsers)
+        '        Call addUser("application", "testcxcli33", "Scanner", "TestCxCLI22", "TestLast", "CxServer\SP\Company\Users", "test333@cx.com", "", "", "", "", "", "", "", "", "Password12345!")
+        '        Exit Sub
+
+
 
         For Each Arg In My.Application.CommandLineArgs
             Call addLOG("Argument: " & Arg)
@@ -113,6 +120,7 @@ Module Module1
             If InStr(Arg, "disableusers") Then exeAction = "Disable Users from File"
             If InStr(Arg, "deleteusers") Then exeAction = "Delete Users from File"
             If InStr(Arg, "edituser") Then exeAction = "CLI Edit User"
+            If InStr(Arg, "adduser") Then exeAction = "Add User"
             If InStr(Arg, "enableusers") Then exeAction = "Enable Users from File"
 
             If InStr(Arg, "userexpire") Then exeAction = "Show Expiring Users"
@@ -200,6 +208,15 @@ Module Module1
                 GC.Collect()
 
                 End
+
+
+            Case "Add User"
+                startSession()
+                Call CxWrap.CXgetGroups(allGroups)
+                Call CxWrap.CXgetUsers(allUsers)
+                Call addUser(argPROP("usertype", True), argPROP("username", True), argPROP("role", True), argPROP("firstname", True), argPROP("lastname", True), argPROP("team", True), argPROP("email", True), argPROP("jobtitle", True), argPROP("country", True), argPROP("phone", True), argPROP("cellphone", True), argPROP("langlcid", True), argPROP("audituser", True), argPROP("activeuser", True), argPROP("expiredays", True), argPROP("password", True))
+                End
+
 
             Case "Add Preset"
                 allPresets = New CxPortal.CxWSResponsePresetList
@@ -289,6 +306,8 @@ Module Module1
                 GC.Collect()
 
                 End
+
+
 
 
             Case "Disable Users from File"
@@ -729,6 +748,42 @@ Module Module1
         addLOG("CONSOLE:edituser      subtractgroup,match  MATCH=username/mail, SUBTRACTGROUP=group(s) to remove user from")
         addLOG("CONSOLE:edituser      changerole,match     MATCH=username/mail, CHANGEROLE=Scanner or Reviewer - Change role of user")
         addLOG("CONSOLE:edituser      status,match         MATCH=username/mail, STATUS=enable/disable/delete - Change status of user")
+        addLOG("CONSOLE:adduser       ** ADDUSER HAS MANY PARAMETERS **")
+        addLOG("CONSOLE:---The following parameters are REQUIRED:")
+        addLOG("CONSOLE:   usertype      - either APPLICATION,LDAP or SAML")
+        addLOG("CONSOLE:   username      - Username of user *without* prefix (eg LDAP\ or SAML\)")
+        addLOG("CONSOLE:   role          - ServerManager,CompanyManager,SPManager,Scanner,Reviewer")
+        addLOG("CONSOLE:   firstname     - First name")
+        addLOG("CONSOLE:   lastname      - Last name")
+        addLOG("CONSOLE:   team          - Fully qualified team name(s) eg CxServer\SP\Company\Team1,CxServer\SP\Company\Team2")
+        addLOG("CONSOLE:   email         - User email address")
+        addLOG("CONSOLE:   password      - User password (required only if APPLICATION user type")
+        addLOG("CONSOLE:---The following parameters are OPTIONAL:")
+        addLOG("CONSOLE:   activeuser    - Boolean, Determines if user is active [DEFAULT=TRUE]")
+        addLOG("CONSOLE:   audituser     - Boolean, Determines if user has CxAudit permission [DEFAULT=FALSE]")
+        addLOG("CONSOLE:   expiredays    - Number of days before user expires [DEFAULT=365]")
+        addLOG("CONSOLE:   langlcid      - Language type [DEFAULT=1033 (English/US)]")
+        addLOG("CONSOLE:   country       - Country")
+        addLOG("CONSOLE:   phone         - Phone")
+        addLOG("CONSOLE:   cellphone     - Cellphone")
+
+
+
+        'optional
+        ' "jobtitle"
+        '        dataName = "Country" : dataNDX = returnUserInfo(rowOfHeaders, dataName$) : If dataNDX = 0 Then missingData += dataName + " "
+        '        dataName = "Phone" : dataNDX = returnUserInfo(rowOfHeaders, dataName$) : If dataNDX = 0 Then missingData += dataName + " "
+        '        dataName = "Cellphone" : dataNDX = returnUserInfo(rowOfHeaders, dataName$) : If dataNDX = 0 Then missingData += dataName + " "
+        '        dataName = "LanguageLCID" : dataNDX = returnUserInfo(rowOfHeaders, dataName$) : If dataNDX = 0 Then missingData += dataName + " "
+        '        dataName = "AuditUser" : dataNDX = returnUserInfo(rowOfHeaders, dataName$) : If dataNDX = 0 Then missingData += dataName + " "
+        '        dataName = "ActiveUser" : dataNDX = returnUserInfo(rowOfHeaders, dataName$) : If dataNDX = 0 Then missingData += dataName + " "
+        '        dataName = "ExpirationDays" : dataNDX = returnUserInfo(rowOfHeaders, dataName$) : If dataNDX = 0 Then missingData += dataName + " "
+
+        'On Error GoTo errorcatch
+        addLOG("CONSOLE: ")
+        addLOG("CONSOLE: ")
+        addLOG("CONSOLE: ")
+        addLOG("CONSOLE:*******                           USAGE EXAMPLES                            ******* ")
 
         addLOG("CONSOLE: ")
         addLOG("CONSOLE:Example, encrypt your password:")
@@ -812,6 +867,25 @@ Module Module1
         addLOG("CONSOLE:CMD>CxCLI edituser user=def111@cx.com match=mail status=disable")
         addLOG("CONSOLE:status = disable def111:def111@cx.com")
         addLOG("CONSOLE:User def111:def111@cx.com  disabled")
+        addLOG("CONSOLE: ")
+        addLOG("CONSOLE: ")
+
+        addLOG("CONSOLE:Examples, add users:")
+        addLOG("CONSOLE:c:\>cxcli adduser username=testcxcli55 firstname=Test55 lastname=CxCLI role=Scanner email=testcxcli55@cx.com team=CxServer\SP\Company\Users usertype=application password=Password12345!")
+        addLOG("CONSOLE:DEFAULT audituser=false")
+        addLOG("CONSOLE:DEFAULT activeuser=true")
+        addLOG("CONSOLE:DEFAULT langlcid=1033 (English)")
+        addLOG("CONSOLE:DEFAULT expiredays=365")
+        addLOG("CONSOLE:Adding user application testcxcli55 testcxcli55@cx.com Test55 CxCLI 0(Scanner) CxServer\SP\Company\Users 1 1033 False True 365")
+        addLOG("CONSOLE:User added: True")
+        addLOG("CONSOLE:")
+        addLOG("CONSOLE:c:\>cxcli adduser username=testcxcli66 firstname=Test56 lastname=CxCLI role=ServerManager email=testcxcli66@cx.com team=CxServer usertype=application password=Password12345!")
+        addLOG("CONSOLE:DEFAULT audituser=false")
+        addLOG("CONSOLE:DEFAULT activeuser=true")
+        addLOG("CONSOLE:DEFAULT langlcid=1033 (English)")
+        addLOG("CONSOLE:DEFAULT expiredays=365")
+        addLOG("CONSOLE:Adding user application testcxcli66 testcxcli66@cx.com Test56 CxCLI 5(ServerManager) CxServer 1 1033 False True 365")
+        addLOG("CONSOLE:User added: True")
 
     End Sub
 
@@ -1200,7 +1274,176 @@ Module Module1
 
 
 
+    Private Function returnRoleID(rolE$) As String
+        rolE = LCase(rolE)
+        returnRoleID = ""
+        Select Case rolE
+            Case "scanner"
+                Return "0"
+            Case "reviewer"
+                Return "1"
+            Case "company manager", "companymanager"
+                Return "2"
+            Case "sp manager", "spmanager"
+                Return "4"
+            Case "server manager", "servermanager"
+                Return "5"
+        End Select
+    End Function
 
+    Private Function returnRoleString(id As Integer) As String
+        returnRoleString = ""
+        Select Case id
+            Case 0
+                Return "Scanner"
+            Case 1
+                Return "Reviewer"
+            Case 2
+                Return "Company Manager"
+            Case 4
+                Return "SP Manager"
+            Case 5
+                Return "Server Manager"
+        End Select
+
+    End Function
+
+    Private Sub setGrpList(ByRef U As CxPortal.UserData, ByRef G As List(Of CxPortal.Group))
+        Dim numTeams As Integer = G.Count
+
+        'dumb routine - must submit an array of groups as { group1, group2, group3 } - must be more intuitive way that
+        'does not require known number but cannot submit LIST .NET object
+        Select Case numTeams
+            Case 1
+                U.GroupList = {G(0)}
+
+            Case 2
+                U.GroupList = {G(0), G(1)}
+
+            Case 3
+                U.GroupList = {G(0), G(1), G(2)}
+
+            Case 4
+                U.GroupList = {G(0), G(1), G(2), G(3)}
+
+            Case 5
+                U.GroupList = {G(0), G(1), G(2), G(3), G(4)}
+
+            Case 6
+                U.GroupList = {G(0), G(1), G(2), G(3), G(4), G(5)}
+
+        End Select
+    End Sub
+
+    Private Function getGroupList(teamNames$) As List(Of CxPortal.Group)
+        getGroupList = New List(Of CxPortal.Group)
+
+        Dim tName() As String = Split(teamNames, ",")
+
+        Dim tCtr As Integer
+        For tCtr = 0 To UBound(tName)
+            Dim G As New CxPortal.Group
+            G.Guid = getGUIDofTEAM(LTrim(tName(tCtr)))
+            getGroupList.Add(G)
+        Next
+
+    End Function
+
+
+    Private Sub addUser(userType$, userName$, rolename$, firstName$, lastName$, Team$, eMail$, jobtitle$, countrY$, phonE$, cellPhone$, langLCID$, auditUser$, activeUser$, expireDays$, Optional ByVal passworD$ = "")
+
+        If userType = "" Or userName = "" Or rolename$ = "" Or firstName = "" Or lastName = "" Or Team = "" Or eMail = "" Then
+            addLOG("CONSOLE:The following parameters are required:")
+            addLOG("CONSOLE:usertype      - either APPLICATION,LDAP or SAML")
+            addLOG("CONSOLE:username      - Username of user *without* prefix (eg LDAP\ or SAML\)")
+            addLOG("CONSOLE:role          - ServerManager,CompanyManager,SPManager,Scanner,Reviewer")
+            addLOG("CONSOLE:firstname     - First name")
+            addLOG("CONSOLE:lastname      - Last name")
+            addLOG("CONSOLE:team          - Fully qualified team name(s) eg CxServer\SP\Company\Team1,CxServer\SP\Company\Team2")
+            addLOG("CONSOLE:email         - User email address")
+            Exit Sub
+        End If
+
+        If LCase(userType) = "application" And passworD = "" Then
+            addLOG("CONSOLE:You must provide a password for APPLICATION user types")
+            Exit Sub
+        End If
+
+        If auditUser = "" Then addLOG("CONSOLE:DEFAULT audituser=false")
+        If activeUser = "" Then addLOG("CONSOLE:DEFAULT activeuser=true")
+        If langLCID = "" Then addLOG("CONSOLE:DEFAULT langlcid=1033 (English)")
+        If expireDays = "" Then addLOG("CONSOLE:DEFAULT expiredays=365")
+
+
+        Dim U As New CxPortal.UserData
+        With U
+            .UserName = userName
+
+            Dim rolE As New CxPortal.Role
+            rolE.ID = returnRoleID(rolename)
+            .RoleData = rolE
+
+            .FirstName = firstName
+            .LastName = lastName
+            .Email = eMail
+
+
+            Dim GL As List(Of CxPortal.Group) = getGroupList(Team)
+            Call setGrpList(U, GL)
+
+            'auto-fill
+            .DateCreated = Now
+            .LastLoginDate = Now
+            .LimitAccessByIPAddress = False
+
+            'optionally blank
+            If Len(countrY) <> 0 Then .country = countrY
+            If Len(jobtitle) <> 0 Then .JobTitle = jobtitle
+            If Len(phonE) <> 0 Then .Phone = phonE
+            If Len(cellPhone) <> 0 Then .CellPhone = cellPhone
+
+            Dim miscData$ = ""
+            'optional set default
+            If Len(langLCID) <> 0 Then miscData = langLCID Else miscData = "1033"
+            If Len(miscData) Then .UserPreferedLanguageLCID = Val(miscData)
+
+            If Len(auditUser) <> 0 Then miscData = UCase(auditUser) Else miscData = "FALSE"
+            If Len(miscData) Then .AuditUser = CBool(miscData)
+
+            If Len(activeUser) <> 0 Then miscData = UCase(activeUser) Else miscData = "TRUE"
+            If Len(miscData) Then .IsActive = CBool(miscData)
+
+            If Len(expireDays) <> 0 Then miscData = expireDays Else miscData = "365"
+            If Len(miscData) Then .willExpireAfterDays = Val(miscData)
+
+        End With
+
+        With U
+            .DateCreated = Now
+            .LastLoginDate = Now
+            .LimitAccessByIPAddress = False
+            If LCase(userType) = "application" Then U.Password = passworD
+        End With
+
+
+        addLOG("CONSOLE:Adding user " + userType + " " + U.UserName + " " + U.Email + " " + U.FirstName + " " + U.LastName + " " + U.RoleData.ID.ToString + "(" + rolename + ") " + Team + " " + U.GroupList.Count.ToString + " " + U.UserPreferedLanguageLCID.ToString + " " + U.AuditUser.ToString + " " + U.IsActive.ToString + " " + U.willExpireAfterDays.ToString)
+        Select Case UCase(userType)
+            Case "APPLICATION"
+                addLOG("CONSOLE:User added: " + CxWrap.CXaddUser(U))
+
+            Case "LDAP"
+                addLOG("CONSOLE:User added: " + CxWrap.CXaddUser(U, True))
+
+            Case "SAML"
+                addLOG("CONSOLE:User added: " + CxWrap.CXaddUser(U,, True))
+                addLOG("CONSOLE:You will need to execute SQL on the DB to ensure 'SAML\" + U.UserName + "' is the username for this user")
+
+        End Select
+
+
+        Exit Sub
+
+    End Sub
 
 
 
