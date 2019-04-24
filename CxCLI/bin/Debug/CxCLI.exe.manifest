@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CxCLI.exe" size="636384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CxCLI.exe" size="636896">
       <assemblyIdentity name="CxCLI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ivYDcjnUqOp/20/Oxi/cqP7mC0CSO+lmTtYFOwR6BwM=</dsig:DigestValue>
+        <dsig:DigestValue>B96LpREfQk5vAuw2puybg+6KANmkNZj+JHPQk6y2mn0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

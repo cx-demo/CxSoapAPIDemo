@@ -49,6 +49,10 @@ Public Class CxWrapper
         lResp = CxProxy.Login(creD, 1033)
         lResp2 = CxSDKProxy.Login(cred2, 1033)
 
+
+        addLOG("Private SOAP:" + lResp.IsSuccesfull.ToString + ":" + lResp.ErrorMessage)
+        addLOG("Public SOAP:" + lResp2.IsSuccesfull.ToString + ":" + lResp.ErrorMessage)
+
         If lResp.IsSuccesfull = True Then sessionID = lResp.SessionId
 
         If lResp2.IsSuccesfull = True Then sdkID = lResp2.SessionId
