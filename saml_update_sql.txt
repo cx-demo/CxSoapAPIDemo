@@ -1,0 +1,10 @@
+UPDATE cxdb.dbo.users 
+SET Username = 'SAML\' + Username 
+WHERE Username IN ( 
+SELECT u.Username 
+FROM cxdb.dbo.users u 
+WHERE u.Username NOT LIKE ‘SAML\%’ 
+AND u.Username NOT LIKE 'APP-%' 
+AND u.Username NOT LIKE '%@%') 
+)
+
