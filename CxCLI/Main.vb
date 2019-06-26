@@ -123,6 +123,13 @@ Module Module1
             If InStr(Arg, "adduser") Then exeAction = "Add User"
             If InStr(Arg, "enableusers") Then exeAction = "Enable Users from File"
 
+
+            '6/26
+            If InStr(Arg, "showteams") Then exeAction = "Show all Teams"
+            If InStr(Arg, "swapteams") Then exeAction = "Move Users to a new Team"
+
+
+
             If InStr(Arg, "userexpire") Then exeAction = "Show Expiring Users"
             If InStr(Arg, "setuserexpire") Then exeAction = "Set New Expiration for Users"
 
@@ -373,6 +380,73 @@ Module Module1
 
 
 
+
+
+            Case "Show all Teams"
+                startSession()
+
+                Call CxWrap.CXgetGroups(allGroups)
+                Call CxWrap.CXgetUsers(allUsers)
+
+                Dim numU As Integer = 0
+
+                For Each G In allGroups
+                    numU = 0
+                    For Each U In allUsers.UserDataList
+                        For Each GG In U.GroupList
+                            If GG.ID = G.ID Then numU += 1
+                        Next
+                    Next
+                    addLOG("CONSOLE:Team:" + G.GroupName + " GUID:" + G.ID + " USERS:" + numU.ToString)
+                Next
+
+            Case "Move Users to a new Team"
+                startSession()
+
+                Call CxWrap.CXgetGroups(allGroups)
+                Call CxWrap.CXgetUsers(allUsers)
+
+                Dim fromTeam$ = argPROP("from", True)
+                Dim toTeam$ = argPROP("to", True)
+
+                Dim fromID$ = getGUIDofTEAM(fromTeam)
+
+                addLOG("CONSOLE:Moving all users that are part of " + fromTeam + " into " + toTeam)
+                Dim usersToNewGroup As New Collection
+
+                For Each U In allUsers.UserDataList
+                    '                    addLOG("CONSOLE:" + U.UserName + " # Teams:" + U.GroupList.Count.ToString)
+                    Dim groupExist As Boolean = False
+
+                    For Each GGG In U.GroupList
+                        If LCase(GGG.ID) = LCase(fromID) Then
+                            'addLOG("CONSOLE:User is part of " + fromTeam)
+                            usersToNewGroup.Add(U.UserName)
+                            groupExist = True
+                        End If
+                    Next
+
+                    If groupExist Then
+                        Dim C As New CLIArgs
+                        C.matchOn = "username"
+                        C.uData = U.UserName
+                        C.newVal = toTeam
+                        C.editCmd = "addgroup"
+                        Call editUserCLI(C)
+                    End If
+                Next
+                Call CxWrap.CXgetUsers(allUsers, True)
+
+                For Each usrName In usersToNewGroup
+                    Dim C As New CLIArgs
+                    C.matchOn = "username"
+                    C.uData = usrName
+                    C.newVal = fromTeam
+                    C.editCmd = "subtractgroup"
+                    Call editUserCLI(C)
+
+                Next
+
             Case "CLI Edit User"
                 startSession()
 
@@ -440,6 +514,7 @@ Module Module1
         End Select
 
     End Sub
+
 
     Public Sub showScans(typeOfScan$, pastMins$, Optional ByVal numOnly As Boolean = False)
         startSession()
@@ -911,12 +986,14 @@ Module Module1
         Select Case cArgs.editCmd
             Case "addgroup"
                 Call addTeamsByCSV(cArgs.newVal, U)
+                ' For Each G In U.GroupList
+                'addLOG("CONSOLE:Group:" + G.GroupName + " GUID:" + G.Guid + " ID:" + G.ID + " PATH:" + G.Path + " FULLPATH:" + G.FullPath)
+                'Next
                 Dim addArgs As New backgroundUserArgs
                 addArgs.addORedit = "edit"
                 addArgs.U = U
                 addArgs.changeActiveState = False
                 addArgs.unSubscribed = buildUnsubscribedList(U)
-
                 addLOG("CONSOLE:Submitting Group change - " + editORaddUser(addArgs))
 
             Case "subtractgroup"
@@ -1112,8 +1189,8 @@ Module Module1
             If G.ID = guiD Then
                 With returnGroupOfGUID
                     .FullPath = G.FullPath
-                    .Guid = G.ID
-                    .GroupName = G.GroupName
+                    .Guid = G.Guid
+                    .GroupName = stripToFilename(G.GroupName)
                     .ID = G.ID
                     .Type = G.Type
                     .Path = G.Path
@@ -1195,7 +1272,8 @@ Module Module1
         For nG = 0 To UBound(grpString)
             a$ = grpString(nG)
             If Len(a) Then
-                G(numGroups) = returnGroupOfGUID(getGUIDofTEAM(a, True)) ' New CxPortal.Group
+                G(numGroups) = returnGroupOfGUID(getGUIDofTEAM(a)) ' New CxPortal.Group
+                '  G(numGroups).ID = getGUIDofTEAM(a, True)
                 numGroups += 1
             End If
         Next nG
