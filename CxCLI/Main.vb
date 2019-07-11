@@ -127,6 +127,7 @@ Module Module1
             '6/26
             If InStr(Arg, "showteams") Then exeAction = "Show all Teams"
             If InStr(Arg, "swapteams") Then exeAction = "Move Users to a new Team"
+            If InStr(Arg, "showusers") Then exeAction = "Show Users"
 
 
 
@@ -379,6 +380,28 @@ Module Module1
                 End
 
 
+            Case "Show Users"
+                startSession()
+
+                Call CxWrap.CXgetGroups(allGroups)
+                Call CxWrap.CXgetUsers(allUsers)
+
+                Dim teamID$ = getGUIDofTEAM(argPROP("team", True))
+                If LCase(argPROP("team")) = "all" Then teamID = "all"
+
+                For Each G In allGroups
+                    If G.ID <> teamID And teamID <> "all" Then GoTo nextGroup
+                    For Each U In allUsers.UserDataList
+                        For Each GG In U.GroupList
+                            If GG.ID = G.ID Then
+                                addLOG("CONSOLE:Team:" + G.GroupName + " GUID:" + G.ID + " USERNAME:" + U.UserName + " EMAIL:" + U.Email)
+
+                            End If
+                        Next
+                    Next
+
+nextGroup:
+                Next
 
 
 
@@ -816,7 +839,11 @@ Module Module1
         addLOG("CONSOLE: ")
         addLOG("CONSOLE:showteams                          List all teams with # of users assigned to that team")
         addLOG("CONSOLE:swapteams     from,to              Move users FROM (CxServer\SP\Company\TeamName) team TO a different team")
+        addLOG("CONSOLE:showusers     team                 TEAM=Team name or 'ALL' for all users")
         addLOG("CONSOLE: ")
+
+
+
 
         addLOG("CONSOLE:enableusers   file,match           MATCH=username/mail, FILE=text file of users, 1 per line")
         addLOG("CONSOLE:disableusers  file,match           MATCH=username/mail, FILE=text file of users, 1 per line")
@@ -924,6 +951,48 @@ Module Module1
         addLOG("CONSOLE:Team:CxServer\SP\Company\TestAutomation\Nested2 GUID:b604a370-827c-4a38-8307-8e0d6e4d6b7f USERS:1")
         addLOG("CONSOLE: ")
         addLOG("CONSOLE: ")
+
+        addLOG("Example,Show all users assigned to a specific team")
+
+        addLOG("CONSOLE:C:\>cxcli showusers team=CxServer\SP\Company\Users")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli EMAIL:testcxcli@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli11 EMAIL:testcxcli11@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli22 EMAIL:test222@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli33 EMAIL:test333@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli44 EMAIL:testcxcli44@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli55 EMAIL:testcxcli55@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli555 EMAIL:testcxcli555@cx.com")
+        addLOG("CONSOLE: ")
+        addLOG("CONSOLE: ")
+
+        addLOG("Example,Show all users by team")
+        addLOG("CONSOLE:C:\>cxcli showusers team=ALL")
+        addLOG("CONSOLE:Team:CxServer GUID:00000000-1111-1111-b111-989c9070eb11 USERNAME:mhorty EMAIL:admin@cx.com")
+        addLOG("CONSOLE:Team:CxServer GUID:00000000-1111-1111-b111-989c9070eb11 USERNAME:testcxcli66 EMAIL:testcxcli66@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP GUID:11111111-2222-448d-b029-989c9070eb22 USERNAME:tnusertest EMAIL:tnu@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company GUID:22222222-2222-448d-b029-989c9070eb22 USERNAME:jerryseinfeld EMAIL:jf@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company GUID:22222222-2222-448d-b029-989c9070eb22 USERNAME:janedoe EMAIL:jd@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company GUID:22222222-2222-448d-b029-989c9070eb22 USERNAME:SAML\testuser2 EMAIL:testuser2@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\CompanyA_TeamA\BookstoreParent\TeamA GUID:e89cb529-7a49-405d-b497-032af56b05d4 USERNAME:ghi111 EMAIL:ghi111@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\CompanyA_TeamA\BookstoreParent\TeamB GUID:bbd8a7d2-a5df-4959-8a6d-8ae42d8fc58b USERNAME:ghi111 EMAIL:ghi111@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\ProjectName\ProjectComponent1 GUID:4988d81d-5a49-4682-81a5-6cf1b4abfe90 USERNAME:miketyson EMAIL:mt@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\ProjectName\ProjectComponent1 GUID:4988d81d-5a49-4682-81a5-6cf1b4abfe90 USERNAME:SAML\testuser1 EMAIL:testuser@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\ProjectName\ProjectComponent2 GUID:e93c963e-ce72-44eb-b039-b9a03c4ccd72 USERNAME:miketyson EMAIL:mt@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\ProjectName\ProjectComponent2 GUID:e93c963e-ce72-44eb-b039-b9a03c4ccd72 USERNAME:SAML\testuser1 EMAIL:testuser@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\ProjectName\ProjectComponent2 GUID:e93c963e-ce72-44eb-b039-b9a03c4ccd72 USERNAME:def111 EMAIL:def111@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\TestAutomation GUID:ba3c66b9-c417-45ea-ad32-add388ffad97 USERNAME:abc111 EMAIL:abc111@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\TestAutomation2\Nested1 GUID:4a2af321-2fb6-410e-a5dd-5dc380539a4a USERNAME:def111 EMAIL:def111@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli EMAIL:testcxcli@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli11 EMAIL:testcxcli11@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli22 EMAIL:test222@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli33 EMAIL:test333@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli44 EMAIL:testcxcli44@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli55 EMAIL:testcxcli55@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\Company\Users GUID:22222222-2222-448d-b029-989c9070eb23 USERNAME:testcxcli555 EMAIL:testcxcli555@cx.com")
+        addLOG("CONSOLE:Team:CxServer\SP\CompanyB GUID:96c13d34-816f-4db7-ba65-17506de3142a USERNAME:SAML\testuser3 EMAIL:testuser8@cx.com")
+        addLOG("CONSOLE: ")
+        addLOG("CONSOLE: ")
+
 
 
         addLOG("CONSOLE:Examples, enable/disable/delete users from file:")
