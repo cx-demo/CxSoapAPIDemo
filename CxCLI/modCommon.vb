@@ -259,12 +259,14 @@ errorcatch:
         For Each arg In My.Application.CommandLineArgs
             If preserveCase = False Then a = LCase(arg) Else a = arg
             If InStr(a, "=") = 0 Then GoTo nextArg
+            'If InStr(arg, "hello") Then addLOG("CONSOLE:ARGPROP SEES " + arg)
 
             If proP = Mid(a, 1, InStr(a, "=") - 1) Then
                 argPROP = Replace(a, proP + "=", "")
             End If
 nextArg:
         Next
+
     End Function
 
     Public Function filePROP(fileN$, proP$, Optional ByVal preserveCase As Boolean = False) As String

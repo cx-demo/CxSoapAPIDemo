@@ -137,6 +137,7 @@ Module Module1
             If InStr(Arg, "userexist") Then exeAction = "Determine if User Exists"
 
             If InStr(Arg, "encrypt") Then exeAction = "Encrypt Text"
+            If InStr(Arg, "decrypt") Then exeAction = "Decrypt Text"
             If InStr(Arg, "help") Then exeAction = "help"
 
             If InStr(Arg, "getpresets") Then exeAction = "Get List of Presets"
@@ -182,7 +183,16 @@ Module Module1
 
             Case "Encrypt Text"
                 Dim pW3DES As New Simple3Des("2&#263gdjSiUEYkadhEII276#*763298")
+                'addLOG("CONSOLE:hello=   " + pW3DES.Encode("hello"))
+                'addLOG("CONSOLE:hello&=   " + pW3DES.Encode("hello&"))
+                'addLOG("CONSOLE:INPUT comes in as: " + argPROP("text", True))
                 addLOG("CONSOLE:encrypted_text=" + pW3DES.Encode(argPROP("text", True)))
+                pW3DES = Nothing
+                End
+
+            Case "Decrypt Text" ' public repo but I still think its a bad idea to publish with this option
+                Dim pW3DES As New Simple3Des("2&#263gdjSiUEYkadhEII276#*763298")
+                addLOG("CONSOLE:decrypted_text=" + pW3DES.Decode(argPROP("text", True)))
                 pW3DES = Nothing
                 End
 
@@ -829,6 +839,7 @@ nextGroup:
         addLOG("CONSOLE:COMMAND       K/V Pairs            DETAIL")
         addLOG("CONSOLE:help                               Produces this help file")
         addLOG("CONSOLE:encrypt       text                 TEXT=text to encrypt - Returns encrypted data (ie for CxPassword in config.txt)")
+        addLOG("CONSOLE:decrypt       text                 TEXT=text to decrypt - Returns unencrypted data (ie for CxPassword in config.txt)")
         addLOG("CONSOLE:userexist     user,match           MATCH=username/mail, USER=user data - Returns true if user exists")
         addLOG("CONSOLE:getpresets                         Get list of Presets by ID")
         addLOG("CONSOLE:getpresetdef  id                   id=[PresetID] - Returns details of Preset")
