@@ -14,7 +14,6 @@ Imports System.Collections.Generic
 Imports System.Xml.Linq
 Imports System.ComponentModel
 
-
 Module Module1
 
     Private sessionID$
@@ -136,8 +135,8 @@ Module Module1
 
             If InStr(Arg, "userexist") Then exeAction = "Determine if User Exists"
 
+
             If InStr(Arg, "encrypt") Then exeAction = "Encrypt Text"
-            If InStr(Arg, "decrypt") Then exeAction = "Decrypt Text"
             If InStr(Arg, "help") Then exeAction = "help"
 
             If InStr(Arg, "getpresets") Then exeAction = "Get List of Presets"
@@ -148,9 +147,13 @@ Module Module1
             If InStr(Arg, "showscans") Then exeAction = "Show Scans"
             If InStr(Arg, "numscans") Then exeAction = "Number of Scans"
 
-
             'If InStr(Arg, "filediff") Then exeAction = "Perform DIFF analysis of File Listings"
             'If InStr(Arg, "addsamlxls") Then exeAction = "Add SAML users from XLS"
+
+            'Pedric: Added Aug 2019
+            If InStr(Arg, "login") Then exeAction = "User Login"
+            If InStr(Arg, "createhierarchy") Then exeAction = "Create Hierarchy"
+
         Next
 
 
@@ -183,16 +186,7 @@ Module Module1
 
             Case "Encrypt Text"
                 Dim pW3DES As New Simple3Des("2&#263gdjSiUEYkadhEII276#*763298")
-                'addLOG("CONSOLE:hello=   " + pW3DES.Encode("hello"))
-                'addLOG("CONSOLE:hello&=   " + pW3DES.Encode("hello&"))
-                'addLOG("CONSOLE:INPUT comes in as: " + argPROP("text", True))
                 addLOG("CONSOLE:encrypted_text=" + pW3DES.Encode(argPROP("text", True)))
-                pW3DES = Nothing
-                End
-
-            Case "Decrypt Text" ' public repo but I still think its a bad idea to publish with this option
-                Dim pW3DES As New Simple3Des("2&#263gdjSiUEYkadhEII276#*763298")
-                addLOG("CONSOLE:decrypted_text=" + pW3DES.Decode(argPROP("text", True)))
                 pW3DES = Nothing
                 End
 
@@ -325,8 +319,44 @@ Module Module1
 
                 End
 
+            Case "User Login"
+                'startSession()
+                CxWrap = New CxWrapper
+                Call CxWrap.CXlogin(argPROP("user", True), argPROP("pass", True))
+                GC.Collect()
+                End
+
+            Case "Create Hierarchy"
+                startSession()
+
+                Dim ldapserver As String = argPROP("ldapservername", True)
+                Dim ldapgroupsArg As String = argPROP("ldapgroups", True)
+
+                ' Get Configured LDAP Server ID
+                Dim ldapserverid As Integer = CxWrap.CXGetConfiguredLdapServerId(ldapserver)
+                If ldapserverid <> -1 Then
+                    Console.WriteLine("ldapserverid {0}", ldapserverid)
+                End If
+
+                Dim ldapgroups As String() = ldapgroupsArg.Split(New Char() {","c, " "c}, StringSplitOptions.RemoveEmptyEntries)
+
+                Dim ldapgroupmapping As New List(Of CxPortal.CxWSLdapGroupMapping)
+                For Each ldapgroup As String In ldapgroups
+
+                    Dim ldapgrouppair As CxPortal.CxWSLdapGroup = CxWrap.CXGetLdapServerGroups(ldapserverid, ldapgroup)
+                    Dim ldapgroupMap As CxPortal.CxWSLdapGroupMapping = New CxPortal.CxWSLdapGroupMapping()
+                    With ldapgroupMap
+                        .LdapServerId = ldapserverid
+                        .LdapGroup = ldapgrouppair
+                    End With
+
+                    ldapgroupmapping.Add(ldapgroupMap)
+                Next
 
 
+                Call CxWrap.CXcreateHierarchy(argPROP("hierarchy", True), ldapgroupmapping.ToArray())
+                GC.Collect()
+                End
 
             Case "Disable Users from File"
                 startSession()
@@ -839,8 +869,8 @@ nextGroup:
         addLOG("CONSOLE:COMMAND       K/V Pairs            DETAIL")
         addLOG("CONSOLE:help                               Produces this help file")
         addLOG("CONSOLE:encrypt       text                 TEXT=text to encrypt - Returns encrypted data (ie for CxPassword in config.txt)")
-        addLOG("CONSOLE:decrypt       text                 TEXT=text to decrypt - Returns unencrypted data (ie for CxPassword in config.txt)")
         addLOG("CONSOLE:userexist     user,match           MATCH=username/mail, USER=user data - Returns true if user exists")
+
         addLOG("CONSOLE:getpresets                         Get list of Presets by ID")
         addLOG("CONSOLE:getpresetdef  id                   id=[PresetID] - Returns details of Preset")
         addLOG("CONSOLE:addpreset     name,queries         Name of Preset,Queries separated by commas to Add Preset")
@@ -853,7 +883,10 @@ nextGroup:
         addLOG("CONSOLE:showusers     team                 TEAM=Team name or 'ALL' for all users")
         addLOG("CONSOLE: ")
 
-
+        addLOG("CONSOLE: ")
+        addLOG("CONSOLE:login         user,pass            USER=username, PASS=password - Returns true if login successful")
+        addLOG("CONSOLE:createhierarchy     hierarchy,ldapservername,ldapgroups      hierarchy=CxServer\SP\APAC\RND\Team1 ldapservername=MyActiveDirectory ldapgroups=APAC-RND-Scanner-All,APAC-RND-Reviewer-All")
+        addLOG("CONSOLE: ")
 
 
         addLOG("CONSOLE:enableusers   file,match           MATCH=username/mail, FILE=text file of users, 1 per line")
@@ -910,6 +943,12 @@ nextGroup:
         addLOG("CONSOLE:Example, check user's existence:")
         addLOG("CONSOLE:CMD>cxcli userexist user=mhorty match=username")
         addLOG("CONSOLE:TRUE")
+        addLOG("CONSOLE: ")
+        addLOG("CONSOLE: ")
+
+        addLOG("CONSOLE:Example, user login:")
+        addLOG("CONSOLE:CMD>cxcli login user=mhorty pass=password")
+        addLOG("CONSOLE:Login successful for mhorty")
         addLOG("CONSOLE: ")
         addLOG("CONSOLE: ")
 
@@ -1281,6 +1320,8 @@ nextGroup:
 
     End Function
 
+
+
     Private Function getGUIDofTEAM(teamName$, Optional ByVal teamNameOnly As Boolean = False) As String
         getGUIDofTEAM = ""
         Dim a$ = ""
@@ -1570,22 +1611,35 @@ nextGroup:
         If langLCID = "" Then addLOG("CONSOLE:DEFAULT langlcid=1033 (English)")
         If expireDays = "" Then addLOG("CONSOLE:DEFAULT expiredays=365")
 
-
         Dim U As New CxPortal.UserData
         With U
+
             .UserName = userName
+            .FirstName = firstName
+            .LastName = lastName
+            .Email = eMail
+
+            If LCase(userType).Equals("ldap") Then
+                addLOG("CONSOLE: Lookup user in LDAP")
+
+                Dim ldapuserPair As String() = userName.Split(New Char() {"\"c, " "c}, StringSplitOptions.RemoveEmptyEntries)
+                Dim user As CxPortal.CxDomainUser = CxWrap.CXGetUserFromUserDirectory(ldapuserPair(0), ldapuserPair(1))
+
+                If user IsNot Nothing Then
+                    .FirstName = user.FirstName
+                    .LastName = user.LastName
+                    .Email = user.Email
+                End If
+            End If
 
             Dim rolE As New CxPortal.Role
             rolE.ID = returnRoleID(rolename)
             .RoleData = rolE
 
-            .FirstName = firstName
-            .LastName = lastName
-            .Email = eMail
-
 
             Dim GL As List(Of CxPortal.Group) = getGroupList(Team)
-            Call setGrpList(U, GL)
+            .GroupList = GL.ToArray
+            'Call setGrpList(U, GL)
 
             'auto-fill
             .DateCreated = Now

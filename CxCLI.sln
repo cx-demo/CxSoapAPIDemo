@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CxCLI", "CxCLI\CxCLI.vbproj", "{D04F58E7-D4EC-449F-9ABA-2969A4328C60}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.vbproj", "{0DCBBC55-C40E-42B0-8FF3-2E988B0D2E17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D04F58E7-D4EC-449F-9ABA-2969A4328C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D04F58E7-D4EC-449F-9ABA-2969A4328C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D04F58E7-D4EC-449F-9ABA-2969A4328C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCBBC55-C40E-42B0-8FF3-2E988B0D2E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCBBC55-C40E-42B0-8FF3-2E988B0D2E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCBBC55-C40E-42B0-8FF3-2E988B0D2E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCBBC55-C40E-42B0-8FF3-2E988B0D2E17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

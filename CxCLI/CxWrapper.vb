@@ -18,6 +18,7 @@ Public Class CxWrapper
     Public sessionID$ = ""
     Public sdkID$ = ""
     Public CxSDKProxy As CxSDKns.CxSDKWebServiceSoapClient
+
     Public CxProxy As CxPortal.CxPortalWebServiceSoapClient
     Public webURL$
     Public Event reportCompleted(ByRef R As getReportArgs) ', ByVal rptDate As DateTime)
@@ -81,7 +82,31 @@ Public Class CxWrapper
     End Function
 
 
+    Public Function CXlogin(ByVal username As String, ByVal password As String) As Integer
+        CXlogin = 0
 
+        Dim CxProxy = New CxPortal.CxPortalWebServiceSoapClient()
+
+        Dim creD = New CxPortal.Credentials()
+        creD.User = username
+        creD.Pass = password
+
+        addLOG("CONSOLE:" + username)
+        addLOG("CONSOLE:" + password)
+
+        Dim lResp As CxPortal.CxWSResponseLoginData
+        lResp = CxProxy.Login(creD, 1033)
+        'lResp = CxProxy.SsoLogin(creD, 1033)
+
+        If lResp.IsSuccesfull = True Then
+            addLOG("CONSOLE:Login successful for " + username)
+            CXlogin = 0
+        Else
+            addLOG("CONSOLE:Login failed for " + username)
+            CXlogin = 1
+        End If
+
+    End Function
 
     Public Function CXgetLicenseData() As CxPortal.CxWSResponseServerLicenseData
         CXgetLicenseData = New CxPortal.CxWSResponseServerLicenseData
@@ -310,6 +335,64 @@ Public Class CxWrapper
 
     End Function
 
+    Public Function CXcreateNewCompany(ByVal parentSP As String, ByVal newCompanyName As String) As String
+
+        Dim LD(0) As CxPortal.CxWSLdapGroupMapping
+
+        Dim resP As CxPortal.CxWSBasicRepsonse
+        resP = CxProxy.CreateNewCompany(sessionID, parentSP, newCompanyName, 0, 0, 0, False, LD)
+
+        If resP.IsSuccesfull = True Then CXcreateNewCompany = "True" Else CXcreateNewCompany = resP.ErrorMessage
+
+    End Function
+
+
+    Public Function CXcreateNewTeam(ByVal parentGUID$, ByVal fullPath$) As String
+        CXcreateNewTeam = ""
+
+        Dim LD(0) As CxPortal.CxWSLdapGroupMapping
+
+        Dim resP As CxPortal.CxWSBasicRepsonse
+        resP = CxProxy.CreateNewTeam(sessionID, parentGUID, stripToFilename(fullPath), LD)
+
+        If resP.IsSuccesfull = True Then CXcreateNewTeam = "True" Else CXcreateNewTeam = resP.ErrorMessage
+
+    End Function
+
+
+    Public Function CXGetUserFromUserDirectory(ByVal userDirectory As String, ByVal username As String) As CxPortal.CxDomainUser
+
+        Dim CxProxy = New CxPortal.CxPortalWebServiceSoapClient()
+        Dim resp As CxPortal.CxWSResponseDomainUserList
+
+        resp = CxProxy.GetAllUsersFromUserDirectory(sessionID, userDirectory, username, CxPortal.CxWSSearchPatternOption.Contains)
+        If resp.IsSuccesfull Then
+            addLOG("Get All users from user directory successful")
+
+            If resp.UserList.Length > 1 Then
+                addLOG("ERROR: More than 1 user found in user directory")
+                Return Nothing
+            End If
+
+            For Each user As CxPortal.CxDomainUser In resp.UserList
+                addLOG("username: " + user.Username)
+                'Console.WriteLine("UPN: {0}", user.UPN)
+                addLOG("FirstName: " + user.FirstName)
+                addLOG("LastName:  " + user.LastName)
+                addLOG("Email:  " + user.Email)
+
+                Return user
+
+            Next
+
+        End If
+
+        Return Nothing
+
+    End Function
+
+
+
     Public Function getScansInQueue() As CxPortal.CxWSResponseExtendedScanStatus()
         CxProxy = New CxPortal.CxPortalWebServiceSoapClient
 
@@ -366,9 +449,6 @@ wasSAML:
 
     End Function
 
-
-
-
     Public Function CXgetResultStates(ByRef RS As CxPortal.ResultState()) As String
         CXgetResultStates = "True"
 
@@ -387,8 +467,6 @@ wasSAML:
 
 
     End Function
-
-
 
     Public Function CXgetCategories(ByRef CQ As CxPortal.CxQueryCategory()) As String
         CXgetCategories = "True"
@@ -541,6 +619,13 @@ wasSAML:
             addLOG("ERROR: Could not pull Users - " + allUsers.ErrorMessage)
             Exit Sub
         End If
+
+        For Each user As CxPortal.UserData In allUsers.UserDataList
+            addLOG("CONSOLE: isActive " + user.UserName)
+            addLOG("CONSOLE: isActive " + user.IsActive.ToString())
+
+        Next
+
 
         addLOG(Trim(Str(allUsers.UserDataList.Count)) + " users loaded")
         alreadyGotUsers = True
@@ -702,6 +787,7 @@ errorMessage:
 
 
     End Function
+
     Public Sub CXgetProjectScansDisplayData(ByRef allScans As CxPortal.CxWSResponseProjectScannedDisplayData, Optional ByVal forceREFRESH As Boolean = False, Optional ByRef errorMsg$ = "")
         Static alreadyGotScans As Boolean = False
 
@@ -931,6 +1017,258 @@ errorcatch:
     Public Function CXgetCWE(ByVal cID As Integer) As CxPortal.CxWSResponseShortQueryDescription
 
         Return CxProxy.GetQueryShortDescription(sessionID, cID)
+
+    End Function
+
+    Public Function CXcreateHierarchy(ByVal toHavePath As String, ByVal ldapGroups As CxPortal.CxWSLdapGroupMapping())
+        Console.WriteLine("ldap group to be linked: {0}", ldapGroups.Length)
+
+        transverseHierarchy(CXgetHierarchyGroupTree(), toHavePath, ldapGroups)
+    End Function
+
+    Private Function transverseHierarchy(ByVal hierarchy As CxPortal.HierarchyGroupNode(), ByVal toHavePath As String, ByVal ldapGroups As CxPortal.CxWSLdapGroupMapping()) As Boolean
+        For Each node As CxPortal.HierarchyGroupNode In hierarchy
+            printGroupNode(node)
+            Dim path As String = getNodePath(node)
+
+            If (path.Equals(toHavePath)) Then 'Path exists, no need to search further
+                Console.WriteLine("Path Exists: {0}", toHavePath)
+                Return True
+
+            ElseIf (toHavePath.StartsWith(path)) Then
+                Console.WriteLine("Starting path exists for {0}", toHavePath)
+                Console.WriteLine("#Child nodes: {0}", node.Childs.Length)
+
+                Dim isExist As Boolean = transverseHierarchy(node.Childs, toHavePath, ldapGroups)
+                Console.WriteLine("transverse inner: {0}", isExist)
+
+                If (Not isExist) Then 'No child, create company/teams
+
+                    Console.WriteLine("No more child to transverse, start creating path")
+                    Dim newGroups As String()
+                    newGroups = getNewPathElements(path, toHavePath)
+                    Console.WriteLine("Missing no. of groups: {0}", newGroups.Length)
+
+                    Dim newParentGroup As CxPortal.Group = node
+                    For Each newGroup As String In newGroups
+                        newParentGroup = createNewCompanyOrTeam(newParentGroup, newGroup)
+                    Next
+
+                    ' Add ldap groups if specified
+                    If ldapGroups IsNot Nothing AndAlso ldapGroups.Count <> 0 Then
+                        CXsetTeamLDAPGroupsMapping(newParentGroup.Guid, ldapGroups)
+                    End If
+
+                End If
+
+                Return True
+
+            End If
+        Next
+    End Function
+    Public Function CXGetLdapServerGroups(ByVal ldapServerId As Integer, ByVal groupName As String) As CxPortal.CxWSLdapGroup
+        Dim CxProxy = New CxPortal.CxPortalWebServiceSoapClient()
+
+        Dim resP As CxPortal.CxWSResponseLDAPServerGroups
+        resP = CxProxy.GetLdapServerGroups(sessionID, ldapServerId, groupName, CxPortal.CxWSSearchPatternOption.Contains)
+
+        If resP.IsSuccesfull Then
+
+            Console.WriteLine("groups len:", resP.Groups.Length)
+
+            'For Each group As CxPortal.CxWSLdapGroup In resP.Groups
+            'Console.WriteLine("Group Name: {0}", group.Name)
+            'Console.WriteLine("Group Dn: {0}", group.DN)
+            'Next
+
+            If resP.Groups.Length <> 0 Then
+                Return resP.Groups(0)
+
+                'Dim ldapGroupPair As CxPortal.CxWSLdapGroup = New CxPortal.CxWSLdapGroup
+                'With ldapGroupPair
+                '.Name = group[0].Name
+                '.DN = "CN=APAC-RND-Scanner-All,OU=APAC,OU=Sites,DC=mycheckmarx,DC=com"
+                'End With
+
+            End If
+
+        Else
+            Console.WriteLine("Err: " + resP.ErrorMessage)
+        End If
+        Return Nothing
+    End Function
+
+
+    Public Function CXGetConfiguredLdapServerId(ByVal ldapName As String) As Integer
+
+        Dim CxProxy = New CxPortal.CxPortalWebServiceSoapClient()
+
+        Dim ldapPairs As CxPortal.CxWSResponseIdNamePairList
+        ldapPairs = CxProxy.GetConfiguredLdapServerNames(sessionID, False)
+
+        If ldapPairs.IsSuccesfull Then
+            For Each item As CxPortal.CxWSIdNamePair In ldapPairs.Items()
+                If item.Name.Equals(ldapName) Then
+                    Return item.Id
+                End If
+            Next
+
+        End If
+        Return -1
+    End Function
+
+
+    Public Function CXsetTeamLDAPGroupsMapping(ByVal teamId As String, ByVal ldapGroups As CxPortal.CxWSLdapGroupMapping())
+
+        Dim CxProxy = New CxPortal.CxPortalWebServiceSoapClient()
+
+        Console.WriteLine("Mapping: {0}", ldapGroups)
+
+
+        Dim resP As CxPortal.CxWSBasicRepsonse
+        resP = CxProxy.SetTeamLdapGroupsMapping(sessionID, teamId, ldapGroups)
+
+        If resP.IsSuccesfull = True Then
+            Console.WriteLine("CONSOLE: SetTeamLdapGroupsMapping rv: " + resP.IsSuccesfull.ToString)
+        Else
+            Console.WriteLine("CONSOLE: SetTeamLdapGroupsMapping rv: " + resP.ErrorMessage)
+        End If
+
+    End Function
+
+    Private Function getNewPathElements(ByVal path As String, ByVal toHavePath As String) As String()
+        addLOG("***********************************")
+        addLOG("extract missing groups " + toHavePath + " from " + path)
+        getNewPathElements = toHavePath.Substring(path.Length).Split(New Char() {"\"c}, StringSplitOptions.RemoveEmptyEntries)
+    End Function
+
+    Private Function getNodePath(ByVal node As CxPortal.HierarchyGroupNode) As String
+        ' Server is always empty, use groupname instead
+        If (String.IsNullOrEmpty(node.FullPath)) Then
+            getNodePath = node.GroupName
+        Else
+            getNodePath = node.FullPath
+        End If
+    End Function
+
+    Private Sub printGroupNode(ByVal node As CxPortal.HierarchyGroupNode)
+        addLOG("***********************************")
+        addLOG("GroupId: " + node.ID)
+        addLOG("GUID: " + node.Guid)
+        addLOG("GroupName: " + node.GroupName)
+        addLOG("Path: " + node.Path)
+        addLOG("FullPath: " + node.FullPath)
+        addLOG("Childs Len: " + node.Childs.Length.ToString)
+        addLOG("GroupType " + node.Type.ToString)
+        addLOG("***********************************")
+    End Sub
+
+    Private Function CXgetHierarchyGroupTree() As CxPortal.HierarchyGroupNode()
+        Dim CxProxy = New CxPortal.CxPortalWebServiceSoapClient()
+        Dim groupNodes As CxPortal.CxWSResponseHierarchyGroupNodes
+        groupNodes = CxProxy.GetHierarchyGroupTree(sessionID)
+
+        If groupNodes.IsSuccesfull Then
+            Return groupNodes.HierarchyGroupNodes
+        End If
+        Return Nothing
+    End Function
+
+    Private Function searchWithinHierarchyTree(ByVal hierarchy As CxPortal.HierarchyGroupNode(), ByVal searchPath As String, ByVal groupType As CxPortal.GroupType) As CxPortal.HierarchyGroupNode
+
+        Console.WriteLine("searchWithinHierarchyTree for {0}", searchPath)
+
+        ' Get ancestry tree, traversed via node.FullPath
+        For Each node As CxPortal.HierarchyGroupNode In hierarchy
+            printGroupNode(node)
+            Dim rtnpath As String = getNodePath(node)
+
+            If rtnpath.Equals(searchPath) AndAlso node.Type.Equals(groupType) Then
+                Console.WriteLine("Found")
+                Return node
+
+            ElseIf (searchPath.StartsWith(rtnpath)) Then
+                Console.WriteLine("Starting path exists for {0}", searchPath)
+                Console.WriteLine("#Child nodes: {0}", node.Childs.Length)
+
+                Return searchWithinHierarchyTree(node.Childs, searchPath, groupType)
+
+            End If
+
+        Next
+        Return Nothing
+    End Function
+
+    Private Function createNewCompanyOrTeam(ByVal node As CxPortal.Group, ByVal newCompanyOrTeamName As String) As CxPortal.Group
+
+        Dim CxProxy = New CxPortal.CxPortalWebServiceSoapClient()
+        Dim LD(0) As CxPortal.CxWSLdapGroupMapping
+
+        Dim resP As CxPortal.CxWSBasicRepsonse
+
+        'printGroup("parent_node", node)
+
+        ' Assumption that Service Provider will always exist
+        If (node.Type.Equals(CxPortal.GroupType.SP)) Then ' Parent is Service provider, create company
+
+            resP = CxProxy.CreateNewCompany(sessionID, node.Guid, newCompanyOrTeamName, 0, 0, 0, False, LD)
+            Console.WriteLine("createNewCompany rv: {0}", resP.IsSuccesfull)
+
+            If resP.IsSuccesfull Then
+
+                Dim resG As CxPortal.CxWSResponseTeamData
+                ' search under SP
+                resG = CxProxy.GetServiceProviderCompanies(sessionID, node.Guid)
+
+                If resG.IsSuccesfull Then
+                    For Each item As CxPortal.TeamData In resG.TeamDataList()
+
+                        printGroup("company_node", item.Company)
+
+                        ' No need to verified service provider as already under SP
+                        If item.Company.GroupName.Equals(newCompanyOrTeamName) Then
+
+                            If String.IsNullOrEmpty(item.Company.FullPath) Then
+                                item.Company.FullPath = node.FullPath + "\" + newCompanyOrTeamName
+                            End If
+
+                            Return item.Company
+                        End If
+                    Next
+                End If
+            End If
+
+        Else 'Parent is Company/Team, create team
+
+            resP = CxProxy.CreateNewTeam(sessionID, node.Guid, newCompanyOrTeamName, LD)
+            Console.WriteLine("createNewTeam rv: {0}", resP.IsSuccesfull)
+
+            If resP.IsSuccesfull = True Then
+
+                Dim team As CxPortal.HierarchyGroupNode = searchWithinHierarchyTree(CXgetHierarchyGroupTree(), node.FullPath + "\" + newCompanyOrTeamName, CxPortal.GroupType.Team)
+
+                If team IsNot Nothing Then
+                    Return team
+                Else
+                    Console.WriteLine("problem finding team")
+                End If
+
+
+            End If
+
+        End If
+        Return Nothing
+    End Function
+
+    Private Function printGroup(ByVal label As String, ByVal node As CxPortal.Group)
+        Console.WriteLine("************ " + label + " *************")
+        Console.WriteLine("GroupId: {0}", node.ID)
+        Console.WriteLine("GUID: {0}", node.Guid)
+        Console.WriteLine("GroupName: {0}", node.GroupName)
+        Console.WriteLine("Path: {0}", node.Path)
+        Console.WriteLine("FullPath: {0}", node.FullPath)
+        Console.WriteLine("GroupType: {0}", node.Type.ToString)
+        Console.WriteLine("***********************************")
 
     End Function
 
@@ -1978,6 +2316,7 @@ Public Class CLIArgs
 
 
 End Class
+
 
 
 'for sorting

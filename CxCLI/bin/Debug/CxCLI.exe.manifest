@@ -42,24 +42,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CxCLI.exe" size="651744">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CxCLI.exe" size="658912">
       <assemblyIdentity name="CxCLI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>thtFCnbvrwcgwfgsaSC3MlfPe8QwH3/u/v9TLahDa2Y=</dsig:DigestValue>
+        <dsig:DigestValue>e65JleWvQYWF23ZGNnC6DYpTFpyDeZo+k1iI4adzAaY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="CxCLI.exe.config" size="1038">
+  <file name="CxCLI.exe.config" size="1017">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>FlfU4vPuVB2w721eeenwgg7la4jNUr0gc9GFbdA4Rl8=</dsig:DigestValue>
+      <dsig:DigestValue>VHq15VGYHJHOL3Lr98D7qH1jZRO/JbxaLkdY09/Tcy4=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

@@ -1,0 +1,4583 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ConsoleApp2
+</name>
+</assembly>
+<members>
+<member name="T:ConsoleApp2.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ConsoleApp2.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ConsoleApp2.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSBasicRepsonse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSBasicRepsonse.IsSuccesfull">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSBasicRepsonse.ErrorMessage">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxDomainUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDomainUser.Username">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDomainUser.FirstName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDomainUser.LastName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDomainUser.Email">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDomainUser.UPN">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSActiveDirectoryDomainDetails">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSActiveDirectoryDomainDetails.NetbiosName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSActiveDirectoryDomainDetails.FullyQualifiedName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSActiveDirectoryDomainDetails.IsMappedToLdap">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSActiveDirectoryDomainDetails.HasDomainUsers">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ProfileData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.UserName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.FirstName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.UserPreferedLanguageLCID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.LastName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.JobTitle">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.Email">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.Phone">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.CellPhone">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.Skype">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.Country">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.AuditUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.LastLoginDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProfileData.UserTeams">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.WebClientApprovedUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientApprovedUser.UserID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientApprovedUser.UserName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientApprovedUser.CompanyID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientApprovedUser.ExpirationDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientApprovedUser.TeamId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientApprovedUser.LoginUrl">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.WebClientPendingUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.ID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.FirstName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.LastName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.Password">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.Email">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.JobTitle">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.UserName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.Phone">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.CellPhone">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.Skype">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.CompanyID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.CompanyName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.Country">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.Groups">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.CreatedDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientPendingUser.AuditUser">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.Group">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Group.GroupName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Group.ID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Group.Type">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Group.Guid">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Group.FullPath">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Group.Path">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.GroupType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.GroupType.Team">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.GroupType.Company">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.GroupType.SP">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.GroupType.Server">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.HierarchyGroupNode">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.HierarchyGroupNode.Childs">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.HierarchyGroupNode.Membership">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxDateTime">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDateTime.Hour">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDateTime.Minute">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDateTime.Second">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDateTime.Day">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDateTime.Month">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDateTime.Year">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ResultState">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ResultState.ResultName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ResultState.ResultID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSRequestDeleteScans">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRequestDeleteScans.SessionID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRequestDeleteScans.ScanIDs">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRequestDeleteScans.Flags">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.DeleteFlags">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.DeleteFlags.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.DeleteFlags.RunningScans">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.DeleteFlags.OnlyAllowedProjects">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSRequestScanLog">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRequestScanLog.SessionID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSRequestScanLogUnfinishedScan">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRequestScanLogUnfinishedScan.ScanRequestId">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSRequestScanLogFinishedScan">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRequestScanLogFinishedScan.ScanId">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSRequestScanLogFailedScan">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRequestScanLogFailedScan.ID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWsScanCompareCount">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWsScanCompareCount.New">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWsScanCompareCount.Fixed">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWsScanCompareCount.ReOccured">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSQueryLanguageState">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryLanguageState.LanguageID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryLanguageState.LanguageName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryLanguageState.LanguageHash">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryLanguageState.StateCreationDate">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.PartialSASTScansDTO">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.PartialSASTScansDTO.AbortedMessage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.PartialSASTScansDTO.AbortedStatus">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SASTScanAbortedStatus">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SASTScanAbortedStatus.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SASTScanAbortedStatus.Queries">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SASTScanAbortedStatus.Stages">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SASTScanAbortedStatus.QueriesExceededResultThreshold">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.Vulerability">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Vulerability.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Vulerability.Severity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Vulerability.Count">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScanDisplayData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.ScanID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.IsAllowedToDelete">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.QueuedDateTime">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.RiskLevelScore">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.FinishedDateTime">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.ProjectId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.InitiatorName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.TeamName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.IsIncremental">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.CxVersion">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.LOC">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.HighSeverityResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.MediumSeverityResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.LowSeverityResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.Comments">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.ScanDisplayType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.ServerName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.Origin">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.FailedLOC">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.StatisticsCalculationDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.IsPublic">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayData.IsLocked">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScanType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanType.UNKNOWN">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanType.ALLSCANS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanType.REGULAR">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanType.SUBSET">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanType.PARTIAL">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanType.RUNNING">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScanDisplayDataExtended">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayDataExtended.ScanCompletedStatus">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayDataExtended.PartialScanAboartedMessage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanDisplayDataExtended.Team">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScanCompletedStatus">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanCompletedStatus.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanCompletedStatus.Completed">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanCompletedStatus.Partial">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.UndeletedObject">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UndeletedObject.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UndeletedObject.ErrorCode">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UndeletedObject.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UndeletedObject.TeamPath">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UndeletedObject.StartTime">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UndeletedObject.ErrorMessage">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.UndeletedObjectCode">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.UndeletedObjectCode.Authorization">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.UndeletedObjectCode.Locked">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSRequestDeleteProjects">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRequestDeleteProjects.SessionID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRequestDeleteProjects.ProjectIDs">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRequestDeleteProjects.Flags">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResultPathDisplayDetails">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPathDisplayDetails.ProjectId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPathDisplayDetails.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPathDisplayDetails.ScanId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPathDisplayDetails.ScanDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPathDisplayDetails.PathIds">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ResultStateData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ResultStateData.scanId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ResultStateData.PathId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ResultStateData.projectId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ResultStateData.Remarks">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ResultStateData.ResultLabelType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ResultStateData.data">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScanRiskLevel">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanRiskLevel.Quantity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanRiskLevel.Severity">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ProjectScansRiskLevel">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScansRiskLevel.Label">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScansRiskLevel.ScanRiskParams">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ProjectScansResultSummary">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScansResultSummary.Label">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScansResultSummary.High">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScansResultSummary.Medium">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScansResultSummary.Low">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScansResultSummary.Info">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.UserPermission">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UserPermission.IsAllowedToDelete">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UserPermission.IsAllowedToDuplicate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UserPermission.IsAllowedToRun">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UserPermission.IsAllowedToUpdate">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ProjectDisplayData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.Permission">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.projectID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.ServiceProvider">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.Company">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.Owner">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.Group">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.Preset">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.LastScanDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.TotalScans">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.IsPublic">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectDisplayData.TotalOsaScans">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxProjectData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxProjectData.ProjectID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxProjectData.SourceType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxProjectData.Company">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxProjectData.Owner">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxProjectData.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxProjectData.Group">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxProjectSourceType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxProjectSourceType.LocalPath">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxProjectSourceType.UNC">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxProjectSourceType.TFS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxProjectSourceType.SVN">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxProjectSourceType.SourceSafe">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxProjectSourceType.External">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxProjectSourceType.CVS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxProjectSourceType.Perforce">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.DataRetentionSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.DataRetentionSettings.NumOfScansToKeep">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSProjectCustomField">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSProjectCustomField.CustomFieldId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSProjectCustomField.Value">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSProjectIssueTrackingSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSProjectIssueTrackingSettings.TrackingSystemID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSProjectIssueTrackingSettings.Params">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingParam">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingParam.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingParam.Value">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingParam.Type">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScanAction">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanAction.Parameters">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanAction.Trigger">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanAction.Action">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScanEventType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanEventType.BeforeScanStarts">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanEventType.AfterScanSucceeds">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanEventType.OnScanFailure">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScanActionType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanActionType.EmailNotification">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScanActionType.PostScanAction">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScanActionSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanActionSettings.ScanActionList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScheduleSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScheduleSettings.Schedule">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScheduleSettings.ScheduledDays">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScheduleSettings.Time">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScheduleSettings.StartSchedulingPeriod">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScheduleSettings.EndSchedulingPeriod">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScheduleSettings.SchedulingFrequency">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScheduleType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScheduleType.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScheduleType.Now">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ScheduleType.Weekly">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.DayOfWeek">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.DayOfWeek.Sunday">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.DayOfWeek.Monday">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.DayOfWeek.Tuesday">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.DayOfWeek.Wednesday">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.DayOfWeek.Thursday">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.DayOfWeek.Friday">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.DayOfWeek.Saturday">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ProjectConfiguration">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectConfiguration.ProjectSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectConfiguration.SourceCodeSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectConfiguration.ScheduleSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectConfiguration.ScanActionSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectConfiguration.ProjectIssueTrackingSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectConfiguration.CustomFields">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectConfiguration.DataRetentionSettings">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ProjectSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.projectID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.PresetID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.TaskId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.AssociatedGroupID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.ScanConfigurationID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.Description">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.Owner">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.IsPublic">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.OpenSourceSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSettings.OpenSourceAnalysisOrigin">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ProjectSharedLocation">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSharedLocation.Path">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectSharedLocation.Credentials">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.Credentials">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Credentials.User">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Credentials.Pass">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ProjectOrigin">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ProjectOrigin.LocalPath">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ProjectOrigin.SharedPath">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ProjectOrigin.TFS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ProjectOrigin.External">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ProjectOrigin.SVN">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ProjectOrigin.CVS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ProjectOrigin.GIT">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ProjectOrigin.Perforce">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SourceCodeSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceCodeSettings.SourceOrigin">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceCodeSettings.UserCredentials">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceCodeSettings.PathList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceCodeSettings.SourceControlSetting">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceCodeSettings.PackagedCode">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceCodeSettings.SourcePullingAction">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceCodeSettings.SourceControlCommandId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceCodeSettings.SourceFilterLists">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SourceLocationType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SourceLocationType.Local">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SourceLocationType.Shared">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SourceLocationType.SourceControl">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SourceLocationType.SourcePulling">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ScanPath">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanPath.Path">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ScanPath.IncludeSubTree">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SourceControlSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.Port">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.UseSSL">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.UseSSH">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.ServerName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.Repository">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.UserCredentials">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.Protocol">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.RepositoryName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.ProtocolParameters">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.GITBranch">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.GitLsViewType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.SSHPublicKey">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.SSHPrivateKey">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.GitHubSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceControlSettings.PerforceBrowsingMode">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.RepositoryType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.RepositoryType.TFS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.RepositoryType.SVN">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.RepositoryType.CVS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.RepositoryType.GIT">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.RepositoryType.Perforce">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.RepositoryType.NONE">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SourceControlProtocolType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SourceControlProtocolType.WindowsAuthentication">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SourceControlProtocolType.SSL">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SourceControlProtocolType.SSH">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.SourceControlProtocolType.PasswordServer">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.GitLsRemoteViewType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.GitLsRemoteViewType.TAGS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.GitLsRemoteViewType.HEADS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.GitLsRemoteViewType.TAGS_AND_HEADS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.GitLsRemoteViewType.ALL">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.GitHubIntegrationSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.GitHubIntegrationSettings.ContributorCredentials">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.GitHubIntegrationSettings.OwnerCredentials">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.GitHubIntegrationSettings.EventsThreshold">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSPerforceBrowsingMode">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSPerforceBrowsingMode.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSPerforceBrowsingMode.Depot">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSPerforceBrowsingMode.Workspace">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.LocalCodeContainer">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.LocalCodeContainer.ZippedFile">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.LocalCodeContainer.FileName">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SourceFilterPatterns">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceFilterPatterns.ExcludeFilesPatterns">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SourceFilterPatterns.ExcludeFoldersPatterns">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.Action">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Action.ActionName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Action.Id">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ConfigurationSet">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ConfigurationSet.ConfigSetName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ConfigurationSet.ID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResultSummary">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultSummary.QueryId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultSummary.QueryName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultSummary.QueryGroupName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultSummary.Count">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultSummary.Severity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultSummary.Cwe">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.AuditScanResult">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditScanResult.QueryId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditScanResult.QueryName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditScanResult.QuerySource">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditScanResult.Severity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditScanResult.QueryGroupName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditScanResult.CWE">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditScanResult.QueryVersionCode">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditScanResult.DebugMessages">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditScanResult.CompilationMessages">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditScanResult.PathPerResult">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResultPath">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPath.SimilarityId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPath.PathId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPath.Comment">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPath.State">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPath.Severity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPath.AssignedUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultPath.Nodes">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSPathNode">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSPathNode.Column">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSPathNode.FullName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSPathNode.FileName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSPathNode.Length">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSPathNode.Line">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSPathNode.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSPathNode.DOM_Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSPathNode.MethodLine">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSPathNode.PathNodeId">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.AuditResultsCollection">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditResultsCollection.Results">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AuditResultsCollection.FailedLOC">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ProjectBasicSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectBasicSettings.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectBasicSettings.AssociatedGroupID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseBasicProjectData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseBasicProjectData.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseBasicProjectData.ID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseBasicProjectData.scans">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseBasicScanData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseBasicScanData.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseBasicScanData.ID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseBasicScanData.SourceId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseBasicScanData.Comment">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseBasicScanData.ResultId">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSDataRetentionRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.RequestDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.RequestEndDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.InitiatorName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.RequestTimeLimitation">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.Stage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.CurrentProgress">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.TotalProgress">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.StageError">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.IsDone">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequest.OriginalConfiguration">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxDataRetentionStatus">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxDataRetentionStatus.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxDataRetentionStatus.New">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxDataRetentionStatus.Cleanup">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxDataRetentionStatus.Deletion">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxDataRetentionStatus.Stopping">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxDataRetentionStatus.Stopped">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxDataRetentionStatus.Failed">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxDataRetentionStatus.Finished">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxDataRetentionConfiguration">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDataRetentionConfiguration.DataRetentionType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDataRetentionConfiguration.NumOfScansToPreserve">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDataRetentionConfiguration.StartDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDataRetentionConfiguration.EndDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxDataRetentionConfiguration.DurationLimitInHours">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxDataRetentionType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxDataRetentionType.NumOfScansToPreserve">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxDataRetentionType.DatesRange">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIdNamePair">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIdNamePair.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIdNamePair.Name">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSLdapDomainMappingSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapDomainMappingSettings.IsMappedToDomain">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapDomainMappingSettings.DomainNetbiosName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapDomainMappingSettings.DomainFQname">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSLdapAdvancedRoleMapping">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapAdvancedRoleMapping.ScannerWithoutRoleAttributesGroupDnList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapAdvancedRoleMapping.ScannerWithNotExploitableGroupDnList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapAdvancedRoleMapping.ScannerWithDeleteGroupDnList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapAdvancedRoleMapping.ScannerWithNotExploitableAndDeleteGroupDnList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapAdvancedRoleMapping.ReviewerWithoutRoleAttributesGroupDnList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapAdvancedRoleMapping.ReviewerWithSeverityStatusChangeGroupDnList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSLdapRoleMapping">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapRoleMapping.DefaultRoleId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapRoleMapping.AdvancedRoleMappingEnabled">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapRoleMapping.DefaultRoleApplyNotExploitable">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapRoleMapping.DefaultRoleDeleteProjectsAndScans">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapRoleMapping.DefaultRoleAllowStatusSeverityChanges">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapRoleMapping.WsLdapAdvancedRoleMapping">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSLdapServerSyncSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerSyncSettings.Enabled">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerSyncSettings.AdditionalGroupDN">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerSyncSettings.GroupObjectClass">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerSyncSettings.GroupObjectFilter">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerSyncSettings.GroupIdAttribute">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerSyncSettings.GroupNameAttribute">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerSyncSettings.GroupMembersAttribute">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerSyncSettings.UserMemberShipAttribute">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerSyncSettings.LdapRoleMapping">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.DirectoryType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.Action">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.HostName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.Port">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.UseSSL">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.VerifySslCertificate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.Username">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.Password">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.BaseDn">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.AdditionalUserDn">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.UserObjectClass">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.UserObjectFilter">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.UsernameAttribute">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.UserRdnAttribute">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.FirstNameAttribute">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.LastNameAttribute">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.EmailAttribute">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.SyncSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapServerConfiguration.DomainMapSettings">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSLdapDirectoryType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSLdapDirectoryType.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSLdapDirectoryType.ActiveDirectory">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSLdapDirectoryType.OpenLDAP">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSLdapDirectoryType.CustomLDAPServer">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSLdapServerConfigurationAction">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSLdapServerConfigurationAction.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSLdapServerConfigurationAction.Create">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSLdapServerConfigurationAction.Update">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSLdapServerConfigurationAction.Delete">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.FailedScansDisplayData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.ScanRequestId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.ProjectId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.TaskId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.TaskScanId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.ConfigurationId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.PresetId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.IsIncremental">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.RunId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.CreatedOn">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.UpdatedOn">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.QueuedOn">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.EngineStartedOn">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.EngineFinishedOn">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.CompletedOn">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.SourceLocationPath">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.SourceId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.LOC">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.Language">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.PartialResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.Comments">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.ServerId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.Initiator">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.FailedScansDisplayData.Details">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ProjectScannedDisplayData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.ProjectID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.LastScanID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.LastScanDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.TeamName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.RiskLevelScore">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.LOC">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.HighVulnerabilities">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.MediumVulnerabilities">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.LowVulnerabilities">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.InfoVulnerabilities">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.TotalVulnerabilities">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.QueueTime">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.ScanTime">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.FailedLOC">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.ProjectScannedDisplayData.StatisticsCalculationDate">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemMeta">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSJIRAIssueCreateMeta">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAIssueCreateMeta.Projects">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSJIRAProjectMeta">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAProjectMeta.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAProjectMeta.Key">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAProjectMeta.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAProjectMeta.IssueTypes">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSJIRAIssueType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAIssueType.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAIssueType.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAIssueType.Subtask">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAIssueType.Fields">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSJIRAFields">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAFields.JiraFieldName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAFields.DefaultValues">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAFields.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAFields.Required">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAFields.Schema">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAFields.AllowedValues">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSJIRASchema">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRASchema.System">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRASchema.Type">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRASchema.Items">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRASchema.Custom">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSJIRAAllowedValues">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAAllowedValues.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAAllowedValues.Value">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSJIRAAllowedValues.Name">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystem">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystem.SystemType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystem.ID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystem.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystem.ServerURL">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystem.Username">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystem.Password">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSIssueTrackingType.JIRA">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSJIRATrackingSystem">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingMetaRequestParam">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingMetaRequestParam.Key">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingMetaRequestParam.Value">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemRequest.SessionID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemSaveRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemSaveRequest.TrackingSystem">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemDeleteRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemDeleteRequest.IDs">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemRetrieveRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemRetrieveRequest.IDs">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemValidateConnectRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemValidateConnectRequest.TrackingSystem">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemMetaRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemMetaRequest.TrackingSystemID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemMetaRequest.Params">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemCreateIssueRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemCreateIssueRequest.TrackingSystemID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemCreateIssueRequest.ScanID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemCreateIssueRequest.ResultIDs">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemCreateIssueRequest.Params">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxUserPreferences">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxUserReportPreferences">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.Link2OnlineResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.Team">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.CheckmarxVersion">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.ScanComments">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.ScanType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.SourceOrigin">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.ScanDensity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.TableOfContents">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.ExecutiveSummary">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.DisplayCategories">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.DisplayLanguageHashNumber">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.ScannedQueries">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.ScannedFiles">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.AssignedTo">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.Comments">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.Link2Online">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.ResultDescription">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.OnlyExecutiveSummary">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.ResultsPerQueryLimit">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.VulnerabilityDescription">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxUserReportPreferences.SnippetsMode">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxReportVulnerabilityDescription">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxReportVulnerabilityDescription.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxReportVulnerabilityDescription.Embeded">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxReportVulnerabilityDescription.Online">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxReportSnippetsMode">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxReportSnippetsMode.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxReportSnippetsMode.SourceAndDestination">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxReportSnippetsMode.Full">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResultDisplayOptions">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultDisplayOptions.AssignedTo">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultDisplayOptions.Comments">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultDisplayOptions.Link2Online">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultDisplayOptions.ResultDescription">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultDisplayOptions.SnippetsMode">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSSnippetsModeDisplayOptions">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSSnippetsModeDisplayOptions.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSSnippetsModeDisplayOptions.SourceAndDestination">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSSnippetsModeDisplayOptions.Full">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSGeneralDisplayOptions">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSGeneralDisplayOptions.OnlyExecutiveSummary">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSGeneralDisplayOptions.TableOfContents">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSGeneralDisplayOptions.ExecutiveSummary">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSGeneralDisplayOptions.DisplayCategories">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSGeneralDisplayOptions.DisplayLanguageHashNumber">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSGeneralDisplayOptions.ScannedQueries">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSGeneralDisplayOptions.ScannedFiles">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSGeneralDisplayOptions.VulnerabilitiesDescription">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSVulnerabilitiesDisplayOptions">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSVulnerabilitiesDisplayOptions.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSVulnerabilitiesDisplayOptions.Attached2Appendix">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSVulnerabilitiesDisplayOptions.Linked2Online">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSHeaderDisplayOptions">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSHeaderDisplayOptions.Link2OnlineResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSHeaderDisplayOptions.Team">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSHeaderDisplayOptions.CheckmarxVersion">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSHeaderDisplayOptions.ScanComments">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSHeaderDisplayOptions.ScanType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSHeaderDisplayOptions.SourceOrigin">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSHeaderDisplayOptions.ScanDensity">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResultsPerVulnerabilityFilter">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsPerVulnerabilityFilter.All">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsPerVulnerabilityFilter.Maximimum">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResultsAssignedToFilter">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsAssignedToFilter.All">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsAssignedToFilter.IDs">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsAssignedToFilter.Usernames">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSDisplayCategoriesFilter">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDisplayCategoriesFilter.All">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDisplayCategoriesFilter.IDs">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResultsStateFilter">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsStateFilter.All">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsStateFilter.IDs">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResultsSeverityFilter">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsSeverityFilter.All">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsSeverityFilter.High">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsSeverityFilter.Medium">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsSeverityFilter.Low">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResultsSeverityFilter.Info">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSQueriesFilter">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueriesFilter.All">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueriesFilter.IDs">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSReportDisplayData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportDisplayData.Queries">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportDisplayData.ResultsSeverity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportDisplayData.ResultsState">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportDisplayData.DisplayCategories">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportDisplayData.ResultsAssigedTo">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportDisplayData.ResultsPerVulnerability">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportDisplayData.HeaderOptions">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportDisplayData.GeneralOption">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportDisplayData.ResultsDisplayOption">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSReportRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportRequest.Type">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportRequest.ScanID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSReportType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSReportType.PDF">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSReportType.RTF">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSReportType.CSV">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSReportType.XML">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSFilteredReportRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSFilteredReportRequest.DisplayData">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSTransportedQuery">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.QueryId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.PackageId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.Cwe">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.IsExecutable">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.Severity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.LanguageName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.PackageTypeName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.GroupName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.Source">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSTransportedQuery.EngineMetadata">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CliScanArgs">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CliScanArgs.PrjSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CliScanArgs.SrcCodeSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CliScanArgs.IsPrivateScan">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CliScanArgs.IsIncremental">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CliScanArgs.Comment">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CliScanArgs.IgnoreScanWithUnchangedCode">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CliScanArgs.ClientOrigin">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxClientType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.WebPortal">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.CLI">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.Eclipse">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.VS">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.InteliJ">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.Audit">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.SDK">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.Jenkins">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.TFSBuild">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.Importer">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.Other">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxClientType.Sonar">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxEngineServer">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxEngineServer.id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxEngineServer.uri">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxEngineServer.maxScans">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxEngineServer.serverName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxEngineServer.maxScanLoc">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxEngineServer.minScanLoc">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.EmailForSalesData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.EmailForSalesData.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.EmailForSalesData.Email">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.EmailForSalesData.Company">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.EmailForSalesData.Phone">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.EmailForSalesData.EmailBody">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SaasPackage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.Users">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.Languages">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.LOC">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.PresetsNumber">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.PresetsIds">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.Free">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.SourceControlEnabled">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.CreatePDFEnabled">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.OnlineViewerEnabled">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.PluginsEnabled">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.System">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.ScansToDisplay">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPackage.Is_Deprecated">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SaasPendingUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.ID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.FirstName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.LastName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.Password">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.UserName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.Phone">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.CompanyName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.Industry">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.ActivationToken">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.Languages">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.PackageId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.CreatedDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SaasPendingUser.IsActivated">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxPivotLayout">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.Owner">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.SerializedData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.ChartType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.IsSystem">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.Owner_Team">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.IsPublic">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.ViewId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.Teams">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotLayout.Criteria">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.PivotClientBaseParam">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.PivotClientDateRangeParam">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.PivotClientDateRangeParam.RangeType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.PivotClientDateRangeParam.DateFrom">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.PivotClientDateRangeParam.DateTo">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.PivotClientDateRanges">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotClientDateRanges.ALL">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotClientDateRanges.PAST_DAY">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotClientDateRanges.PAST_WEEK">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotClientDateRanges.PAST_MONTH">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotClientDateRanges.PAST_3_MONTH">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotClientDateRanges.PAST_YEAR">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotClientDateRanges.CUSTOM">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.PivotClientExploitabilityParam">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.PivotClientExploitabilityParam.IncludeNotExploitable">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxPivotDataRequest">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotDataRequest.ViewName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotDataRequest.Criteria">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.PivotViewClientType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotViewClientType.AllProjectScans">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotViewClientType.LastMonthProjectScans">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotViewClientType.ProjectsLastScan">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.PivotViewClientType.LastWeekOWASPTop10">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxPivotRow">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotRow.Data">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxPivotColumn">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotColumn.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotColumn.DataTypeName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotColumn.DisplayName">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxPivotTable">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotTable.Columns">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPivotTable.Rows">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.AssignUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AssignUser.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AssignUser.UserName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AssignUser.FirstName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AssignUser.LastName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AssignUser.Email">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.AssignUser.UserPreferedLanguageLCID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSEnableCRUDAction">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSEnableCRUDAction.Type">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSEnableCRUDAction.Enable">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSCrudEnum">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSCrudEnum.Create">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSCrudEnum.Delete">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSCrudEnum.Update">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSCrudEnum.View">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSCrudEnum.Run">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSCrudEnum.Investigate">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSItemAndCRUD">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSItemAndCRUD.Type">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSItemAndCRUD.CRUDActionList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSItemTypeEnum">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.Project">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.Task">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.Scan">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.Preset">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.Configuration">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.Users">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.Roles">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.Other">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.SystemSettings">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.Ignore_Path">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.ResultComment">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.ResultSeverity">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.ResultStatus">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSItemTypeEnum.AuditUser">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.Role">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Role.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Role.ID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSRoleWithUserPrivileges">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSRoleWithUserPrivileges.ItemsCRUD">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.WebClientUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.ID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.FirstName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.LastName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.UserPreferedLanguageLCID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.Password">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.JobTitle">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.Email">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.UserName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.UPN">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.Phone">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.CellPhone">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.Skype">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.CompanyID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.CompanyName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.willExpireAfterDays">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.country">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.DateCreated">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.AuditUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.GroupList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.LastLoginDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.LimitAccessByIPAddress">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.WebClientUser.AllowedIPs">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.UserData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UserData.IsActive">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.UserData.RoleData">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSCustomField">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSCustomField.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSCustomField.Name">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSEdge">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSEdge.StartNode">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSEdge.EndNode">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSNode">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.NodeId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.DOM_Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.State">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.PathIds">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.FullName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.FileName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.isBFL">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.Column">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.Line">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSNode.Length">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSSingleResultData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.QueryId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.PathId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.SourceFolder">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.SourceFile">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.SourceLine">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.SourceObject">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.DestFolder">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.DestFile">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.DestLine">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.NumberOfNodes">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.DestObject">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.Comment">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.State">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.Severity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.AssignedUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.ConfidenceLevel">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.ResultStatus">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.IssueTicketID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultData.QueryVersionCode">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CompareStatusType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CompareStatusType.Fixed">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CompareStatusType.Reoccured">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CompareStatusType.New">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSSingleResultCompareData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultCompareData.ScanId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultCompareData.ComparedToScanId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultCompareData.ComparedToScanPathId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSSingleResultCompareData.QueryName">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData.Categories">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData.QueryId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData.QueryName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData.GroupId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData.GroupName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData.Severity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData.CWE">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData.AmountOfResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData.LanguageName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVulnerabilityData.QueryVersionCode">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxQueryCategory">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxQueryCategory.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxQueryCategory.CategoryName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxQueryCategory.CategoryType">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxCategoryType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxCategoryType.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxCategoryType.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxCategoryType.Order">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSQueryVersionDetails">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVersionDetails.QueryPath">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVersionDetails.QuerySource">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxPresetDetails">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPresetDetails.queryIds">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPresetDetails.id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPresetDetails.name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPresetDetails.owningteam">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPresetDetails.isPublic">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPresetDetails.owner">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPresetDetails.isUserAllowToUpdate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPresetDetails.isUserAllowToDelete">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPresetDetails.IsDuplicate">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSQuery">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.QueryId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.Source">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.Cwe">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.IsExecutable">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.IsEncrypted">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.Severity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.PackageId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.Status">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.Type">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.Categories">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.CxDescriptionID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.QueryVersionCode">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQuery.EngineMetadata">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.QueryStatus">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.QueryStatus.Original">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.QueryStatus.New">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.QueryStatus.Edited">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.QueryStatus.Deleted">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSQueryType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSQueryType.Draft">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSQueryType.Regular">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSQueryGroup">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.Impacts">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.PackageId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.Queries">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.IsReadOnly">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.IsEncrypted">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.Description">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.Language">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.LanguageName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.PackageTypeName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.ProjectId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.PackageType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.PackageFullName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.OwningTeam">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.Status">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.LanguageStateHash">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryGroup.LanguageStateDate">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSPackageTypeEnum">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSPackageTypeEnum.Cx">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSPackageTypeEnum.Corporate">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSPackageTypeEnum.Project">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSPackageTypeEnum.Team">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.Preset">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Preset.PresetName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Preset.ID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Preset.owningUser">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Preset.isUserAllowToUpdate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.Preset.isUserAllowToDelete">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.InstallationSetting">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.InstallationSetting.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.InstallationSetting.ID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.InstallationSetting.DNSName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.InstallationSetting.IP">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.InstallationSetting.State">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.InstallationSetting.Version">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.InstallationSetting.Hotfix">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.InstallationSetting.InstllationPath">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.InstallationSetting.IsInstalled">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxPredefinedCommand">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPredefinedCommand.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPredefinedCommand.Name">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPredefinedCommand.Command">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPredefinedCommand.CommandType">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxPredefinedCommandType">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxPredefinedCommandType.SourceControlCommand">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxPredefinedCommandType.PostScan">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SystemSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.ReportFolder">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.ResultFolder">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.ExecutablesFolder">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.SMTPHost">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.SMTPPort">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.EMailFromAddress">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.SMTPUserName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.SMTPPassword">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.SMTPUseDefaultCredentials">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.SmtpOverSsl">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.SMTPEncryption">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.MaxScans">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.CompletedScanShowTimeInMin">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.commands">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.WebServer">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.DefaultLanguage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.AllowAutoSignIn">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.DefaultGitHubEventThreshold">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.NotifyLicenseExpiration">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.GitExePath">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemSettings.PerforceExePath">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SystemLanguage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemLanguage.languageLCID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SystemLanguage.isDefault">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.SupportedLanguage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SupportedLanguage.language">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.SupportedLanguage.isSupported">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxPermission">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPermission.Id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPermission.ViewPreScanActions">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxPermission.ViewPostScanActions">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSLdapGroup">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapGroup.DN">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapGroup.Name">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSLdapGroupMapping">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapGroupMapping.LdapServerId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSLdapGroupMapping.LdapGroup">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.TeamData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.TeamData.Team">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.TeamData.Company">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.TeamData.ServiceProvider">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.TeamData.LdapGroupMappings">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseDomainUserList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseDomainUserList.UserList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseUserDirectories">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseUserDirectories.Domains">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseHierarchyGroupNodes">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseHierarchyGroupNodes.HierarchyGroupNodes">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSingleUserData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSingleUserData.UserData">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseProfileData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseProfileData.ProfileData">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponsePendingUsersList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsePendingUsersList.pendingUsersList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseResultStateList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseResultStateList.ResultStateList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSourcesContent">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSourcesContent.cxWSResponseSourcesContent">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSourcesContent.Encode">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSourceContent">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSourceContent.Source">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSourceContent.Encode">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseResultDescription">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseResultDescription.ResultDescription">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseQueryDescription">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseQueryDescription.QueryDescription">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseDeleteScans">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseDeleteScans.IsConfirmation">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseDeleteScans.Flags">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseDeleteScans.UndeletedScans">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseDeleteScans.NumOfDeletedScans">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseScanLog">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanLog.ScanLog">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponceScanCompareResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponceScanCompareResults.Results">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseScanCompareSummary">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanCompareSummary.Total">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanCompareSummary.High">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanCompareSummary.Medium">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanCompareSummary.Low">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanCompareSummary.Info">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseScanSummary">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.Started">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.Finished">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.ScanRisk">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.Preset">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.Path">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.Comment">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.LOC">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.FilesCount">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.High">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.Medium">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.Low">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.Info">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.ScanRiskSeverity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.ScanRiskQuantity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.IsIncremental">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.ScanType">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.ScanLanguageStateCollection">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.EngineStart">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.EngineFinish">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.ScanQueued">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.TotalScanTime">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.StatisticsCalculationDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummary.TeamName">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseScanSummaryExtended">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummaryExtended.ScanCompletedStatus">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanSummaryExtended.PartialSASTScans">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseScansDisplayExtendedData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScansDisplayExtendedData.PageCount">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScansDisplayExtendedData.ScanList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseScanProperties">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanProperties.Top5Vulnes">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanProperties.ScanRiskParams">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanProperties.Comment">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanProperties.StatisticsCalculationDate">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseScansDisplayData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScansDisplayData.ScanList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseDeleteProjects">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseDeleteProjects.IsConfirmation">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseDeleteProjects.Flags">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseDeleteProjects.UndeletedProjects">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseDeleteProjects.NumOfDeletedProjects">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseResultStateUpdate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseResultStateUpdate.PathInfluenceExists">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseResultStateUpdate.UpdatedResultState">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseResultStateUpdate.InfluencedPathsDetails">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponsProjectChartData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsProjectChartData.ScansRiskLevelList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsProjectChartData.ScanResultSummaryList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsProjectChartData.LastStatisticsCalcDate">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponsProjectProperties">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsProjectProperties.ProjectConfig">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsProjectProperties.ProjectChartData">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseProjectConfig">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseProjectConfig.ProjectConfig">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseProjectConfig.Permission">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseProjectsDisplayData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseProjectsDisplayData.projectList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseProjectsDisplayData.PageCount">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseProjectsData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseProjectsData.ProjectsList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseQueueRunID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseQueueRunID.RunId">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseExtendedScanStatusArray">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseExtendedScanStatusArray.statusArr">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseExtendedScanStatus">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseExtendedScanStatus.IsIncremental">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseScanStatus">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.CurrentStage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.QueuePosition">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.TotalPercent">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.CurrentStagePercent">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.Owner">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.StageName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.StageMessage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.StepMessage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.StepDetails">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.ResultId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.ScanId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.ProjectId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.TaskId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.TaskName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.ProjectName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.RunId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.SourceId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.LOC">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.TimeScheduled">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.ElapsedTime">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.TimeFinished">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.TimeBeginWorking">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.CurrentStatus">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.ServerName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.Origin">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.IsPublic">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanStatus.PartialResults">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CurrentStatusEnum">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CurrentStatusEnum.Queued">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CurrentStatusEnum.Working">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CurrentStatusEnum.Finished">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CurrentStatusEnum.Failed">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CurrentStatusEnum.Canceled">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CurrentStatusEnum.Deleted">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CurrentStatusEnum.Unknown">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CurrentStatusEnum.Unzipping">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CurrentStatusEnum.WaitingToProcess">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseCountLines">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseCountLines.NumOfLines">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSourceActionList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSourceActionList.ActionList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseFileSystemLayer">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseFileSystemLayer.FolderList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseConfigSetList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseConfigSetList.ConfigSetList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseGroupList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseGroupList.GroupList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseCache">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseCache.Cache">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CXWSResponseResultSummary">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CXWSResponseResultSummary.SummaryList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseResultCollection">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseResultCollection.ResultCollection">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSourceContainer">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSourceContainer.sourceCodeContainer">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSourceID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSourceID.ProjectID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSourceID.SourceID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseProjectsScansList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseProjectsScansList.projects">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseLicenseExpirationDateDetails">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLicenseExpirationDateDetails.LicenseExpirationDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLicenseExpirationDateDetails.ShouldDisplayExpirationDate">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSDataRetentionRequestResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionRequestResponse.DataRetentionRequest">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSDataRetentionStatusResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionStatusResponse.Status">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionStatusResponse.CurrentProgress">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionStatusResponse.TotalProgress">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSDataRetentionStatusResponse.StageError">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseTeamLdapGroupMappingData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseTeamLdapGroupMappingData.TeamId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseTeamLdapGroupMappingData.LdapGroups">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseLDAPServerGroups">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLDAPServerGroups.Groups">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseIdNamePairList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseIdNamePairList.Items">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseLDAPServersConfiguration">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLDAPServersConfiguration.serverConfigs">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseJSONData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseJSONData.JSONData">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseFailedScansDisplayData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseFailedScansDisplayData.FailedScansList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseProjectScannedDisplayData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseProjectScannedDisplayData.ProjectScannedList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseProjectScannedDisplayData.NumberRows">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxTeamPathsResponseResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxTeamPathsResponseResponse.sourceTeamFullPath">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxTeamPathsResponseResponse.destinationTeamFullPath">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSCxMoveTeamResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSCxMoveTeamResponse.Message">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSCxVersionResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSCxVersionResponse.Version">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemResponse">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemRetrieveResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemRetrieveResponse.TrackingSystems">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemSaveResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemSaveResponse.TrackingSystem">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemMetaResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSIssueTrackingSystemMetaResponse.MetaData">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSUserPreferencesResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSUserPreferencesResponse.Preferences">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseScanResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanResults.ScanResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseScanResults.containsAllResults">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSReportStatusResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportStatusResponse.IsReady">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSReportStatusResponse.IsFailed">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSProjectBranchingStatusResponse">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSCreateReportResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSCreateReportResponse.ID">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseTransportedQueries">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseTransportedQueries.Queries">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseExistsingTransportedPresetQueries">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseExistsingTransportedPresetQueries.PresetNameExists">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseExistsingTransportedPresetQueries.PresetName">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSImportQueriesRepsonse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSImportQueriesRepsonse.requestId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSImportQueriesRepsonse.importQueryStatus">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ImportQueryStatus">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ImportQueryStatus.New">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ImportQueryStatus.OnProgress">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ImportQueryStatus.Failed">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ImportQueryStatus.Succeeded">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponsePreset">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsePreset.Preset">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsePreset.OverridenCorpQueryNames">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseQueries">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseQueries.Queries">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseRunID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseRunID.ProjectID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseRunID.RunId">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseEngineServerId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseEngineServerId.id">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseEngineServerId.isContinuousRange">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseEngineServerId.continuousRangeWarningMessage">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseEngineServers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseEngineServers.list">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSaasPackage">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasPackage.packages">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSessionID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSessionID.SessionId">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseLoginData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.FamilyName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.FirstName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.UserName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.Email">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.UserID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.UserPreferedLanguageLCID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToCreateProject">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToChangeProject">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToManageUsers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToViewCompanies">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToManageCompanies">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToManageServer">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToViewInstallationData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToViewSp">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToManageSp">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsScanner">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAuditor">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToManagePresets">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.isAllowedToManagePredefinedCommand">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToManagePostScanAction">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToModifyResultDetails">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.EnableIncrementalScan">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.ShowSaaSPackageNotificationAndErrors">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.ShowSaaSPackageDetails">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAdviseChangePassword">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToManageITSServers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.AllowedToChangeNotExploitable">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseLoginData.IsAllowedToDeleteScans">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToUseSourceControl">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.isAllowedToCreatePDF">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToUseOnlineViewer">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToUsePlugins">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToViewResultState">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToEditResultState">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToViewResultSeverity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToEditResultSeverity">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToViewAssignTo">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToEditAssignTo">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToViewComments">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.IsAllowedToEditComments">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseShortQueryDescription">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseShortQueryDescription.QueryId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseShortQueryDescription.CweId">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseShortQueryDescription.QueryDescription">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponsePivotLayouts">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsePivotLayouts.Layouts">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponsePivotTable">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsePivotTable.PivotTable">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseBool">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseBool.result">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseAssignUsers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseAssignUsers.AssignUsers">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseUserData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseUserData.UserDataList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseNameList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseNameList.NameList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponsePredefinedCommands">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsePredefinedCommands.commands">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseCustomFieldValues">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseCustomFieldValues.Values">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseCustomFields">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseCustomFields.fieldsArray">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseResultGraph">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseResultGraph.Nodes">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseResultGraph.Edges">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseResultGraph.Partial">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseResultPaths">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseResultPaths.Paths">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponceFileNames">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponceFileNames.fileNames">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponceResultPath">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponceResultPath.Path">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponceScanResults">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponceScanResults.Results">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponceQuerisForScan">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponceQuerisForScan.Queries">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSQueryVersionDetailsResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSQueryVersionDetailsResponse.QueryDetails">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseQueriesCategories">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseQueriesCategories.QueriesCategories">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponsePresetDetails">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsePresetDetails.preset">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxQueryCollectionResponse">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxQueryCollectionResponse.QueryGroups">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponsePresetList">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponsePresetList.PresetList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseInstallationSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseInstallationSettings.InstallationSettingsList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWsResponseSystemSettings">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWsResponseSystemSettings.SysSettings">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSystemLanguages">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSystemLanguages.list">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseUsersLicenseData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseUsersLicenseData.MaxReviewers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseUsersLicenseData.CurrentReviewers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseUsersLicenseData.MaxScanners">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseUsersLicenseData.CurrentScanners">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseCompaniesLicenseData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseCompaniesLicenseData.MaxCompanyManagers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseCompaniesLicenseData.CurrentCompanyManagers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseCompaniesLicenseData.MaxCompanyManagersWithAudit">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseCompaniesLicenseData.CurrentCompanyManagersWithAudit">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseCompaniesLicenseData.MaxCompanies">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseCompaniesLicenseData.CurrentCompanies">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseSPLicenseData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSPLicenseData.MaxSPManagers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSPLicenseData.CurrentSPManagers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSPLicenseData.CurrentSPs">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseSPLicenseData.MaxSPs">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseServerManagersLicenseData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerManagersLicenseData.MaxServerManagers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerManagersLicenseData.CurrentServerManagers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerManagersLicenseData.MaxServerManagersWithAudit">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerManagersLicenseData.CurrentServerManagersWithAudit">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.ExpirationDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.MaxConcurrentScans">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.MaxLOC">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.HID">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.SupportedLanguages">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.MaxUsers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.CurrentUsers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.MaxAuditUsers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.CurrentAuditUsers">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.IsOsaEnabled">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.OsaExpirationDate">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.Edition">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.ProjectsAllowed">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.CurrentProjectsCount">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.LicenseEdition">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.LicenseEdition.SDLC">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.LicenseEdition.SecurityGate">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWsResponseCompanyProperties">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWsResponseCompanyProperties.CompanyName">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWsResponseCompanyProperties.permission">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSResponseTeamData">
+<remarks/>
+</member>
+<member name="P:ConsoleApp2.CxPortal.CxWSResponseTeamData.TeamDataList">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.ResultLabelTypeEnum">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ResultLabelTypeEnum.IgnorePath">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ResultLabelTypeEnum.Remark">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ResultLabelTypeEnum.Severity">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ResultLabelTypeEnum.State">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ResultLabelTypeEnum.Assign">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.ResultLabelTypeEnum.IssueTracking">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSGraphTypeEnum">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSGraphTypeEnum.Full">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSGraphTypeEnum.KeyPoints">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSGraphTypeEnum.Ends">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSGraphTypeEnum.none">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxWSSearchPatternOption">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSSearchPatternOption.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSSearchPatternOption.StartsWith">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxWSSearchPatternOption.Contains">
+<remarks/>
+</member>
+<member name="T:ConsoleApp2.CxPortal.CxUserTypes">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxUserTypes.None">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxUserTypes.Domain">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxUserTypes.Application">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxUserTypes.OpenID">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxUserTypes.SSO">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxUserTypes.LDAP">
+<remarks/>
+</member>
+<member name="F:ConsoleApp2.CxPortal.CxUserTypes.SAML">
+<remarks/>
+</member>
+</members>
+</doc>

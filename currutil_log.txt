@@ -1,0 +1,33 @@
+23/8/2019 10:20:16 AM: ------------------------------------------
+23/8/2019 10:20:16 AM: Argument: adduser
+23/8/2019 10:20:16 AM: Argument: username=MyActiveDirectory\aromero
+23/8/2019 10:20:16 AM: Argument: role=Scanner
+23/8/2019 10:20:16 AM: Argument: team=CxServer\SP\APAC,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 10:20:16 AM: Argument: usertype=LDAP
+23/8/2019 10:20:16 AM: Argument: firstname=alice
+23/8/2019 10:20:16 AM: Argument: lastname=romero
+23/8/2019 10:20:16 AM: Argument: email=alice.romero@mycheckmarx.com
+23/8/2019 10:20:16 AM: Argument: loggingenabled=true
+23/8/2019 10:20:16 AM: CLI Action - Add User
+23/8/2019 10:20:39 AM: ------------------------------------------
+23/8/2019 10:20:39 AM: Argument: adduser
+23/8/2019 10:20:39 AM: Argument: username=MyActiveDirectory\aromero
+23/8/2019 10:20:39 AM: Argument: role=Scanner
+23/8/2019 10:20:39 AM: Argument: team=CxServer\SP\APAC,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 10:20:39 AM: Argument: usertype=LDAP
+23/8/2019 10:20:39 AM: Argument: firstname=alice
+23/8/2019 10:20:39 AM: Argument: lastname=romero
+23/8/2019 10:20:39 AM: Argument: email=alice.romero@mycheckmarx.com
+23/8/2019 10:20:39 AM: Argument: loggingenabled=true
+23/8/2019 10:20:39 AM: CLI Action - Add User
+23/8/2019 10:21:07 AM: ------------------------------------------
+23/8/2019 10:21:07 AM: Argument: adduser
+23/8/2019 10:21:07 AM: Argument: username=MyActiveDirectory\aromero
+23/8/2019 10:21:07 AM: Argument: role=Scanner
+23/8/2019 10:21:07 AM: Argument: team=CxServer\SP\APAC,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 10:21:07 AM: Argument: usertype=LDAP
+23/8/2019 10:21:07 AM: Argument: firstname=alice
+23/8/2019 10:21:07 AM: Argument: lastname=romero
+23/8/2019 10:21:07 AM: Argument: email=alice.romero@mycheckmarx.com
+23/8/2019 10:21:07 AM: Argument: loggingenabled=true
+23/8/2019 10:21:07 AM: CLI Action - Add User

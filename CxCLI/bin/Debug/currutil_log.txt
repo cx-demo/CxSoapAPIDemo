@@ -97,3 +97,2023 @@
 2/12/2019 9:51:48 PM: Obtained Session IDs For PORTAL And SDK APIs
 2/12/2019 9:51:48 PM: Activating Session:True
 2/12/2019 9:51:48 PM: CONSOLE:CURRENT SCANS
+21/8/2019 10:36:39 AM: ------------------------------------------
+21/8/2019 10:36:39 AM: Argument: createhierarchy
+21/8/2019 10:36:39 AM: Argument: hierarchy=CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:36:39 AM: Argument: loggingenabled=true
+21/8/2019 10:36:39 AM: CLI Action - Create Hierarchy
+21/8/2019 10:36:41 AM: Private SOAP:True:
+21/8/2019 10:36:41 AM: Public SOAP:True:
+21/8/2019 10:36:41 AM: Obtained Session IDs For PORTAL And SDK APIs
+21/8/2019 10:36:41 AM: Activating Session:True
+21/8/2019 10:36:41 AM: ***********************************
+21/8/2019 10:36:41 AM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 10:36:41 AM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 10:36:41 AM: GroupName: CxServer
+21/8/2019 10:36:41 AM: Path: 
+21/8/2019 10:36:41 AM: FullPath: 
+21/8/2019 10:36:41 AM: Childs Len: 1
+21/8/2019 10:36:41 AM: GroupType Server
+21/8/2019 10:36:41 AM: ***********************************
+21/8/2019 10:36:41 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:36:41 AM: #Child nodes: 1
+21/8/2019 10:36:41 AM: ***********************************
+21/8/2019 10:36:41 AM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 10:36:41 AM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 10:36:41 AM: GroupName: SP
+21/8/2019 10:36:41 AM: Path: CxServer
+21/8/2019 10:36:41 AM: FullPath: CxServer\SP
+21/8/2019 10:36:41 AM: Childs Len: 3
+21/8/2019 10:36:41 AM: GroupType SP
+21/8/2019 10:36:41 AM: ***********************************
+21/8/2019 10:36:41 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:36:41 AM: #Child nodes: 3
+21/8/2019 10:36:41 AM: ***********************************
+21/8/2019 10:36:41 AM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 10:36:41 AM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 10:36:41 AM: GroupName: APAC
+21/8/2019 10:36:41 AM: Path: CxServer\SP
+21/8/2019 10:36:41 AM: FullPath: CxServer\SP\APAC
+21/8/2019 10:36:41 AM: Childs Len: 2
+21/8/2019 10:36:41 AM: GroupType Company
+21/8/2019 10:36:41 AM: ***********************************
+21/8/2019 10:36:41 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:36:41 AM: #Child nodes: 2
+21/8/2019 10:36:41 AM: ***********************************
+21/8/2019 10:36:41 AM: GroupId: 0ba86dd6-f35b-4053-a084-a4e3e88756c0
+21/8/2019 10:36:41 AM: GUID: 0ba86dd6-f35b-4053-a084-a4e3e88756c0
+21/8/2019 10:36:41 AM: GroupName: DevOps
+21/8/2019 10:36:41 AM: Path: CxServer\SP\APAC
+21/8/2019 10:36:41 AM: FullPath: CxServer\SP\APAC\DevOps
+21/8/2019 10:36:41 AM: Childs Len: 1
+21/8/2019 10:36:41 AM: GroupType Team
+21/8/2019 10:36:41 AM: ***********************************
+21/8/2019 10:36:41 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:36:41 AM: #Child nodes: 1
+21/8/2019 10:36:41 AM: ***********************************
+21/8/2019 10:36:41 AM: GroupId: 815b7053-cd5b-418b-944d-1d257c88552c
+21/8/2019 10:36:41 AM: GUID: 815b7053-cd5b-418b-944d-1d257c88552c
+21/8/2019 10:36:41 AM: GroupName: Team1
+21/8/2019 10:36:41 AM: Path: CxServer\SP\APAC\DevOps
+21/8/2019 10:36:41 AM: FullPath: CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:36:41 AM: Childs Len: 0
+21/8/2019 10:36:41 AM: GroupType Team
+21/8/2019 10:36:41 AM: ***********************************
+21/8/2019 10:36:41 AM: Console: Path Exists: CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:36:41 AM: transverse inner: True
+21/8/2019 10:36:41 AM: transverse inner: True
+21/8/2019 10:36:41 AM: transverse inner: True
+21/8/2019 10:36:41 AM: transverse inner: True
+21/8/2019 10:37:18 AM: ------------------------------------------
+21/8/2019 10:37:18 AM: Argument: createhierarchy
+21/8/2019 10:37:18 AM: Argument: hierarchy=CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:18 AM: Argument: loggingenabled=true
+21/8/2019 10:37:18 AM: CLI Action - Create Hierarchy
+21/8/2019 10:37:20 AM: Private SOAP:True:
+21/8/2019 10:37:20 AM: Public SOAP:True:
+21/8/2019 10:37:20 AM: Obtained Session IDs For PORTAL And SDK APIs
+21/8/2019 10:37:20 AM: Activating Session:True
+21/8/2019 10:37:20 AM: ***********************************
+21/8/2019 10:37:20 AM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 10:37:20 AM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 10:37:20 AM: GroupName: CxServer
+21/8/2019 10:37:20 AM: Path: 
+21/8/2019 10:37:20 AM: FullPath: 
+21/8/2019 10:37:20 AM: Childs Len: 1
+21/8/2019 10:37:20 AM: GroupType Server
+21/8/2019 10:37:20 AM: ***********************************
+21/8/2019 10:37:20 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:20 AM: #Child nodes: 1
+21/8/2019 10:37:20 AM: ***********************************
+21/8/2019 10:37:20 AM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 10:37:20 AM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 10:37:20 AM: GroupName: SP
+21/8/2019 10:37:20 AM: Path: CxServer
+21/8/2019 10:37:20 AM: FullPath: CxServer\SP
+21/8/2019 10:37:20 AM: Childs Len: 3
+21/8/2019 10:37:20 AM: GroupType SP
+21/8/2019 10:37:20 AM: ***********************************
+21/8/2019 10:37:20 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:20 AM: #Child nodes: 3
+21/8/2019 10:37:20 AM: ***********************************
+21/8/2019 10:37:20 AM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 10:37:20 AM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 10:37:20 AM: GroupName: APAC
+21/8/2019 10:37:20 AM: Path: CxServer\SP
+21/8/2019 10:37:20 AM: FullPath: CxServer\SP\APAC
+21/8/2019 10:37:20 AM: Childs Len: 2
+21/8/2019 10:37:20 AM: GroupType Company
+21/8/2019 10:37:20 AM: ***********************************
+21/8/2019 10:37:20 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:20 AM: #Child nodes: 2
+21/8/2019 10:37:20 AM: ***********************************
+21/8/2019 10:37:20 AM: GroupId: 0ba86dd6-f35b-4053-a084-a4e3e88756c0
+21/8/2019 10:37:20 AM: GUID: 0ba86dd6-f35b-4053-a084-a4e3e88756c0
+21/8/2019 10:37:20 AM: GroupName: DevOps
+21/8/2019 10:37:20 AM: Path: CxServer\SP\APAC
+21/8/2019 10:37:20 AM: FullPath: CxServer\SP\APAC\DevOps
+21/8/2019 10:37:20 AM: Childs Len: 1
+21/8/2019 10:37:20 AM: GroupType Team
+21/8/2019 10:37:20 AM: ***********************************
+21/8/2019 10:37:20 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:20 AM: #Child nodes: 1
+21/8/2019 10:37:20 AM: ***********************************
+21/8/2019 10:37:20 AM: GroupId: 815b7053-cd5b-418b-944d-1d257c88552c
+21/8/2019 10:37:20 AM: GUID: 815b7053-cd5b-418b-944d-1d257c88552c
+21/8/2019 10:37:20 AM: GroupName: Team1
+21/8/2019 10:37:20 AM: Path: CxServer\SP\APAC\DevOps
+21/8/2019 10:37:20 AM: FullPath: CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:20 AM: Childs Len: 0
+21/8/2019 10:37:20 AM: GroupType Team
+21/8/2019 10:37:20 AM: ***********************************
+21/8/2019 10:37:20 AM: Console: Path Exists: CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:20 AM: transverse inner: True
+21/8/2019 10:37:20 AM: transverse inner: True
+21/8/2019 10:37:20 AM: transverse inner: True
+21/8/2019 10:37:20 AM: transverse inner: True
+21/8/2019 10:37:35 AM: ------------------------------------------
+21/8/2019 10:37:35 AM: Argument: createhierarchy
+21/8/2019 10:37:35 AM: Argument: hierarchy=CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:35 AM: Argument: loggingenabled=true
+21/8/2019 10:37:35 AM: CLI Action - Create Hierarchy
+21/8/2019 10:37:38 AM: Private SOAP:True:
+21/8/2019 10:37:38 AM: Public SOAP:True:
+21/8/2019 10:37:38 AM: Obtained Session IDs For PORTAL And SDK APIs
+21/8/2019 10:37:38 AM: Activating Session:True
+21/8/2019 10:37:38 AM: ***********************************
+21/8/2019 10:37:38 AM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 10:37:38 AM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 10:37:38 AM: GroupName: CxServer
+21/8/2019 10:37:38 AM: Path: 
+21/8/2019 10:37:38 AM: FullPath: 
+21/8/2019 10:37:38 AM: Childs Len: 1
+21/8/2019 10:37:38 AM: GroupType Server
+21/8/2019 10:37:38 AM: ***********************************
+21/8/2019 10:37:38 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:38 AM: #Child nodes: 1
+21/8/2019 10:37:38 AM: ***********************************
+21/8/2019 10:37:38 AM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 10:37:38 AM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 10:37:38 AM: GroupName: SP
+21/8/2019 10:37:38 AM: Path: CxServer
+21/8/2019 10:37:38 AM: FullPath: CxServer\SP
+21/8/2019 10:37:38 AM: Childs Len: 3
+21/8/2019 10:37:38 AM: GroupType SP
+21/8/2019 10:37:38 AM: ***********************************
+21/8/2019 10:37:38 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:38 AM: #Child nodes: 3
+21/8/2019 10:37:38 AM: ***********************************
+21/8/2019 10:37:38 AM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 10:37:38 AM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 10:37:38 AM: GroupName: APAC
+21/8/2019 10:37:38 AM: Path: CxServer\SP
+21/8/2019 10:37:38 AM: FullPath: CxServer\SP\APAC
+21/8/2019 10:37:38 AM: Childs Len: 2
+21/8/2019 10:37:38 AM: GroupType Company
+21/8/2019 10:37:38 AM: ***********************************
+21/8/2019 10:37:38 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:38 AM: #Child nodes: 2
+21/8/2019 10:37:38 AM: ***********************************
+21/8/2019 10:37:38 AM: GroupId: 0ba86dd6-f35b-4053-a084-a4e3e88756c0
+21/8/2019 10:37:38 AM: GUID: 0ba86dd6-f35b-4053-a084-a4e3e88756c0
+21/8/2019 10:37:38 AM: GroupName: DevOps
+21/8/2019 10:37:38 AM: Path: CxServer\SP\APAC
+21/8/2019 10:37:38 AM: FullPath: CxServer\SP\APAC\DevOps
+21/8/2019 10:37:38 AM: Childs Len: 1
+21/8/2019 10:37:38 AM: GroupType Team
+21/8/2019 10:37:38 AM: ***********************************
+21/8/2019 10:37:38 AM: Starting path exists for CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:38 AM: #Child nodes: 1
+21/8/2019 10:37:38 AM: ***********************************
+21/8/2019 10:37:38 AM: GroupId: 815b7053-cd5b-418b-944d-1d257c88552c
+21/8/2019 10:37:38 AM: GUID: 815b7053-cd5b-418b-944d-1d257c88552c
+21/8/2019 10:37:38 AM: GroupName: Team1
+21/8/2019 10:37:38 AM: Path: CxServer\SP\APAC\DevOps
+21/8/2019 10:37:38 AM: FullPath: CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:38 AM: Childs Len: 0
+21/8/2019 10:37:38 AM: GroupType Team
+21/8/2019 10:37:38 AM: ***********************************
+21/8/2019 10:37:38 AM: CONSOLE: Path Exists: CxServer\SP\APAC\DevOps\Team1
+21/8/2019 10:37:38 AM: transverse inner: True
+21/8/2019 10:37:38 AM: transverse inner: True
+21/8/2019 10:37:38 AM: transverse inner: True
+21/8/2019 10:37:38 AM: transverse inner: True
+21/8/2019 10:46:28 AM: ------------------------------------------
+21/8/2019 10:46:28 AM: Argument: login
+21/8/2019 10:46:28 AM: Argument: user=administrator
+21/8/2019 10:46:28 AM: Argument: pass=Cx!123456
+21/8/2019 10:46:28 AM: Argument: loggingenabled=true
+21/8/2019 10:46:28 AM: CLI Action - User Login
+21/8/2019 10:46:28 AM: CONSOLE:administrator
+21/8/2019 10:46:28 AM: CONSOLE:Cx!123456
+21/8/2019 10:46:30 AM: CONSOLE:Login successful for administrator
+21/8/2019 7:04:59 PM: ------------------------------------------
+21/8/2019 7:04:59 PM: Argument: createhierarchy
+21/8/2019 7:04:59 PM: Argument: hierarchy=CxServer\SP\APAC\RND\Team1
+21/8/2019 7:04:59 PM: Argument: ldapservername=MyActiveDirectory
+21/8/2019 7:04:59 PM: Argument: ldapgroups=APAC-RND-Scanner-All,
+21/8/2019 7:04:59 PM: Argument: APAC-RND-Reviewer-All
+21/8/2019 7:04:59 PM: Argument: loggingenabled=true
+21/8/2019 7:04:59 PM: CLI Action - Create Hierarchy
+21/8/2019 7:05:01 PM: Private SOAP:True:
+21/8/2019 7:05:01 PM: Public SOAP:True:
+21/8/2019 7:05:01 PM: Obtained Session IDs For PORTAL And SDK APIs
+21/8/2019 7:05:01 PM: Activating Session:True
+21/8/2019 7:05:01 PM: ***********************************
+21/8/2019 7:05:01 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:05:01 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:05:01 PM: GroupName: CxServer
+21/8/2019 7:05:01 PM: Path: 
+21/8/2019 7:05:01 PM: FullPath: 
+21/8/2019 7:05:01 PM: Childs Len: 1
+21/8/2019 7:05:01 PM: GroupType Server
+21/8/2019 7:05:01 PM: ***********************************
+21/8/2019 7:05:01 PM: ***********************************
+21/8/2019 7:05:01 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:05:01 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:05:01 PM: GroupName: SP
+21/8/2019 7:05:01 PM: Path: CxServer
+21/8/2019 7:05:01 PM: FullPath: CxServer\SP
+21/8/2019 7:05:01 PM: Childs Len: 3
+21/8/2019 7:05:01 PM: GroupType SP
+21/8/2019 7:05:01 PM: ***********************************
+21/8/2019 7:05:01 PM: ***********************************
+21/8/2019 7:05:01 PM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:05:01 PM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:05:01 PM: GroupName: APAC
+21/8/2019 7:05:01 PM: Path: CxServer\SP
+21/8/2019 7:05:01 PM: FullPath: CxServer\SP\APAC
+21/8/2019 7:05:01 PM: Childs Len: 2
+21/8/2019 7:05:01 PM: GroupType Company
+21/8/2019 7:05:01 PM: ***********************************
+21/8/2019 7:05:01 PM: ***********************************
+21/8/2019 7:05:01 PM: GroupId: b405aacc-f1cc-4f3c-810b-4400beaa7260
+21/8/2019 7:05:01 PM: GUID: b405aacc-f1cc-4f3c-810b-4400beaa7260
+21/8/2019 7:05:01 PM: GroupName: RND
+21/8/2019 7:05:01 PM: Path: CxServer\SP\APAC
+21/8/2019 7:05:01 PM: FullPath: CxServer\SP\APAC\RND
+21/8/2019 7:05:01 PM: Childs Len: 2
+21/8/2019 7:05:01 PM: GroupType Team
+21/8/2019 7:05:01 PM: ***********************************
+21/8/2019 7:05:01 PM: ***********************************
+21/8/2019 7:05:01 PM: GroupId: 111e2797-2234-42b6-b2dd-ca0aeb4f213d
+21/8/2019 7:05:01 PM: GUID: 111e2797-2234-42b6-b2dd-ca0aeb4f213d
+21/8/2019 7:05:01 PM: GroupName: Team1
+21/8/2019 7:05:01 PM: Path: CxServer\SP\APAC\RND
+21/8/2019 7:05:01 PM: FullPath: CxServer\SP\APAC\RND\Team1
+21/8/2019 7:05:01 PM: Childs Len: 0
+21/8/2019 7:05:01 PM: GroupType Team
+21/8/2019 7:05:01 PM: ***********************************
+21/8/2019 7:11:20 PM: ------------------------------------------
+21/8/2019 7:11:20 PM: Argument: createhierarchy
+21/8/2019 7:11:20 PM: Argument: hierarchy=CxServer\SP\APAC\RND\Team1
+21/8/2019 7:11:20 PM: Argument: ldapservername=MyActiveDirectory
+21/8/2019 7:11:20 PM: Argument: ldapgroups=APAC-RND-Scanner-All,
+21/8/2019 7:11:20 PM: Argument: APAC-RND-Reviewer-All
+21/8/2019 7:11:20 PM: Argument: loggingenabled=true
+21/8/2019 7:11:20 PM: CLI Action - Create Hierarchy
+21/8/2019 7:11:23 PM: Private SOAP:True:
+21/8/2019 7:11:23 PM: Public SOAP:True:
+21/8/2019 7:11:23 PM: Obtained Session IDs For PORTAL And SDK APIs
+21/8/2019 7:11:23 PM: Activating Session:True
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:11:23 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:11:23 PM: GroupName: CxServer
+21/8/2019 7:11:23 PM: Path: 
+21/8/2019 7:11:23 PM: FullPath: 
+21/8/2019 7:11:23 PM: Childs Len: 1
+21/8/2019 7:11:23 PM: GroupType Server
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:11:23 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:11:23 PM: GroupName: SP
+21/8/2019 7:11:23 PM: Path: CxServer
+21/8/2019 7:11:23 PM: FullPath: CxServer\SP
+21/8/2019 7:11:23 PM: Childs Len: 3
+21/8/2019 7:11:23 PM: GroupType SP
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:11:23 PM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:11:23 PM: GroupName: APAC
+21/8/2019 7:11:23 PM: Path: CxServer\SP
+21/8/2019 7:11:23 PM: FullPath: CxServer\SP\APAC
+21/8/2019 7:11:23 PM: Childs Len: 2
+21/8/2019 7:11:23 PM: GroupType Company
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: befa1f76-0b85-4f6a-a217-95ac4646373f
+21/8/2019 7:11:23 PM: GUID: befa1f76-0b85-4f6a-a217-95ac4646373f
+21/8/2019 7:11:23 PM: GroupName: Devops
+21/8/2019 7:11:23 PM: Path: CxServer\SP\APAC
+21/8/2019 7:11:23 PM: FullPath: CxServer\SP\APAC\Devops
+21/8/2019 7:11:23 PM: Childs Len: 3
+21/8/2019 7:11:23 PM: GroupType Team
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: c5987283-7d1a-461f-bd20-af3651a27f07
+21/8/2019 7:11:23 PM: GUID: c5987283-7d1a-461f-bd20-af3651a27f07
+21/8/2019 7:11:23 PM: GroupName: RND
+21/8/2019 7:11:23 PM: Path: CxServer\SP\APAC
+21/8/2019 7:11:23 PM: FullPath: CxServer\SP\APAC\RND
+21/8/2019 7:11:23 PM: Childs Len: 1
+21/8/2019 7:11:23 PM: GroupType Team
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: 4c6282a6-6dec-43cc-943d-381102fdf21c
+21/8/2019 7:11:23 PM: GUID: 4c6282a6-6dec-43cc-943d-381102fdf21c
+21/8/2019 7:11:23 PM: GroupName: Team3
+21/8/2019 7:11:23 PM: Path: CxServer\SP\APAC\RND
+21/8/2019 7:11:23 PM: FullPath: CxServer\SP\APAC\RND\Team3
+21/8/2019 7:11:23 PM: Childs Len: 0
+21/8/2019 7:11:23 PM: GroupType Team
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: extract missing groups CxServer\SP\APAC\RND\Team1 from CxServer\SP\APAC\RND
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:11:23 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:11:23 PM: GroupName: CxServer
+21/8/2019 7:11:23 PM: Path: 
+21/8/2019 7:11:23 PM: FullPath: 
+21/8/2019 7:11:23 PM: Childs Len: 1
+21/8/2019 7:11:23 PM: GroupType Server
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:11:23 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:11:23 PM: GroupName: SP
+21/8/2019 7:11:23 PM: Path: CxServer
+21/8/2019 7:11:23 PM: FullPath: CxServer\SP
+21/8/2019 7:11:23 PM: Childs Len: 3
+21/8/2019 7:11:23 PM: GroupType SP
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:11:23 PM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:11:23 PM: GroupName: APAC
+21/8/2019 7:11:23 PM: Path: CxServer\SP
+21/8/2019 7:11:23 PM: FullPath: CxServer\SP\APAC
+21/8/2019 7:11:23 PM: Childs Len: 2
+21/8/2019 7:11:23 PM: GroupType Company
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: befa1f76-0b85-4f6a-a217-95ac4646373f
+21/8/2019 7:11:23 PM: GUID: befa1f76-0b85-4f6a-a217-95ac4646373f
+21/8/2019 7:11:23 PM: GroupName: Devops
+21/8/2019 7:11:23 PM: Path: CxServer\SP\APAC
+21/8/2019 7:11:23 PM: FullPath: CxServer\SP\APAC\Devops
+21/8/2019 7:11:23 PM: Childs Len: 3
+21/8/2019 7:11:23 PM: GroupType Team
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: c5987283-7d1a-461f-bd20-af3651a27f07
+21/8/2019 7:11:23 PM: GUID: c5987283-7d1a-461f-bd20-af3651a27f07
+21/8/2019 7:11:23 PM: GroupName: RND
+21/8/2019 7:11:23 PM: Path: CxServer\SP\APAC
+21/8/2019 7:11:23 PM: FullPath: CxServer\SP\APAC\RND
+21/8/2019 7:11:23 PM: Childs Len: 2
+21/8/2019 7:11:23 PM: GroupType Team
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:11:23 PM: GroupId: 49163a21-e89c-4d62-8d36-81cbc699820f
+21/8/2019 7:11:23 PM: GUID: 49163a21-e89c-4d62-8d36-81cbc699820f
+21/8/2019 7:11:23 PM: GroupName: Team1
+21/8/2019 7:11:23 PM: Path: CxServer\SP\APAC\RND
+21/8/2019 7:11:23 PM: FullPath: CxServer\SP\APAC\RND\Team1
+21/8/2019 7:11:23 PM: Childs Len: 0
+21/8/2019 7:11:23 PM: GroupType Team
+21/8/2019 7:11:23 PM: ***********************************
+21/8/2019 7:12:04 PM: ------------------------------------------
+21/8/2019 7:12:04 PM: Argument: createhierarchy
+21/8/2019 7:12:04 PM: Argument: hierarchy=CxServer\SP\APAC\RND\Team1
+21/8/2019 7:12:04 PM: Argument: ldapservername=MyActiveDirectory
+21/8/2019 7:12:04 PM: Argument: ldapgroups=APAC-RND-Scanner-All,APAC-RND-Reviewer-All
+21/8/2019 7:12:04 PM: Argument: loggingenabled=true
+21/8/2019 7:12:04 PM: CLI Action - Create Hierarchy
+21/8/2019 7:12:06 PM: Private SOAP:True:
+21/8/2019 7:12:06 PM: Public SOAP:True:
+21/8/2019 7:12:06 PM: Obtained Session IDs For PORTAL And SDK APIs
+21/8/2019 7:12:06 PM: Activating Session:True
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:12:06 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:12:06 PM: GroupName: CxServer
+21/8/2019 7:12:06 PM: Path: 
+21/8/2019 7:12:06 PM: FullPath: 
+21/8/2019 7:12:06 PM: Childs Len: 1
+21/8/2019 7:12:06 PM: GroupType Server
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:12:06 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:12:06 PM: GroupName: SP
+21/8/2019 7:12:06 PM: Path: CxServer
+21/8/2019 7:12:06 PM: FullPath: CxServer\SP
+21/8/2019 7:12:06 PM: Childs Len: 3
+21/8/2019 7:12:06 PM: GroupType SP
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:12:06 PM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:12:06 PM: GroupName: APAC
+21/8/2019 7:12:06 PM: Path: CxServer\SP
+21/8/2019 7:12:06 PM: FullPath: CxServer\SP\APAC
+21/8/2019 7:12:06 PM: Childs Len: 1
+21/8/2019 7:12:06 PM: GroupType Company
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: befa1f76-0b85-4f6a-a217-95ac4646373f
+21/8/2019 7:12:06 PM: GUID: befa1f76-0b85-4f6a-a217-95ac4646373f
+21/8/2019 7:12:06 PM: GroupName: Devops
+21/8/2019 7:12:06 PM: Path: CxServer\SP\APAC
+21/8/2019 7:12:06 PM: FullPath: CxServer\SP\APAC\Devops
+21/8/2019 7:12:06 PM: Childs Len: 3
+21/8/2019 7:12:06 PM: GroupType Team
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: extract missing groups CxServer\SP\APAC\RND\Team1 from CxServer\SP\APAC
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:12:06 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:12:06 PM: GroupName: CxServer
+21/8/2019 7:12:06 PM: Path: 
+21/8/2019 7:12:06 PM: FullPath: 
+21/8/2019 7:12:06 PM: Childs Len: 1
+21/8/2019 7:12:06 PM: GroupType Server
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:12:06 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:12:06 PM: GroupName: SP
+21/8/2019 7:12:06 PM: Path: CxServer
+21/8/2019 7:12:06 PM: FullPath: CxServer\SP
+21/8/2019 7:12:06 PM: Childs Len: 3
+21/8/2019 7:12:06 PM: GroupType SP
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:12:06 PM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:12:06 PM: GroupName: APAC
+21/8/2019 7:12:06 PM: Path: CxServer\SP
+21/8/2019 7:12:06 PM: FullPath: CxServer\SP\APAC
+21/8/2019 7:12:06 PM: Childs Len: 2
+21/8/2019 7:12:06 PM: GroupType Company
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 93d0fc33-d3b7-4fe6-a054-a79fa69bf5f5
+21/8/2019 7:12:06 PM: GUID: 93d0fc33-d3b7-4fe6-a054-a79fa69bf5f5
+21/8/2019 7:12:06 PM: GroupName: RND
+21/8/2019 7:12:06 PM: Path: CxServer\SP\APAC
+21/8/2019 7:12:06 PM: FullPath: CxServer\SP\APAC\RND
+21/8/2019 7:12:06 PM: Childs Len: 0
+21/8/2019 7:12:06 PM: GroupType Team
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:12:06 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:12:06 PM: GroupName: CxServer
+21/8/2019 7:12:06 PM: Path: 
+21/8/2019 7:12:06 PM: FullPath: 
+21/8/2019 7:12:06 PM: Childs Len: 1
+21/8/2019 7:12:06 PM: GroupType Server
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:12:06 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:12:06 PM: GroupName: SP
+21/8/2019 7:12:06 PM: Path: CxServer
+21/8/2019 7:12:06 PM: FullPath: CxServer\SP
+21/8/2019 7:12:06 PM: Childs Len: 3
+21/8/2019 7:12:06 PM: GroupType SP
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:12:06 PM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:12:06 PM: GroupName: APAC
+21/8/2019 7:12:06 PM: Path: CxServer\SP
+21/8/2019 7:12:06 PM: FullPath: CxServer\SP\APAC
+21/8/2019 7:12:06 PM: Childs Len: 2
+21/8/2019 7:12:06 PM: GroupType Company
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 93d0fc33-d3b7-4fe6-a054-a79fa69bf5f5
+21/8/2019 7:12:06 PM: GUID: 93d0fc33-d3b7-4fe6-a054-a79fa69bf5f5
+21/8/2019 7:12:06 PM: GroupName: RND
+21/8/2019 7:12:06 PM: Path: CxServer\SP\APAC
+21/8/2019 7:12:06 PM: FullPath: CxServer\SP\APAC\RND
+21/8/2019 7:12:06 PM: Childs Len: 1
+21/8/2019 7:12:06 PM: GroupType Team
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:12:06 PM: GroupId: 15575466-7c6d-40e3-b790-bed44eee764e
+21/8/2019 7:12:06 PM: GUID: 15575466-7c6d-40e3-b790-bed44eee764e
+21/8/2019 7:12:06 PM: GroupName: Team1
+21/8/2019 7:12:06 PM: Path: CxServer\SP\APAC\RND
+21/8/2019 7:12:06 PM: FullPath: CxServer\SP\APAC\RND\Team1
+21/8/2019 7:12:06 PM: Childs Len: 0
+21/8/2019 7:12:06 PM: GroupType Team
+21/8/2019 7:12:06 PM: ***********************************
+21/8/2019 7:14:42 PM: ------------------------------------------
+21/8/2019 7:14:42 PM: Argument: createhierarchy
+21/8/2019 7:14:42 PM: Argument: hierarchy=CxServer\SP\APAC\RND\Team1
+21/8/2019 7:14:42 PM: Argument: ldapservername=MyActiveDirectory
+21/8/2019 7:14:42 PM: Argument: ldapgroups=APAC-RND-Scanner-All,
+21/8/2019 7:14:42 PM: Argument: APAC-RND-Reviewer-All
+21/8/2019 7:14:42 PM: Argument: loggingenabled=true
+21/8/2019 7:14:42 PM: CLI Action - Create Hierarchy
+21/8/2019 7:14:45 PM: Private SOAP:True:
+21/8/2019 7:14:45 PM: Public SOAP:True:
+21/8/2019 7:14:45 PM: Obtained Session IDs For PORTAL And SDK APIs
+21/8/2019 7:14:45 PM: Activating Session:True
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:14:45 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:14:45 PM: GroupName: CxServer
+21/8/2019 7:14:45 PM: Path: 
+21/8/2019 7:14:45 PM: FullPath: 
+21/8/2019 7:14:45 PM: Childs Len: 1
+21/8/2019 7:14:45 PM: GroupType Server
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:14:45 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:14:45 PM: GroupName: SP
+21/8/2019 7:14:45 PM: Path: CxServer
+21/8/2019 7:14:45 PM: FullPath: CxServer\SP
+21/8/2019 7:14:45 PM: Childs Len: 3
+21/8/2019 7:14:45 PM: GroupType SP
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:14:45 PM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:14:45 PM: GroupName: APAC
+21/8/2019 7:14:45 PM: Path: CxServer\SP
+21/8/2019 7:14:45 PM: FullPath: CxServer\SP\APAC
+21/8/2019 7:14:45 PM: Childs Len: 1
+21/8/2019 7:14:45 PM: GroupType Company
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: befa1f76-0b85-4f6a-a217-95ac4646373f
+21/8/2019 7:14:45 PM: GUID: befa1f76-0b85-4f6a-a217-95ac4646373f
+21/8/2019 7:14:45 PM: GroupName: Devops
+21/8/2019 7:14:45 PM: Path: CxServer\SP\APAC
+21/8/2019 7:14:45 PM: FullPath: CxServer\SP\APAC\Devops
+21/8/2019 7:14:45 PM: Childs Len: 3
+21/8/2019 7:14:45 PM: GroupType Team
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: extract missing groups CxServer\SP\APAC\RND\Team1 from CxServer\SP\APAC
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:14:45 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:14:45 PM: GroupName: CxServer
+21/8/2019 7:14:45 PM: Path: 
+21/8/2019 7:14:45 PM: FullPath: 
+21/8/2019 7:14:45 PM: Childs Len: 1
+21/8/2019 7:14:45 PM: GroupType Server
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:14:45 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:14:45 PM: GroupName: SP
+21/8/2019 7:14:45 PM: Path: CxServer
+21/8/2019 7:14:45 PM: FullPath: CxServer\SP
+21/8/2019 7:14:45 PM: Childs Len: 3
+21/8/2019 7:14:45 PM: GroupType SP
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:14:45 PM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:14:45 PM: GroupName: APAC
+21/8/2019 7:14:45 PM: Path: CxServer\SP
+21/8/2019 7:14:45 PM: FullPath: CxServer\SP\APAC
+21/8/2019 7:14:45 PM: Childs Len: 2
+21/8/2019 7:14:45 PM: GroupType Company
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 3ef344cd-84a9-4ccc-9c74-de238d0f9d1c
+21/8/2019 7:14:45 PM: GUID: 3ef344cd-84a9-4ccc-9c74-de238d0f9d1c
+21/8/2019 7:14:45 PM: GroupName: RND
+21/8/2019 7:14:45 PM: Path: CxServer\SP\APAC
+21/8/2019 7:14:45 PM: FullPath: CxServer\SP\APAC\RND
+21/8/2019 7:14:45 PM: Childs Len: 0
+21/8/2019 7:14:45 PM: GroupType Team
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:14:45 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+21/8/2019 7:14:45 PM: GroupName: CxServer
+21/8/2019 7:14:45 PM: Path: 
+21/8/2019 7:14:45 PM: FullPath: 
+21/8/2019 7:14:45 PM: Childs Len: 1
+21/8/2019 7:14:45 PM: GroupType Server
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:14:45 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+21/8/2019 7:14:45 PM: GroupName: SP
+21/8/2019 7:14:45 PM: Path: CxServer
+21/8/2019 7:14:45 PM: FullPath: CxServer\SP
+21/8/2019 7:14:45 PM: Childs Len: 3
+21/8/2019 7:14:45 PM: GroupType SP
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:14:45 PM: GUID: 3dbc9c2a-1359-4659-82b9-fce885f8a7da
+21/8/2019 7:14:45 PM: GroupName: APAC
+21/8/2019 7:14:45 PM: Path: CxServer\SP
+21/8/2019 7:14:45 PM: FullPath: CxServer\SP\APAC
+21/8/2019 7:14:45 PM: Childs Len: 2
+21/8/2019 7:14:45 PM: GroupType Company
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 3ef344cd-84a9-4ccc-9c74-de238d0f9d1c
+21/8/2019 7:14:45 PM: GUID: 3ef344cd-84a9-4ccc-9c74-de238d0f9d1c
+21/8/2019 7:14:45 PM: GroupName: RND
+21/8/2019 7:14:45 PM: Path: CxServer\SP\APAC
+21/8/2019 7:14:45 PM: FullPath: CxServer\SP\APAC\RND
+21/8/2019 7:14:45 PM: Childs Len: 1
+21/8/2019 7:14:45 PM: GroupType Team
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:14:45 PM: GroupId: 05d05a53-2d33-4f65-859a-0a47ff1c4f78
+21/8/2019 7:14:45 PM: GUID: 05d05a53-2d33-4f65-859a-0a47ff1c4f78
+21/8/2019 7:14:45 PM: GroupName: Team1
+21/8/2019 7:14:45 PM: Path: CxServer\SP\APAC\RND
+21/8/2019 7:14:45 PM: FullPath: CxServer\SP\APAC\RND\Team1
+21/8/2019 7:14:45 PM: Childs Len: 0
+21/8/2019 7:14:45 PM: GroupType Team
+21/8/2019 7:14:45 PM: ***********************************
+21/8/2019 7:24:10 PM: ------------------------------------------
+21/8/2019 7:24:10 PM: Argument: adduser
+21/8/2019 7:24:10 PM: Argument: username=LDAP\aromero
+21/8/2019 7:24:10 PM: Argument: role=Scanner
+21/8/2019 7:24:10 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1
+21/8/2019 7:24:10 PM: Argument: usertype=LDAP
+21/8/2019 7:24:10 PM: Argument: loggingenabled=true
+21/8/2019 7:24:10 PM: CLI Action - Add User
+21/8/2019 7:24:12 PM: Private SOAP:True:
+21/8/2019 7:24:12 PM: Public SOAP:True:
+21/8/2019 7:24:12 PM: Obtained Session IDs For PORTAL And SDK APIs
+21/8/2019 7:24:12 PM: Activating Session:True
+21/8/2019 7:24:12 PM: Retrieving list Of Teams/Groups..
+21/8/2019 7:24:12 PM: 12 groups loaded
+21/8/2019 7:24:12 PM: Retrieving list of users..
+21/8/2019 7:24:12 PM: 3 users loaded
+21/8/2019 7:24:12 PM: CONSOLE:The following parameters are required:
+21/8/2019 7:24:12 PM: CONSOLE:usertype      - either APPLICATION,LDAP or SAML
+21/8/2019 7:24:12 PM: CONSOLE:username      - Username of user *without* prefix (eg LDAP\ or SAML\)
+21/8/2019 7:24:12 PM: CONSOLE:role          - ServerManager,CompanyManager,SPManager,Scanner,Reviewer
+21/8/2019 7:24:12 PM: CONSOLE:firstname     - First name
+21/8/2019 7:24:12 PM: CONSOLE:lastname      - Last name
+21/8/2019 7:24:12 PM: CONSOLE:team          - Fully qualified team name(s) eg CxServer\SP\Company\Team1,CxServer\SP\Company\Team2
+21/8/2019 7:24:12 PM: CONSOLE:email         - User email address
+21/8/2019 7:26:18 PM: ------------------------------------------
+21/8/2019 7:26:18 PM: Argument: adduser
+21/8/2019 7:26:18 PM: Argument: username=LDAP\aromero
+21/8/2019 7:26:18 PM: Argument: role=Scanner
+21/8/2019 7:26:18 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1
+21/8/2019 7:26:18 PM: Argument: usertype=LDAP
+21/8/2019 7:26:18 PM: Argument: firstname=alice
+21/8/2019 7:26:18 PM: Argument: lastname=romero
+21/8/2019 7:26:18 PM: Argument: email=alice.romero@mycheckmarx.com
+21/8/2019 7:26:18 PM: Argument: loggingenabled=true
+21/8/2019 7:26:18 PM: CLI Action - Add User
+21/8/2019 7:26:20 PM: Private SOAP:True:
+21/8/2019 7:26:20 PM: Public SOAP:True:
+21/8/2019 7:26:20 PM: Obtained Session IDs For PORTAL And SDK APIs
+21/8/2019 7:26:20 PM: Activating Session:True
+21/8/2019 7:26:20 PM: Retrieving list Of Teams/Groups..
+21/8/2019 7:26:20 PM: 12 groups loaded
+21/8/2019 7:26:20 PM: Retrieving list of users..
+21/8/2019 7:26:20 PM: 3 users loaded
+21/8/2019 7:26:20 PM: CONSOLE:DEFAULT audituser=false
+21/8/2019 7:26:20 PM: CONSOLE:DEFAULT activeuser=true
+21/8/2019 7:26:20 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+21/8/2019 7:26:20 PM: CONSOLE:DEFAULT expiredays=365
+21/8/2019 7:26:20 PM: CONSOLE:Adding user LDAP LDAP\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps\Team1 1 1033 False True 365
+21/8/2019 7:26:21 PM: User Add: LDAP\aromero-romero,alice Success: True - 
+21/8/2019 7:26:21 PM: CONSOLE:User added: True
+21/8/2019 7:28:12 PM: ------------------------------------------
+21/8/2019 7:28:12 PM: Argument: adduser
+21/8/2019 7:28:12 PM: Argument: username=MyActiveDirectory\aromero
+21/8/2019 7:28:12 PM: Argument: role=Scanner
+21/8/2019 7:28:12 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1
+21/8/2019 7:28:12 PM: Argument: usertype=LDAP
+21/8/2019 7:28:12 PM: Argument: firstname=alice
+21/8/2019 7:28:12 PM: Argument: lastname=romero
+21/8/2019 7:28:12 PM: Argument: email=alice.romero@mycheckmarx.com
+21/8/2019 7:28:12 PM: Argument: loggingenabled=true
+21/8/2019 7:28:12 PM: CLI Action - Add User
+21/8/2019 7:28:15 PM: Private SOAP:True:
+21/8/2019 7:28:15 PM: Public SOAP:True:
+21/8/2019 7:28:15 PM: Obtained Session IDs For PORTAL And SDK APIs
+21/8/2019 7:28:15 PM: Activating Session:True
+21/8/2019 7:28:15 PM: Retrieving list Of Teams/Groups..
+21/8/2019 7:28:15 PM: 12 groups loaded
+21/8/2019 7:28:15 PM: Retrieving list of users..
+21/8/2019 7:28:15 PM: 3 users loaded
+21/8/2019 7:28:15 PM: CONSOLE:DEFAULT audituser=false
+21/8/2019 7:28:15 PM: CONSOLE:DEFAULT activeuser=true
+21/8/2019 7:28:15 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+21/8/2019 7:28:15 PM: CONSOLE:DEFAULT expiredays=365
+21/8/2019 7:28:15 PM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps\Team1 1 1033 False True 365
+21/8/2019 7:28:15 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: True - 
+21/8/2019 7:28:15 PM: CONSOLE:User added: True
+22/8/2019 2:52:46 PM: ------------------------------------------
+22/8/2019 2:52:46 PM: Argument: adduser
+22/8/2019 2:52:46 PM: Argument: username=MyActiveDirectory\aromero
+22/8/2019 2:52:46 PM: Argument: role=Scanner
+22/8/2019 2:52:46 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 2:52:46 PM: Argument: usertype=LDAP
+22/8/2019 2:52:46 PM: Argument: firstname=alice
+22/8/2019 2:52:46 PM: Argument: lastname=romero
+22/8/2019 2:52:46 PM: Argument: email=alice.romero@mycheckmarx.com
+22/8/2019 2:52:46 PM: Argument: loggingenabled=true
+22/8/2019 2:52:46 PM: CLI Action - Add User
+22/8/2019 2:52:49 PM: Private SOAP:True:
+22/8/2019 2:52:49 PM: Public SOAP:True:
+22/8/2019 2:52:49 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 2:52:49 PM: Activating Session:True
+22/8/2019 2:52:49 PM: Retrieving list Of Teams/Groups..
+22/8/2019 2:52:49 PM: 13 groups loaded
+22/8/2019 2:52:49 PM: Retrieving list of users..
+22/8/2019 2:52:49 PM: 4 users loaded
+22/8/2019 2:52:49 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 2:52:49 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 2:52:49 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 2:52:49 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 2:52:49 PM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+22/8/2019 2:52:49 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: False - Failed to register user. please refer to application admin
+22/8/2019 2:52:49 PM: CONSOLE:User added: Failed to register user. please refer to application admin
+22/8/2019 2:53:01 PM: ------------------------------------------
+22/8/2019 2:53:01 PM: Argument: adduser
+22/8/2019 2:53:01 PM: Argument: username=MyActiveDirectory\aromero
+22/8/2019 2:53:01 PM: Argument: role=Scanner
+22/8/2019 2:53:01 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 2:53:01 PM: Argument: usertype=LDAP
+22/8/2019 2:53:01 PM: Argument: firstname=alice
+22/8/2019 2:53:01 PM: Argument: lastname=romero
+22/8/2019 2:53:01 PM: Argument: email=alice.romero@mycheckmarx.com
+22/8/2019 2:53:01 PM: Argument: loggingenabled=true
+22/8/2019 2:53:01 PM: CLI Action - Add User
+22/8/2019 2:53:03 PM: Private SOAP:True:
+22/8/2019 2:53:03 PM: Public SOAP:True:
+22/8/2019 2:53:03 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 2:53:03 PM: Activating Session:True
+22/8/2019 2:53:03 PM: Retrieving list Of Teams/Groups..
+22/8/2019 2:53:03 PM: 13 groups loaded
+22/8/2019 2:53:03 PM: Retrieving list of users..
+22/8/2019 2:53:03 PM: 3 users loaded
+22/8/2019 2:53:03 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 2:53:03 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 2:53:03 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 2:53:03 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 2:53:03 PM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+22/8/2019 2:53:04 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: True - 
+22/8/2019 2:53:04 PM: CONSOLE:User added: True
+22/8/2019 3:00:02 PM: ------------------------------------------
+22/8/2019 3:00:02 PM: Argument: adduser
+22/8/2019 3:00:02 PM: Argument: username=MyActiveDirectory\aromero
+22/8/2019 3:00:02 PM: Argument: role=Scanner
+22/8/2019 3:00:02 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 3:00:02 PM: Argument: usertype=LDAP
+22/8/2019 3:00:02 PM: Argument: firstname=alice
+22/8/2019 3:00:02 PM: Argument: lastname=romero
+22/8/2019 3:00:02 PM: Argument: email=alice.romero@mycheckmarx.com
+22/8/2019 3:00:02 PM: Argument: loggingenabled=true
+22/8/2019 3:00:02 PM: CLI Action - Add User
+22/8/2019 3:00:05 PM: Private SOAP:True:
+22/8/2019 3:00:05 PM: Public SOAP:True:
+22/8/2019 3:00:05 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 3:00:05 PM: Activating Session:True
+22/8/2019 3:00:05 PM: Retrieving list Of Teams/Groups..
+22/8/2019 3:00:05 PM: 8 groups loaded
+22/8/2019 3:00:05 PM: Retrieving list of users..
+22/8/2019 3:00:05 PM: 3 users loaded
+22/8/2019 3:00:05 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 3:00:05 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 3:00:05 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 3:00:05 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 3:00:05 PM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+22/8/2019 3:00:05 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: False - You have no permissions to perform this operation
+22/8/2019 3:00:05 PM: CONSOLE:User added: You have no permissions to perform this operation
+22/8/2019 3:01:49 PM: ------------------------------------------
+22/8/2019 3:01:49 PM: Argument: adduser
+22/8/2019 3:01:49 PM: Argument: username=MyActiveDirectory\aromero
+22/8/2019 3:01:49 PM: Argument: role=Scanner
+22/8/2019 3:01:49 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 3:01:49 PM: Argument: usertype=LDAP
+22/8/2019 3:01:49 PM: Argument: firstname=alice
+22/8/2019 3:01:49 PM: Argument: lastname=romero
+22/8/2019 3:01:49 PM: Argument: email=alice.romero@mycheckmarx.com
+22/8/2019 3:01:49 PM: Argument: loggingenabled=true
+22/8/2019 3:01:49 PM: CLI Action - Add User
+22/8/2019 3:01:51 PM: Private SOAP:True:
+22/8/2019 3:01:51 PM: Public SOAP:True:
+22/8/2019 3:01:51 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 3:01:51 PM: Activating Session:True
+22/8/2019 3:01:51 PM: Retrieving list Of Teams/Groups..
+22/8/2019 3:01:51 PM: 10 groups loaded
+22/8/2019 3:01:51 PM: Retrieving list of users..
+22/8/2019 3:01:51 PM: 3 users loaded
+22/8/2019 3:01:51 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 3:01:51 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 3:01:51 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 3:01:51 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 3:01:51 PM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+22/8/2019 3:01:52 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: True - 
+22/8/2019 3:01:52 PM: CONSOLE:User added: True
+22/8/2019 4:53:15 PM: ------------------------------------------
+22/8/2019 4:53:15 PM: Argument: adduser
+22/8/2019 4:53:15 PM: Argument: username=MyActiveDirectory\aromero
+22/8/2019 4:53:15 PM: Argument: role=Scanner
+22/8/2019 4:53:15 PM: Argument: team=CxServer\SP\APAC,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 4:53:15 PM: Argument: usertype=LDAP
+22/8/2019 4:53:15 PM: Argument: firstname=alice
+22/8/2019 4:53:15 PM: Argument: lastname=romero
+22/8/2019 4:53:15 PM: Argument: email=alice.romero@mycheckmarx.com
+22/8/2019 4:53:15 PM: Argument: loggingenabled=true
+22/8/2019 4:53:15 PM: CLI Action - Add User
+22/8/2019 4:53:17 PM: Private SOAP:True:
+22/8/2019 4:53:17 PM: Public SOAP:True:
+22/8/2019 4:53:17 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 4:53:17 PM: Activating Session:True
+22/8/2019 4:53:17 PM: Retrieving list Of Teams/Groups..
+22/8/2019 4:53:17 PM: 10 groups loaded
+22/8/2019 4:53:17 PM: Retrieving list of users..
+22/8/2019 4:53:17 PM: 3 users loaded
+22/8/2019 4:53:17 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 4:53:17 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 4:53:17 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 4:53:17 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 4:53:17 PM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 3 1033 False True 365
+22/8/2019 4:53:17 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: False - Role ScannerWithNE is not valid for team type Company.
+22/8/2019 4:53:17 PM: CONSOLE:User added: Role ScannerWithNE is not valid for team type Company.
+22/8/2019 4:53:55 PM: ------------------------------------------
+22/8/2019 4:53:55 PM: Argument: adduser
+22/8/2019 4:53:55 PM: Argument: username=MyActiveDirectory\aromero
+22/8/2019 4:53:55 PM: Argument: role=Scanner
+22/8/2019 4:53:55 PM: Argument: team=CxServer\SP\APAC\DevOps,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 4:53:55 PM: Argument: usertype=LDAP
+22/8/2019 4:53:55 PM: Argument: firstname=alice
+22/8/2019 4:53:55 PM: Argument: lastname=romero
+22/8/2019 4:53:55 PM: Argument: email=alice.romero@mycheckmarx.com
+22/8/2019 4:53:55 PM: Argument: loggingenabled=true
+22/8/2019 4:53:55 PM: CLI Action - Add User
+22/8/2019 4:53:57 PM: Private SOAP:True:
+22/8/2019 4:53:57 PM: Public SOAP:True:
+22/8/2019 4:53:57 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 4:53:57 PM: Activating Session:True
+22/8/2019 4:53:57 PM: Retrieving list Of Teams/Groups..
+22/8/2019 4:53:57 PM: 10 groups loaded
+22/8/2019 4:53:57 PM: Retrieving list of users..
+22/8/2019 4:53:57 PM: 3 users loaded
+22/8/2019 4:53:57 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 4:53:57 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 4:53:57 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 4:53:57 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 4:53:57 PM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 3 1033 False True 365
+22/8/2019 4:53:57 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: True - 
+22/8/2019 4:53:57 PM: CONSOLE:User added: True
+22/8/2019 4:56:49 PM: ------------------------------------------
+22/8/2019 4:56:49 PM: Argument: adduser
+22/8/2019 4:56:49 PM: Argument: username=MyActiveDirectory\aromero
+22/8/2019 4:56:49 PM: Argument: role=Scanner
+22/8/2019 4:56:49 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 4:56:49 PM: Argument: usertype=ldap
+22/8/2019 4:56:49 PM: Argument: firstname=alice
+22/8/2019 4:56:49 PM: Argument: lastname=romero
+22/8/2019 4:56:49 PM: Argument: email=alice.romero@mycheckmarx.com
+22/8/2019 4:56:49 PM: Argument: loggingenabled=true
+22/8/2019 4:56:49 PM: CLI Action - Add User
+22/8/2019 4:56:51 PM: Private SOAP:True:
+22/8/2019 4:56:51 PM: Public SOAP:True:
+22/8/2019 4:56:51 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 4:56:51 PM: Activating Session:True
+22/8/2019 4:56:51 PM: Retrieving list Of Teams/Groups..
+22/8/2019 4:56:51 PM: 10 groups loaded
+22/8/2019 4:56:51 PM: Retrieving list of users..
+22/8/2019 4:56:51 PM: 4 users loaded
+22/8/2019 4:56:51 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 4:56:51 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 4:56:51 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 4:56:51 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 4:56:51 PM: CONSOLE:Adding user ldap MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+22/8/2019 4:56:51 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: False - Failed to register user. please refer to application admin
+22/8/2019 4:56:51 PM: CONSOLE:User added: Failed to register user. please refer to application admin
+22/8/2019 4:57:02 PM: ------------------------------------------
+22/8/2019 4:57:02 PM: Argument: adduser
+22/8/2019 4:57:02 PM: Argument: username=MyActiveDirectory\aromero
+22/8/2019 4:57:02 PM: Argument: role=Scanner
+22/8/2019 4:57:02 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 4:57:02 PM: Argument: usertype=ldap
+22/8/2019 4:57:02 PM: Argument: firstname=alice
+22/8/2019 4:57:02 PM: Argument: lastname=romero
+22/8/2019 4:57:02 PM: Argument: email=alice.romero@mycheckmarx.com
+22/8/2019 4:57:02 PM: Argument: loggingenabled=true
+22/8/2019 4:57:02 PM: CLI Action - Add User
+22/8/2019 4:57:04 PM: Private SOAP:True:
+22/8/2019 4:57:04 PM: Public SOAP:True:
+22/8/2019 4:57:04 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 4:57:04 PM: Activating Session:True
+22/8/2019 4:57:04 PM: Retrieving list Of Teams/Groups..
+22/8/2019 4:57:04 PM: 10 groups loaded
+22/8/2019 4:57:04 PM: Retrieving list of users..
+22/8/2019 4:57:04 PM: 3 users loaded
+22/8/2019 4:57:04 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 4:57:04 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 4:57:04 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 4:57:04 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 4:57:04 PM: CONSOLE:Adding user ldap MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+22/8/2019 4:57:04 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: True - 
+22/8/2019 4:57:04 PM: CONSOLE:User added: True
+22/8/2019 4:57:25 PM: ------------------------------------------
+22/8/2019 4:57:25 PM: Argument: adduser
+22/8/2019 4:57:25 PM: Argument: username=MyActiveDirectory\aromero
+22/8/2019 4:57:25 PM: Argument: role=Scanner
+22/8/2019 4:57:25 PM: Argument: team=CxServer\SP\APAC\DevOps,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 4:57:25 PM: Argument: usertype=LDAP
+22/8/2019 4:57:25 PM: Argument: firstname=alice
+22/8/2019 4:57:25 PM: Argument: lastname=romero
+22/8/2019 4:57:25 PM: Argument: email=alice.romero@mycheckmarx.com
+22/8/2019 4:57:25 PM: Argument: loggingenabled=true
+22/8/2019 4:57:25 PM: CLI Action - Add User
+22/8/2019 4:57:27 PM: Private SOAP:True:
+22/8/2019 4:57:27 PM: Public SOAP:True:
+22/8/2019 4:57:27 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 4:57:27 PM: Activating Session:True
+22/8/2019 4:57:27 PM: Retrieving list Of Teams/Groups..
+22/8/2019 4:57:27 PM: 10 groups loaded
+22/8/2019 4:57:27 PM: Retrieving list of users..
+22/8/2019 4:57:27 PM: 3 users loaded
+22/8/2019 4:57:27 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 4:57:27 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 4:57:27 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 4:57:27 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 4:57:27 PM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 3 1033 False True 365
+22/8/2019 4:57:27 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: True - 
+22/8/2019 4:57:27 PM: CONSOLE:User added: True
+22/8/2019 4:59:18 PM: ------------------------------------------
+22/8/2019 4:59:18 PM: Argument: adduser
+22/8/2019 4:59:18 PM: Argument: username=MyActiveDirectory\aromero
+22/8/2019 4:59:18 PM: Argument: role=Scanner
+22/8/2019 4:59:18 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 4:59:18 PM: Argument: usertype=LDAP
+22/8/2019 4:59:18 PM: Argument: firstname=alice
+22/8/2019 4:59:18 PM: Argument: lastname=romero
+22/8/2019 4:59:18 PM: Argument: email=alice.romero@mycheckmarx.com
+22/8/2019 4:59:18 PM: Argument: loggingenabled=true
+22/8/2019 4:59:18 PM: CLI Action - Add User
+22/8/2019 4:59:21 PM: Private SOAP:True:
+22/8/2019 4:59:21 PM: Public SOAP:True:
+22/8/2019 4:59:21 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 4:59:21 PM: Activating Session:True
+22/8/2019 4:59:21 PM: Retrieving list Of Teams/Groups..
+22/8/2019 4:59:21 PM: 10 groups loaded
+22/8/2019 4:59:21 PM: Retrieving list of users..
+22/8/2019 4:59:21 PM: 3 users loaded
+22/8/2019 4:59:21 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 4:59:21 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 4:59:21 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 4:59:21 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 4:59:21 PM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+22/8/2019 4:59:21 PM: User Add: MyActiveDirectory\aromero-romero,alice Success: True - 
+22/8/2019 4:59:21 PM: CONSOLE:User added: True
+22/8/2019 6:45:28 PM: ------------------------------------------
+22/8/2019 6:45:28 PM: Argument: adduser
+22/8/2019 6:45:28 PM: Argument: username=MyActiveDirectory\anguyen
+22/8/2019 6:45:28 PM: Argument: role=Scanner
+22/8/2019 6:45:28 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+22/8/2019 6:45:28 PM: Argument: usertype=LDAP
+22/8/2019 6:45:28 PM: Argument: firstname=annamaria
+22/8/2019 6:45:28 PM: Argument: lastname=nguyen
+22/8/2019 6:45:28 PM: Argument: email=annamaria.nguyen@mycheckmarx.com
+22/8/2019 6:45:28 PM: Argument: loggingenabled=true
+22/8/2019 6:45:28 PM: CLI Action - Add User
+22/8/2019 6:45:30 PM: Private SOAP:True:
+22/8/2019 6:45:30 PM: Public SOAP:True:
+22/8/2019 6:45:30 PM: Obtained Session IDs For PORTAL And SDK APIs
+22/8/2019 6:45:30 PM: Activating Session:True
+22/8/2019 6:45:30 PM: Retrieving list Of Teams/Groups..
+22/8/2019 6:45:30 PM: 10 groups loaded
+22/8/2019 6:45:30 PM: Retrieving list of users..
+22/8/2019 6:45:30 PM: 5 users loaded
+22/8/2019 6:45:30 PM: CONSOLE:DEFAULT audituser=false
+22/8/2019 6:45:30 PM: CONSOLE:DEFAULT activeuser=true
+22/8/2019 6:45:30 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+22/8/2019 6:45:30 PM: CONSOLE:DEFAULT expiredays=365
+22/8/2019 6:45:30 PM: CONSOLE:Adding user LDAP MyActiveDirectory\anguyen annamaria.nguyen@mycheckmarx.com annamaria nguyen 0(Scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+22/8/2019 6:45:30 PM: User Add: MyActiveDirectory\anguyen-nguyen,annamaria Success: True - 
+22/8/2019 6:45:30 PM: CONSOLE:User added: True
+23/8/2019 10:22:26 AM: ------------------------------------------
+23/8/2019 10:22:26 AM: Argument: adduser
+23/8/2019 10:22:26 AM: Argument: username=MyActiveDirectory\aromero
+23/8/2019 10:22:26 AM: Argument: role=Scanner
+23/8/2019 10:22:26 AM: Argument: team=CxServer\SP\APAC,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 10:22:26 AM: Argument: usertype=LDAP
+23/8/2019 10:22:26 AM: Argument: firstname=alice
+23/8/2019 10:22:26 AM: Argument: lastname=romero
+23/8/2019 10:22:26 AM: Argument: email=alice.romero@mycheckmarx.com
+23/8/2019 10:22:26 AM: Argument: loggingenabled=true
+23/8/2019 10:22:26 AM: CLI Action - Add User
+23/8/2019 10:22:29 AM: Private SOAP:True:
+23/8/2019 10:22:29 AM: Public SOAP:True:
+23/8/2019 10:22:29 AM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 10:22:29 AM: Activating Session:True
+23/8/2019 10:22:29 AM: Retrieving list Of Teams/Groups..
+23/8/2019 10:22:29 AM: 10 groups loaded
+23/8/2019 10:22:29 AM: Retrieving list of users..
+23/8/2019 10:22:29 AM: 5 users loaded
+23/8/2019 10:22:29 AM: CONSOLE:DEFAULT audituser=false
+23/8/2019 10:22:29 AM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 10:22:29 AM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 10:22:29 AM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 10:22:29 AM: CONSOLE: Lookup user in LDAP
+23/8/2019 10:27:32 AM: ------------------------------------------
+23/8/2019 10:27:32 AM: Argument: adduser
+23/8/2019 10:27:32 AM: Argument: username=MyActiveDirectory\aromero
+23/8/2019 10:27:32 AM: Argument: role=Scanner
+23/8/2019 10:27:32 AM: Argument: team=CxServer\SP\APAC,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 10:27:32 AM: Argument: usertype=LDAP
+23/8/2019 10:27:32 AM: Argument: firstname=alice
+23/8/2019 10:27:32 AM: Argument: lastname=romero
+23/8/2019 10:27:32 AM: Argument: email=alice.romero@mycheckmarx.com
+23/8/2019 10:27:32 AM: Argument: loggingenabled=true
+23/8/2019 10:27:32 AM: CLI Action - Add User
+23/8/2019 10:27:34 AM: Private SOAP:True:
+23/8/2019 10:27:34 AM: Public SOAP:True:
+23/8/2019 10:27:34 AM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 10:27:34 AM: Activating Session:True
+23/8/2019 10:27:34 AM: Retrieving list Of Teams/Groups..
+23/8/2019 10:27:34 AM: 10 groups loaded
+23/8/2019 10:27:34 AM: Retrieving list of users..
+23/8/2019 10:27:35 AM: 5 users loaded
+23/8/2019 10:27:35 AM: CONSOLE:DEFAULT audituser=false
+23/8/2019 10:27:35 AM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 10:27:35 AM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 10:27:35 AM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 10:27:35 AM: CONSOLE: Lookup user in LDAP
+23/8/2019 10:30:50 AM: ------------------------------------------
+23/8/2019 10:30:50 AM: Argument: adduser
+23/8/2019 10:30:50 AM: Argument: username=MyActiveDirectory\aromero
+23/8/2019 10:30:50 AM: Argument: role=Scanner
+23/8/2019 10:30:50 AM: Argument: team=CxServer\SP\APAC,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 10:30:50 AM: Argument: usertype=LDAP
+23/8/2019 10:30:50 AM: Argument: firstname=alice
+23/8/2019 10:30:50 AM: Argument: lastname=romero
+23/8/2019 10:30:50 AM: Argument: email=alice.romero@mycheckmarx.com
+23/8/2019 10:30:50 AM: Argument: loggingenabled=true
+23/8/2019 10:30:50 AM: CLI Action - Add User
+23/8/2019 10:30:53 AM: Private SOAP:True:
+23/8/2019 10:30:53 AM: Public SOAP:True:
+23/8/2019 10:30:53 AM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 10:30:53 AM: Activating Session:True
+23/8/2019 10:30:53 AM: Retrieving list Of Teams/Groups..
+23/8/2019 10:30:53 AM: 10 groups loaded
+23/8/2019 10:30:53 AM: Retrieving list of users..
+23/8/2019 10:30:53 AM: 5 users loaded
+23/8/2019 10:30:53 AM: CONSOLE:DEFAULT audituser=false
+23/8/2019 10:30:53 AM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 10:30:53 AM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 10:30:53 AM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 10:30:53 AM: CONSOLE: Lookup user in LDAP
+23/8/2019 10:30:53 AM: Get All users from user directory successful
+23/8/2019 10:30:53 AM: username: aromero
+23/8/2019 10:30:53 AM: FirstName: alice
+23/8/2019 10:30:53 AM: LastName:  romero
+23/8/2019 10:30:53 AM: Email:  alice.romero@mycheckmarx.com
+23/8/2019 10:30:53 AM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC,CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 3 1033 False True 365
+23/8/2019 10:30:53 AM: User Add: MyActiveDirectory\aromero-romero,alice Success: False - Role ScannerWithNE is not valid for team type Company.
+23/8/2019 10:30:53 AM: CONSOLE:User added: Role ScannerWithNE is not valid for team type Company.
+23/8/2019 10:35:38 AM: ------------------------------------------
+23/8/2019 10:35:38 AM: Argument: adduser
+23/8/2019 10:35:38 AM: Argument: username=MyActiveDirectory\aromero
+23/8/2019 10:35:38 AM: Argument: role=Scanner
+23/8/2019 10:35:38 AM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 10:35:38 AM: Argument: usertype=LDAP
+23/8/2019 10:35:38 AM: Argument: firstname=alice
+23/8/2019 10:35:38 AM: Argument: lastname=romero
+23/8/2019 10:35:38 AM: Argument: email=alice.romero@mycheckmarx.com
+23/8/2019 10:35:38 AM: Argument: loggingenabled=true
+23/8/2019 10:35:38 AM: CLI Action - Add User
+23/8/2019 10:35:40 AM: Private SOAP:True:
+23/8/2019 10:35:40 AM: Public SOAP:True:
+23/8/2019 10:35:40 AM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 10:35:40 AM: Activating Session:True
+23/8/2019 10:35:40 AM: Retrieving list Of Teams/Groups..
+23/8/2019 10:35:40 AM: 10 groups loaded
+23/8/2019 10:35:40 AM: Retrieving list of users..
+23/8/2019 10:35:40 AM: 5 users loaded
+23/8/2019 10:35:40 AM: CONSOLE:DEFAULT audituser=false
+23/8/2019 10:35:40 AM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 10:35:40 AM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 10:35:40 AM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 10:35:40 AM: CONSOLE: Lookup user in LDAP
+23/8/2019 10:35:40 AM: Get All users from user directory successful
+23/8/2019 10:35:40 AM: username: aromero
+23/8/2019 10:35:40 AM: FirstName: alice
+23/8/2019 10:35:40 AM: LastName:  romero
+23/8/2019 10:35:40 AM: Email:  alice.romero@mycheckmarx.com
+23/8/2019 10:35:40 AM: CONSOLE:Adding user LDAP MyActiveDirectory\aromero alice.romero@mycheckmarx.com alice romero 0(Scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+23/8/2019 10:35:41 AM: User Add: MyActiveDirectory\aromero-romero,alice Success: True - 
+23/8/2019 10:35:41 AM: CONSOLE:User added: True
+23/8/2019 10:45:22 AM: ------------------------------------------
+23/8/2019 10:45:22 AM: Argument: adduser
+23/8/2019 10:45:22 AM: Argument: username=MyActiveDirectory\ageorge
+23/8/2019 10:45:22 AM: Argument: role=Company
+23/8/2019 10:45:22 AM: Argument: team=CxServer\SP\APAC\RND
+23/8/2019 10:45:22 AM: Argument: usertype=LDAP
+23/8/2019 10:45:22 AM: Argument: firstname=a
+23/8/2019 10:45:22 AM: Argument: lastname=a
+23/8/2019 10:45:22 AM: Argument: email=a@mycheckmarx.com
+23/8/2019 10:45:22 AM: Argument: loggingenabled=true
+23/8/2019 10:45:22 AM: CLI Action - Add User
+23/8/2019 10:45:24 AM: Private SOAP:True:
+23/8/2019 10:45:24 AM: Public SOAP:True:
+23/8/2019 10:45:24 AM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 10:45:24 AM: Activating Session:True
+23/8/2019 10:45:24 AM: Retrieving list Of Teams/Groups..
+23/8/2019 10:45:24 AM: 10 groups loaded
+23/8/2019 10:45:24 AM: Retrieving list of users..
+23/8/2019 10:45:24 AM: 6 users loaded
+23/8/2019 10:45:24 AM: CONSOLE:DEFAULT audituser=false
+23/8/2019 10:45:24 AM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 10:45:24 AM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 10:45:24 AM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 10:45:24 AM: CONSOLE: Lookup user in LDAP
+23/8/2019 10:45:24 AM: Get All users from user directory successful
+23/8/2019 10:45:24 AM: username: ageorge
+23/8/2019 10:45:24 AM: FirstName: alexander
+23/8/2019 10:45:24 AM: LastName:  george
+23/8/2019 10:45:24 AM: Email:  alexander.george@mycheckmarx.com
+23/8/2019 10:45:24 AM: CONSOLE:Adding user LDAP MyActiveDirectory\ageorge alexander.george@mycheckmarx.com alexander george (Company) CxServer\SP\APAC\RND 1 1033 False True 365
+23/8/2019 10:45:24 AM: User Add: MyActiveDirectory\ageorge-george,alexander Success: False - Some required parameters are either empty or invalid
+23/8/2019 10:45:24 AM: CONSOLE:User added: Some required parameters are either empty or invalid
+23/8/2019 10:49:08 AM: ------------------------------------------
+23/8/2019 10:49:08 AM: Argument: adduser
+23/8/2019 10:49:08 AM: Argument: username=MyActiveDirectory\ageorge
+23/8/2019 10:49:08 AM: Argument: role=CompanyManager
+23/8/2019 10:49:08 AM: Argument: team=CxServer\SP\APAC\RND
+23/8/2019 10:49:08 AM: Argument: usertype=LDAP
+23/8/2019 10:49:08 AM: Argument: firstname=a
+23/8/2019 10:49:08 AM: Argument: lastname=a
+23/8/2019 10:49:08 AM: Argument: email=a@mycheckmarx.com
+23/8/2019 10:49:08 AM: Argument: loggingenabled=true
+23/8/2019 10:49:08 AM: CLI Action - Add User
+23/8/2019 10:49:10 AM: Private SOAP:True:
+23/8/2019 10:49:10 AM: Public SOAP:True:
+23/8/2019 10:49:10 AM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 10:49:10 AM: Activating Session:True
+23/8/2019 10:49:10 AM: Retrieving list Of Teams/Groups..
+23/8/2019 10:49:10 AM: 10 groups loaded
+23/8/2019 10:49:10 AM: Retrieving list of users..
+23/8/2019 10:49:10 AM: 6 users loaded
+23/8/2019 10:49:10 AM: CONSOLE:DEFAULT audituser=false
+23/8/2019 10:49:10 AM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 10:49:10 AM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 10:49:10 AM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 10:49:10 AM: CONSOLE: Lookup user in LDAP
+23/8/2019 10:49:10 AM: Get All users from user directory successful
+23/8/2019 10:49:10 AM: username: ageorge
+23/8/2019 10:49:10 AM: FirstName: alexander
+23/8/2019 10:49:10 AM: LastName:  george
+23/8/2019 10:49:10 AM: Email:  alexander.george@mycheckmarx.com
+23/8/2019 10:49:10 AM: CONSOLE:Adding user LDAP MyActiveDirectory\ageorge alexander.george@mycheckmarx.com alexander george 2(CompanyManager) CxServer\SP\APAC\RND 1 1033 False True 365
+23/8/2019 10:49:10 AM: User Add: MyActiveDirectory\ageorge-george,alexander Success: False - Role CompanyManager is not valid for team type Team.
+23/8/2019 10:49:10 AM: CONSOLE:User added: Role CompanyManager is not valid for team type Team.
+23/8/2019 10:49:37 AM: ------------------------------------------
+23/8/2019 10:49:37 AM: Argument: adduser
+23/8/2019 10:49:37 AM: Argument: username=MyActiveDirectory\ageorge
+23/8/2019 10:49:37 AM: Argument: role=Scanner
+23/8/2019 10:49:37 AM: Argument: team=CxServer\SP\APAC\RND
+23/8/2019 10:49:37 AM: Argument: usertype=LDAP
+23/8/2019 10:49:37 AM: Argument: firstname=a
+23/8/2019 10:49:37 AM: Argument: lastname=a
+23/8/2019 10:49:37 AM: Argument: email=a@mycheckmarx.com
+23/8/2019 10:49:37 AM: Argument: loggingenabled=true
+23/8/2019 10:49:37 AM: CLI Action - Add User
+23/8/2019 10:49:40 AM: Private SOAP:True:
+23/8/2019 10:49:40 AM: Public SOAP:True:
+23/8/2019 10:49:40 AM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 10:49:40 AM: Activating Session:True
+23/8/2019 10:49:40 AM: Retrieving list Of Teams/Groups..
+23/8/2019 10:49:40 AM: 10 groups loaded
+23/8/2019 10:49:40 AM: Retrieving list of users..
+23/8/2019 10:49:40 AM: 6 users loaded
+23/8/2019 10:49:40 AM: CONSOLE:DEFAULT audituser=false
+23/8/2019 10:49:40 AM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 10:49:40 AM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 10:49:40 AM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 10:49:40 AM: CONSOLE: Lookup user in LDAP
+23/8/2019 10:49:40 AM: Get All users from user directory successful
+23/8/2019 10:49:40 AM: username: ageorge
+23/8/2019 10:49:40 AM: FirstName: alexander
+23/8/2019 10:49:40 AM: LastName:  george
+23/8/2019 10:49:40 AM: Email:  alexander.george@mycheckmarx.com
+23/8/2019 10:49:40 AM: CONSOLE:Adding user LDAP MyActiveDirectory\ageorge alexander.george@mycheckmarx.com alexander george 0(Scanner) CxServer\SP\APAC\RND 1 1033 False True 365
+23/8/2019 10:49:40 AM: User Add: MyActiveDirectory\ageorge-george,alexander Success: True - 
+23/8/2019 10:49:40 AM: CONSOLE:User added: True
+23/8/2019 10:52:27 AM: ------------------------------------------
+23/8/2019 10:52:27 AM: Argument: adduser
+23/8/2019 10:52:27 AM: Argument: username=MyActiveDirectory\alemaire
+23/8/2019 10:52:27 AM: Argument: role=scanner
+23/8/2019 10:52:27 AM: Argument: team=CxServer\SP\APAC\RND
+23/8/2019 10:52:27 AM: Argument: usertype=LDAP
+23/8/2019 10:52:27 AM: Argument: firstname=a
+23/8/2019 10:52:27 AM: Argument: lastname=a
+23/8/2019 10:52:27 AM: Argument: email=a@mycheckmarx.com
+23/8/2019 10:52:27 AM: Argument: loggingenabled=true
+23/8/2019 10:52:27 AM: CLI Action - Add User
+23/8/2019 10:52:29 AM: Private SOAP:True:
+23/8/2019 10:52:29 AM: Public SOAP:True:
+23/8/2019 10:52:29 AM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 10:52:29 AM: Activating Session:True
+23/8/2019 10:52:29 AM: Retrieving list Of Teams/Groups..
+23/8/2019 10:52:29 AM: 10 groups loaded
+23/8/2019 10:52:29 AM: Retrieving list of users..
+23/8/2019 10:52:29 AM: 7 users loaded
+23/8/2019 10:52:29 AM: CONSOLE:DEFAULT audituser=false
+23/8/2019 10:52:29 AM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 10:52:29 AM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 10:52:29 AM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 10:52:29 AM: CONSOLE: Lookup user in LDAP
+23/8/2019 10:52:29 AM: Get All users from user directory successful
+23/8/2019 10:52:29 AM: username: alemaire
+23/8/2019 10:52:29 AM: FirstName: annika
+23/8/2019 10:52:29 AM: LastName:  lemaire
+23/8/2019 10:52:29 AM: Email:  annika.lemaire@mycheckmarx.com
+23/8/2019 10:52:29 AM: CONSOLE:Adding user LDAP MyActiveDirectory\alemaire annika.lemaire@mycheckmarx.com annika lemaire 0(scanner) CxServer\SP\APAC\RND 1 1033 False True 365
+23/8/2019 10:52:29 AM: User Add: MyActiveDirectory\alemaire-lemaire,annika Success: True - 
+23/8/2019 10:52:29 AM: CONSOLE:User added: True
+23/8/2019 12:58:25 PM: ------------------------------------------
+23/8/2019 12:58:25 PM: Argument: adduser
+23/8/2019 12:58:25 PM: Argument: username=MyActiveDirectory\sschulz
+23/8/2019 12:58:25 PM: Argument: role=scanner
+23/8/2019 12:58:25 PM: Argument: team=CxServer\SP\APAC\DevOps,Cx
+23/8/2019 12:58:25 PM: Argument: usertype=LDAP
+23/8/2019 12:58:25 PM: Argument: firstname=a
+23/8/2019 12:58:25 PM: Argument: lastname=a
+23/8/2019 12:58:25 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 12:58:25 PM: Argument: loggingenabled=true
+23/8/2019 12:58:25 PM: CLI Action - Add User
+23/8/2019 12:58:27 PM: Private SOAP:True:
+23/8/2019 12:58:27 PM: Public SOAP:True:
+23/8/2019 12:58:27 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 12:58:27 PM: Activating Session:True
+23/8/2019 12:58:27 PM: Retrieving list Of Teams/Groups..
+23/8/2019 12:58:27 PM: 12 groups loaded
+23/8/2019 12:58:27 PM: Retrieving list of users..
+23/8/2019 12:58:27 PM: 4 users loaded
+23/8/2019 12:58:27 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 12:58:27 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 12:58:27 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 12:58:27 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 12:58:27 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 12:58:27 PM: Get All users from user directory successful
+23/8/2019 12:58:27 PM: username: sschulz
+23/8/2019 12:58:27 PM: FirstName: sanne
+23/8/2019 12:58:27 PM: LastName:  schulz
+23/8/2019 12:58:27 PM: Email:  sanne.schulz@mycheckmarx.com
+23/8/2019 12:58:27 PM: CONSOLE:Adding user LDAP MyActiveDirectory\sschulz sanne.schulz@mycheckmarx.com sanne schulz 0(scanner) CxServer\SP\APAC\DevOps,Cx 2 1033 False True 365
+23/8/2019 12:58:28 PM: User Add: MyActiveDirectory\sschulz-schulz,sanne Success: False - General error occurred. Please refer to application admin
+23/8/2019 12:58:28 PM: CONSOLE:User added: General error occurred. Please refer to application admin
+23/8/2019 3:36:59 PM: ------------------------------------------
+23/8/2019 3:36:59 PM: Argument: adduser
+23/8/2019 3:36:59 PM: Argument: username=MyActiveDirectory\sschulz
+23/8/2019 3:36:59 PM: Argument: role=scanner
+23/8/2019 3:36:59 PM: Argument: team=CxServer\SP\APAC\DevOps,Cx
+23/8/2019 3:36:59 PM: Argument: usertype=LDAP
+23/8/2019 3:36:59 PM: Argument: firstname=a
+23/8/2019 3:36:59 PM: Argument: lastname=a
+23/8/2019 3:36:59 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 3:36:59 PM: Argument: loggingenabled=true
+23/8/2019 3:36:59 PM: CLI Action - Add User
+23/8/2019 3:37:01 PM: Private SOAP:True:
+23/8/2019 3:37:01 PM: Public SOAP:True:
+23/8/2019 3:37:01 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 3:37:01 PM: Activating Session:True
+23/8/2019 3:37:01 PM: Retrieving list Of Teams/Groups..
+23/8/2019 3:37:01 PM: 12 groups loaded
+23/8/2019 3:37:01 PM: Retrieving list of users..
+23/8/2019 3:37:01 PM: CONSOLE: isActive administrator
+23/8/2019 3:37:01 PM: CONSOLE: isActive True
+23/8/2019 3:37:01 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 3:37:01 PM: CONSOLE: isActive True
+23/8/2019 3:37:01 PM: CONSOLE: isActive MyActiveDirectory\user
+23/8/2019 3:37:01 PM: CONSOLE: isActive True
+23/8/2019 3:37:01 PM: CONSOLE: isActive MyActiveDirectory\haarden
+23/8/2019 3:37:01 PM: CONSOLE: isActive True
+23/8/2019 3:37:01 PM: 4 users loaded
+23/8/2019 3:37:01 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 3:37:01 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 3:37:01 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 3:37:01 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 3:37:01 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 3:37:01 PM: Get All users from user directory successful
+23/8/2019 3:37:01 PM: username: sschulz
+23/8/2019 3:37:01 PM: FirstName: sanne
+23/8/2019 3:37:01 PM: LastName:  schulz
+23/8/2019 3:37:01 PM: Email:  sanne.schulz@mycheckmarx.com
+23/8/2019 3:37:01 PM: CONSOLE:Adding user LDAP MyActiveDirectory\sschulz sanne.schulz@mycheckmarx.com sanne schulz 0(scanner) CxServer\SP\APAC\DevOps,Cx 2 1033 False True 365
+23/8/2019 3:37:01 PM: User Add: MyActiveDirectory\sschulz-schulz,sanne Success: False - General error occurred. Please refer to application admin
+23/8/2019 3:37:01 PM: CONSOLE:User added: General error occurred. Please refer to application admin
+23/8/2019 3:38:41 PM: ------------------------------------------
+23/8/2019 3:38:41 PM: Argument: adduser
+23/8/2019 3:38:41 PM: Argument: username=MyActiveDirectory\sschulz
+23/8/2019 3:38:41 PM: Argument: role=scanner
+23/8/2019 3:38:41 PM: Argument: team=CxServer\SP\APAC\DevOps,Cx
+23/8/2019 3:38:41 PM: Argument: usertype=LDAP
+23/8/2019 3:38:41 PM: Argument: firstname=a
+23/8/2019 3:38:41 PM: Argument: lastname=a
+23/8/2019 3:38:41 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 3:38:41 PM: Argument: loggingenabled=true
+23/8/2019 3:38:41 PM: CLI Action - Add User
+23/8/2019 3:38:43 PM: Private SOAP:True:
+23/8/2019 3:38:43 PM: Public SOAP:True:
+23/8/2019 3:38:43 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 3:38:43 PM: Activating Session:True
+23/8/2019 3:38:43 PM: Retrieving list Of Teams/Groups..
+23/8/2019 3:38:43 PM: 12 groups loaded
+23/8/2019 3:38:43 PM: Retrieving list of users..
+23/8/2019 3:38:43 PM: CONSOLE: isActive administrator
+23/8/2019 3:38:43 PM: CONSOLE: isActive True
+23/8/2019 3:38:43 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 3:38:43 PM: CONSOLE: isActive True
+23/8/2019 3:38:43 PM: CONSOLE: isActive MyActiveDirectory\user
+23/8/2019 3:38:43 PM: CONSOLE: isActive True
+23/8/2019 3:38:43 PM: CONSOLE: isActive MyActiveDirectory\haarden
+23/8/2019 3:38:43 PM: CONSOLE: isActive True
+23/8/2019 3:38:43 PM: 4 users loaded
+23/8/2019 3:38:43 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 3:38:43 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 3:38:43 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 3:38:43 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 3:38:43 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 3:38:43 PM: Get All users from user directory successful
+23/8/2019 3:38:43 PM: username: sschulz
+23/8/2019 3:38:43 PM: FirstName: sanne
+23/8/2019 3:38:43 PM: LastName:  schulz
+23/8/2019 3:38:43 PM: Email:  sanne.schulz@mycheckmarx.com
+23/8/2019 3:38:43 PM: CONSOLE:Adding user LDAP MyActiveDirectory\sschulz sanne.schulz@mycheckmarx.com sanne schulz 0(scanner) CxServer\SP\APAC\DevOps,Cx 2 1033 False True 365
+23/8/2019 3:38:43 PM: User Add: MyActiveDirectory\sschulz-schulz,sanne Success: False - General error occurred. Please refer to application admin
+23/8/2019 3:38:43 PM: CONSOLE:User added: General error occurred. Please refer to application admin
+23/8/2019 3:39:27 PM: ------------------------------------------
+23/8/2019 3:39:27 PM: Argument: adduser
+23/8/2019 3:39:27 PM: Argument: username=MyActiveDirectory\sschulz
+23/8/2019 3:39:27 PM: Argument: role=scanner
+23/8/2019 3:39:27 PM: Argument: team=CxServer\SP\APAC\DevOps,Cx
+23/8/2019 3:39:27 PM: Argument: usertype=LDAP
+23/8/2019 3:39:27 PM: Argument: firstname=a
+23/8/2019 3:39:27 PM: Argument: lastname=a
+23/8/2019 3:39:27 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 3:39:27 PM: Argument: loggingenabled=true
+23/8/2019 3:39:27 PM: CLI Action - Add User
+23/8/2019 3:39:29 PM: Private SOAP:True:
+23/8/2019 3:39:29 PM: Public SOAP:True:
+23/8/2019 3:39:29 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 3:39:29 PM: Activating Session:True
+23/8/2019 3:39:29 PM: Retrieving list Of Teams/Groups..
+23/8/2019 3:39:29 PM: 12 groups loaded
+23/8/2019 3:39:29 PM: Retrieving list of users..
+23/8/2019 3:39:29 PM: CONSOLE: isActive administrator
+23/8/2019 3:39:29 PM: CONSOLE: isActive True
+23/8/2019 3:39:29 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 3:39:29 PM: CONSOLE: isActive True
+23/8/2019 3:39:29 PM: CONSOLE: isActive MyActiveDirectory\user
+23/8/2019 3:39:29 PM: CONSOLE: isActive True
+23/8/2019 3:39:29 PM: CONSOLE: isActive MyActiveDirectory\haarden
+23/8/2019 3:39:29 PM: CONSOLE: isActive True
+23/8/2019 3:39:29 PM: 4 users loaded
+23/8/2019 3:39:29 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 3:39:29 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 3:39:29 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 3:39:29 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 3:39:29 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 3:39:29 PM: Get All users from user directory successful
+23/8/2019 3:39:29 PM: username: sschulz
+23/8/2019 3:39:29 PM: FirstName: sanne
+23/8/2019 3:39:29 PM: LastName:  schulz
+23/8/2019 3:39:29 PM: Email:  sanne.schulz@mycheckmarx.com
+23/8/2019 3:39:29 PM: CONSOLE:Adding user LDAP MyActiveDirectory\sschulz sanne.schulz@mycheckmarx.com sanne schulz 0(scanner) CxServer\SP\APAC\DevOps,Cx 2 1033 False True 365
+23/8/2019 3:39:29 PM: User Add: MyActiveDirectory\sschulz-schulz,sanne Success: False - General error occurred. Please refer to application admin
+23/8/2019 3:39:29 PM: CONSOLE:User added: General error occurred. Please refer to application admin
+23/8/2019 3:39:49 PM: ------------------------------------------
+23/8/2019 3:39:49 PM: Argument: adduser
+23/8/2019 3:39:49 PM: Argument: username=MyActiveDirectory\sschulz
+23/8/2019 3:39:49 PM: Argument: role=scanner
+23/8/2019 3:39:49 PM: Argument: team=CxServer\SP\APAC\DevOps
+23/8/2019 3:39:49 PM: Argument: usertype=LDAP
+23/8/2019 3:39:49 PM: Argument: firstname=a
+23/8/2019 3:39:49 PM: Argument: lastname=a
+23/8/2019 3:39:49 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 3:39:49 PM: Argument: loggingenabled=true
+23/8/2019 3:39:49 PM: CLI Action - Add User
+23/8/2019 3:39:51 PM: Private SOAP:True:
+23/8/2019 3:39:51 PM: Public SOAP:True:
+23/8/2019 3:39:51 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 3:39:51 PM: Activating Session:True
+23/8/2019 3:39:51 PM: Retrieving list Of Teams/Groups..
+23/8/2019 3:39:51 PM: 12 groups loaded
+23/8/2019 3:39:51 PM: Retrieving list of users..
+23/8/2019 3:39:51 PM: CONSOLE: isActive administrator
+23/8/2019 3:39:51 PM: CONSOLE: isActive True
+23/8/2019 3:39:51 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 3:39:51 PM: CONSOLE: isActive True
+23/8/2019 3:39:51 PM: CONSOLE: isActive MyActiveDirectory\user
+23/8/2019 3:39:51 PM: CONSOLE: isActive True
+23/8/2019 3:39:51 PM: CONSOLE: isActive MyActiveDirectory\haarden
+23/8/2019 3:39:51 PM: CONSOLE: isActive True
+23/8/2019 3:39:51 PM: 4 users loaded
+23/8/2019 3:39:51 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 3:39:51 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 3:39:51 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 3:39:51 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 3:39:51 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 3:39:51 PM: Get All users from user directory successful
+23/8/2019 3:39:51 PM: username: sschulz
+23/8/2019 3:39:51 PM: FirstName: sanne
+23/8/2019 3:39:51 PM: LastName:  schulz
+23/8/2019 3:39:51 PM: Email:  sanne.schulz@mycheckmarx.com
+23/8/2019 3:39:51 PM: CONSOLE:Adding user LDAP MyActiveDirectory\sschulz sanne.schulz@mycheckmarx.com sanne schulz 0(scanner) CxServer\SP\APAC\DevOps 1 1033 False True 365
+23/8/2019 3:39:51 PM: User Add: MyActiveDirectory\sschulz-schulz,sanne Success: True - 
+23/8/2019 3:39:51 PM: CONSOLE:User added: True
+23/8/2019 4:54:17 PM: ------------------------------------------
+23/8/2019 4:54:17 PM: Argument: adduser
+23/8/2019 4:54:17 PM: Argument: username=MyActiveDirectory\mgill
+23/8/2019 4:54:17 PM: Argument: role=scanner
+23/8/2019 4:54:17 PM: Argument: team=CxServer\SP\APAC\DevOps
+23/8/2019 4:54:17 PM: Argument: usertype=LDAP
+23/8/2019 4:54:17 PM: Argument: firstname=a
+23/8/2019 4:54:17 PM: Argument: lastname=a
+23/8/2019 4:54:17 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 4:54:17 PM: Argument: loggingenabled=true
+23/8/2019 4:54:17 PM: CLI Action - Add User
+23/8/2019 4:54:19 PM: Private SOAP:True:
+23/8/2019 4:54:19 PM: Public SOAP:True:
+23/8/2019 4:54:19 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 4:54:19 PM: Activating Session:True
+23/8/2019 4:54:19 PM: Retrieving list Of Teams/Groups..
+23/8/2019 4:54:19 PM: 12 groups loaded
+23/8/2019 4:54:19 PM: Retrieving list of users..
+23/8/2019 4:54:19 PM: CONSOLE: isActive administrator
+23/8/2019 4:54:19 PM: CONSOLE: isActive True
+23/8/2019 4:54:19 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 4:54:19 PM: CONSOLE: isActive True
+23/8/2019 4:54:19 PM: CONSOLE: isActive MyActiveDirectory\user
+23/8/2019 4:54:19 PM: CONSOLE: isActive True
+23/8/2019 4:54:19 PM: 3 users loaded
+23/8/2019 4:54:19 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 4:54:19 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 4:54:19 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 4:54:19 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 4:54:19 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 4:54:19 PM: Get All users from user directory successful
+23/8/2019 4:54:19 PM: username: mgill
+23/8/2019 4:54:19 PM: FirstName: maeva
+23/8/2019 4:54:19 PM: LastName:  gill
+23/8/2019 4:54:19 PM: Email:  maeva.gill@mycheckmarx.com
+23/8/2019 4:54:19 PM: CONSOLE:Adding user LDAP MyActiveDirectory\mgill maeva.gill@mycheckmarx.com maeva gill 0(scanner) CxServer\SP\APAC\DevOps 1 1033 False True 365
+23/8/2019 4:54:19 PM: User Add: MyActiveDirectory\mgill-gill,maeva Success: True - 
+23/8/2019 4:54:19 PM: CONSOLE:User added: True
+23/8/2019 4:58:14 PM: ------------------------------------------
+23/8/2019 4:58:14 PM: Argument: adduser
+23/8/2019 4:58:14 PM: Argument: username=MyActiveDirectory\eedwards
+23/8/2019 4:58:14 PM: Argument: role=scanner
+23/8/2019 4:58:14 PM: Argument: team=CxServer\SP\RND\DevOps
+23/8/2019 4:58:14 PM: Argument: usertype=LDAP
+23/8/2019 4:58:14 PM: Argument: firstname=a
+23/8/2019 4:58:14 PM: Argument: lastname=a
+23/8/2019 4:58:14 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 4:58:14 PM: Argument: loggingenabled=true
+23/8/2019 4:58:14 PM: CLI Action - Add User
+23/8/2019 4:58:16 PM: Private SOAP:True:
+23/8/2019 4:58:16 PM: Public SOAP:True:
+23/8/2019 4:58:16 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 4:58:16 PM: Activating Session:True
+23/8/2019 4:58:16 PM: Retrieving list Of Teams/Groups..
+23/8/2019 4:58:16 PM: 12 groups loaded
+23/8/2019 4:58:16 PM: Retrieving list of users..
+23/8/2019 4:58:16 PM: CONSOLE: isActive administrator
+23/8/2019 4:58:16 PM: CONSOLE: isActive True
+23/8/2019 4:58:16 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 4:58:16 PM: CONSOLE: isActive True
+23/8/2019 4:58:16 PM: CONSOLE: isActive MyActiveDirectory\user
+23/8/2019 4:58:16 PM: CONSOLE: isActive True
+23/8/2019 4:58:16 PM: CONSOLE: isActive MyActiveDirectory\mgill
+23/8/2019 4:58:16 PM: CONSOLE: isActive True
+23/8/2019 4:58:16 PM: CONSOLE: isActive MyActiveDirectory\mnguyen
+23/8/2019 4:58:16 PM: CONSOLE: isActive True
+23/8/2019 4:58:16 PM: 5 users loaded
+23/8/2019 4:58:16 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 4:58:16 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 4:58:16 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 4:58:16 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 4:58:16 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 4:58:16 PM: Get All users from user directory successful
+23/8/2019 4:58:16 PM: username: eedwards
+23/8/2019 4:58:16 PM: FirstName: ezra
+23/8/2019 4:58:16 PM: LastName:  edwards
+23/8/2019 4:58:16 PM: Email:  ezra.edwards@mycheckmarx.com
+23/8/2019 4:58:16 PM: CONSOLE:Adding user LDAP MyActiveDirectory\eedwards ezra.edwards@mycheckmarx.com ezra edwards 0(scanner) CxServer\SP\RND\DevOps 1 1033 False True 365
+23/8/2019 4:58:16 PM: User Add: MyActiveDirectory\eedwards-edwards,ezra Success: False - You have no permissions to perform this operation
+23/8/2019 4:58:16 PM: CONSOLE:User added: You have no permissions to perform this operation
+23/8/2019 4:59:53 PM: ------------------------------------------
+23/8/2019 4:59:53 PM: Argument: adduser
+23/8/2019 4:59:53 PM: Argument: username=MyActiveDirectory\eedwards
+23/8/2019 4:59:53 PM: Argument: role=scanner
+23/8/2019 4:59:53 PM: Argument: team=CxServer\SP\US\RND
+23/8/2019 4:59:53 PM: Argument: usertype=LDAP
+23/8/2019 4:59:53 PM: Argument: firstname=a
+23/8/2019 4:59:53 PM: Argument: lastname=a
+23/8/2019 4:59:53 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 4:59:53 PM: Argument: loggingenabled=true
+23/8/2019 4:59:53 PM: CLI Action - Add User
+23/8/2019 4:59:55 PM: Private SOAP:True:
+23/8/2019 4:59:55 PM: Public SOAP:True:
+23/8/2019 4:59:55 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 4:59:55 PM: Activating Session:True
+23/8/2019 4:59:55 PM: Retrieving list Of Teams/Groups..
+23/8/2019 4:59:55 PM: 13 groups loaded
+23/8/2019 4:59:55 PM: Retrieving list of users..
+23/8/2019 4:59:55 PM: CONSOLE: isActive administrator
+23/8/2019 4:59:55 PM: CONSOLE: isActive True
+23/8/2019 4:59:55 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 4:59:55 PM: CONSOLE: isActive True
+23/8/2019 4:59:55 PM: CONSOLE: isActive MyActiveDirectory\user
+23/8/2019 4:59:55 PM: CONSOLE: isActive True
+23/8/2019 4:59:55 PM: CONSOLE: isActive MyActiveDirectory\mgill
+23/8/2019 4:59:55 PM: CONSOLE: isActive True
+23/8/2019 4:59:55 PM: CONSOLE: isActive MyActiveDirectory\mnguyen
+23/8/2019 4:59:55 PM: CONSOLE: isActive True
+23/8/2019 4:59:55 PM: 5 users loaded
+23/8/2019 4:59:55 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 4:59:55 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 4:59:55 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 4:59:55 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 4:59:55 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 4:59:55 PM: Get All users from user directory successful
+23/8/2019 4:59:55 PM: username: eedwards
+23/8/2019 4:59:55 PM: FirstName: ezra
+23/8/2019 4:59:55 PM: LastName:  edwards
+23/8/2019 4:59:55 PM: Email:  ezra.edwards@mycheckmarx.com
+23/8/2019 4:59:55 PM: CONSOLE:Adding user LDAP MyActiveDirectory\eedwards ezra.edwards@mycheckmarx.com ezra edwards 0(scanner) CxServer\SP\US\RND 1 1033 False True 365
+23/8/2019 4:59:55 PM: User Add: MyActiveDirectory\eedwards-edwards,ezra Success: True - 
+23/8/2019 4:59:55 PM: CONSOLE:User added: True
+23/8/2019 5:08:14 PM: ------------------------------------------
+23/8/2019 5:08:14 PM: Argument: createhierarchy
+23/8/2019 5:08:14 PM: Argument: hierarchy=CxServer\SP\APAC\DevOps\Team1
+23/8/2019 5:08:14 PM: Argument: loggingenabled=true
+23/8/2019 5:08:14 PM: CLI Action - Create Hierarchy
+23/8/2019 5:08:16 PM: Private SOAP:True:
+23/8/2019 5:08:16 PM: Public SOAP:True:
+23/8/2019 5:08:16 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 5:08:16 PM: Activating Session:True
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+23/8/2019 5:08:16 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+23/8/2019 5:08:16 PM: GroupName: CxServer
+23/8/2019 5:08:16 PM: Path: 
+23/8/2019 5:08:16 PM: FullPath: 
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Server
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+23/8/2019 5:08:16 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+23/8/2019 5:08:16 PM: GroupName: SP
+23/8/2019 5:08:16 PM: Path: CxServer
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP
+23/8/2019 5:08:16 PM: Childs Len: 2
+23/8/2019 5:08:16 PM: GroupType SP
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 67c96f29-4819-45cd-bedf-c1f21c3153d6
+23/8/2019 5:08:16 PM: GUID: 67c96f29-4819-45cd-bedf-c1f21c3153d6
+23/8/2019 5:08:16 PM: GroupName: Users
+23/8/2019 5:08:16 PM: Path: CxServer\SP
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\Users
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Company
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 784ec4d1-1f68-4e3d-8012-ce977c08a0a4
+23/8/2019 5:08:16 PM: GUID: 784ec4d1-1f68-4e3d-8012-ce977c08a0a4
+23/8/2019 5:08:16 PM: GroupName: US
+23/8/2019 5:08:16 PM: Path: CxServer\SP
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\US
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Company
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: extract missing groups CxServer\SP\APAC\DevOps\Team1 from CxServer\SP
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+23/8/2019 5:08:16 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+23/8/2019 5:08:16 PM: GroupName: CxServer
+23/8/2019 5:08:16 PM: Path: 
+23/8/2019 5:08:16 PM: FullPath: 
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Server
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+23/8/2019 5:08:16 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+23/8/2019 5:08:16 PM: GroupName: SP
+23/8/2019 5:08:16 PM: Path: CxServer
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP
+23/8/2019 5:08:16 PM: Childs Len: 3
+23/8/2019 5:08:16 PM: GroupType SP
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 67c96f29-4819-45cd-bedf-c1f21c3153d6
+23/8/2019 5:08:16 PM: GUID: 67c96f29-4819-45cd-bedf-c1f21c3153d6
+23/8/2019 5:08:16 PM: GroupName: Users
+23/8/2019 5:08:16 PM: Path: CxServer\SP
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\Users
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Company
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 784ec4d1-1f68-4e3d-8012-ce977c08a0a4
+23/8/2019 5:08:16 PM: GUID: 784ec4d1-1f68-4e3d-8012-ce977c08a0a4
+23/8/2019 5:08:16 PM: GroupName: US
+23/8/2019 5:08:16 PM: Path: CxServer\SP
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\US
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Company
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 8defb509-c9d9-49d6-b216-c44d2d644585
+23/8/2019 5:08:16 PM: GUID: 8defb509-c9d9-49d6-b216-c44d2d644585
+23/8/2019 5:08:16 PM: GroupName: APAC
+23/8/2019 5:08:16 PM: Path: CxServer\SP
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\APAC
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Company
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: f5d72c41-db0b-40e8-8d6d-f03de7f8fc4f
+23/8/2019 5:08:16 PM: GUID: f5d72c41-db0b-40e8-8d6d-f03de7f8fc4f
+23/8/2019 5:08:16 PM: GroupName: DevOps
+23/8/2019 5:08:16 PM: Path: CxServer\SP\APAC
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\APAC\DevOps
+23/8/2019 5:08:16 PM: Childs Len: 0
+23/8/2019 5:08:16 PM: GroupType Team
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 00000000-1111-1111-b111-989c9070eb11
+23/8/2019 5:08:16 PM: GUID: 00000000-1111-1111-b111-989c9070eb11
+23/8/2019 5:08:16 PM: GroupName: CxServer
+23/8/2019 5:08:16 PM: Path: 
+23/8/2019 5:08:16 PM: FullPath: 
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Server
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 11111111-2222-448d-b029-989c9070eb22
+23/8/2019 5:08:16 PM: GUID: 11111111-2222-448d-b029-989c9070eb22
+23/8/2019 5:08:16 PM: GroupName: SP
+23/8/2019 5:08:16 PM: Path: CxServer
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP
+23/8/2019 5:08:16 PM: Childs Len: 3
+23/8/2019 5:08:16 PM: GroupType SP
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 67c96f29-4819-45cd-bedf-c1f21c3153d6
+23/8/2019 5:08:16 PM: GUID: 67c96f29-4819-45cd-bedf-c1f21c3153d6
+23/8/2019 5:08:16 PM: GroupName: Users
+23/8/2019 5:08:16 PM: Path: CxServer\SP
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\Users
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Company
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 784ec4d1-1f68-4e3d-8012-ce977c08a0a4
+23/8/2019 5:08:16 PM: GUID: 784ec4d1-1f68-4e3d-8012-ce977c08a0a4
+23/8/2019 5:08:16 PM: GroupName: US
+23/8/2019 5:08:16 PM: Path: CxServer\SP
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\US
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Company
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: 8defb509-c9d9-49d6-b216-c44d2d644585
+23/8/2019 5:08:16 PM: GUID: 8defb509-c9d9-49d6-b216-c44d2d644585
+23/8/2019 5:08:16 PM: GroupName: APAC
+23/8/2019 5:08:16 PM: Path: CxServer\SP
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\APAC
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Company
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: f5d72c41-db0b-40e8-8d6d-f03de7f8fc4f
+23/8/2019 5:08:16 PM: GUID: f5d72c41-db0b-40e8-8d6d-f03de7f8fc4f
+23/8/2019 5:08:16 PM: GroupName: DevOps
+23/8/2019 5:08:16 PM: Path: CxServer\SP\APAC
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\APAC\DevOps
+23/8/2019 5:08:16 PM: Childs Len: 1
+23/8/2019 5:08:16 PM: GroupType Team
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 5:08:16 PM: GroupId: f20beb47-c089-4c37-b047-d6bea9c7bf22
+23/8/2019 5:08:16 PM: GUID: f20beb47-c089-4c37-b047-d6bea9c7bf22
+23/8/2019 5:08:16 PM: GroupName: Team1
+23/8/2019 5:08:16 PM: Path: CxServer\SP\APAC\DevOps
+23/8/2019 5:08:16 PM: FullPath: CxServer\SP\APAC\DevOps\Team1
+23/8/2019 5:08:16 PM: Childs Len: 0
+23/8/2019 5:08:16 PM: GroupType Team
+23/8/2019 5:08:16 PM: ***********************************
+23/8/2019 7:26:01 PM: ------------------------------------------
+23/8/2019 7:26:01 PM: Argument: adduser
+23/8/2019 7:26:01 PM: Argument: username=NoSyncDirectory\bberry
+23/8/2019 7:26:01 PM: Argument: role=scanner
+23/8/2019 7:26:01 PM: Argument: team=CxServer\SP\US\RND
+23/8/2019 7:26:01 PM: Argument: usertype=LDAP
+23/8/2019 7:26:01 PM: Argument: firstname=a
+23/8/2019 7:26:01 PM: Argument: lastname=a
+23/8/2019 7:26:01 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 7:26:01 PM: Argument: loggingenabled=true
+23/8/2019 7:26:01 PM: CLI Action - Add User
+23/8/2019 7:26:03 PM: Private SOAP:True:
+23/8/2019 7:26:03 PM: Public SOAP:True:
+23/8/2019 7:26:03 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 7:26:03 PM: Activating Session:True
+23/8/2019 7:26:03 PM: Retrieving list Of Teams/Groups..
+23/8/2019 7:26:03 PM: 9 groups loaded
+23/8/2019 7:26:03 PM: Retrieving list of users..
+23/8/2019 7:26:03 PM: CONSOLE: isActive administrator
+23/8/2019 7:26:03 PM: CONSOLE: isActive True
+23/8/2019 7:26:03 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 7:26:03 PM: CONSOLE: isActive True
+23/8/2019 7:26:03 PM: CONSOLE: isActive MyActiveDirectory\jde roode
+23/8/2019 7:26:03 PM: CONSOLE: isActive True
+23/8/2019 7:26:03 PM: CONSOLE: isActive MyActiveDirectory\psmith
+23/8/2019 7:26:03 PM: CONSOLE: isActive True
+23/8/2019 7:26:03 PM: CONSOLE: isActive NoSyncActiveDirectory\abyrd
+23/8/2019 7:26:03 PM: CONSOLE: isActive True
+23/8/2019 7:26:03 PM: 5 users loaded
+23/8/2019 7:26:03 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 7:26:03 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 7:26:03 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 7:26:03 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 7:26:03 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 7:26:08 PM: CONSOLE:Adding user LDAP NoSyncDirectory\bberry a@mycheckmarx.com a a 0(scanner) CxServer\SP\US\RND 1 1033 False True 365
+23/8/2019 7:26:08 PM: User Add: NoSyncDirectory\bberry-a,a Success: True - 
+23/8/2019 7:26:08 PM: CONSOLE:User added: True
+23/8/2019 7:26:53 PM: ------------------------------------------
+23/8/2019 7:26:53 PM: Argument: adduser
+23/8/2019 7:26:53 PM: Argument: username=NoSyncActiveDirectory\bberry
+23/8/2019 7:26:53 PM: Argument: role=scanner
+23/8/2019 7:26:53 PM: Argument: team=CxServer\SP\US\RND
+23/8/2019 7:26:53 PM: Argument: usertype=LDAP
+23/8/2019 7:26:53 PM: Argument: firstname=a
+23/8/2019 7:26:53 PM: Argument: lastname=a
+23/8/2019 7:26:53 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 7:26:53 PM: Argument: loggingenabled=true
+23/8/2019 7:26:53 PM: CLI Action - Add User
+23/8/2019 7:26:55 PM: Private SOAP:True:
+23/8/2019 7:26:55 PM: Public SOAP:True:
+23/8/2019 7:26:55 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 7:26:55 PM: Activating Session:True
+23/8/2019 7:26:55 PM: Retrieving list Of Teams/Groups..
+23/8/2019 7:26:55 PM: 9 groups loaded
+23/8/2019 7:26:55 PM: Retrieving list of users..
+23/8/2019 7:26:55 PM: CONSOLE: isActive administrator
+23/8/2019 7:26:55 PM: CONSOLE: isActive True
+23/8/2019 7:26:55 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 7:26:55 PM: CONSOLE: isActive True
+23/8/2019 7:26:55 PM: CONSOLE: isActive MyActiveDirectory\jde roode
+23/8/2019 7:26:55 PM: CONSOLE: isActive True
+23/8/2019 7:26:55 PM: CONSOLE: isActive MyActiveDirectory\psmith
+23/8/2019 7:26:55 PM: CONSOLE: isActive True
+23/8/2019 7:26:55 PM: CONSOLE: isActive NoSyncActiveDirectory\abyrd
+23/8/2019 7:26:55 PM: CONSOLE: isActive True
+23/8/2019 7:26:55 PM: 5 users loaded
+23/8/2019 7:26:55 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 7:26:55 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 7:26:55 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 7:26:55 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 7:26:55 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 7:26:55 PM: Get All users from user directory successful
+23/8/2019 7:26:55 PM: username: bberry
+23/8/2019 7:26:55 PM: FirstName: bella
+23/8/2019 7:26:55 PM: LastName:  berry
+23/8/2019 7:26:55 PM: Email:  bella.berry@mycheckmarx.com
+23/8/2019 7:26:55 PM: CONSOLE:Adding user LDAP NoSyncActiveDirectory\bberry bella.berry@mycheckmarx.com bella berry 0(scanner) CxServer\SP\US\RND 1 1033 False True 365
+23/8/2019 7:26:55 PM: User Add: NoSyncActiveDirectory\bberry-berry,bella Success: True - 
+23/8/2019 7:26:55 PM: CONSOLE:User added: True
+23/8/2019 7:54:06 PM: ------------------------------------------
+23/8/2019 7:54:06 PM: Argument: adduser
+23/8/2019 7:54:06 PM: Argument: username=ActiveDirectory\psmith
+23/8/2019 7:54:06 PM: Argument: role=scanner
+23/8/2019 7:54:06 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 7:54:06 PM: Argument: usertype=LDAP
+23/8/2019 7:54:06 PM: Argument: firstname=a
+23/8/2019 7:54:06 PM: Argument: lastname=a
+23/8/2019 7:54:06 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 7:54:06 PM: Argument: loggingenabled=true
+23/8/2019 7:54:06 PM: CLI Action - Add User
+23/8/2019 7:54:08 PM: Private SOAP:True:
+23/8/2019 7:54:08 PM: Public SOAP:True:
+23/8/2019 7:54:08 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 7:54:08 PM: Activating Session:True
+23/8/2019 7:54:08 PM: Retrieving list Of Teams/Groups..
+23/8/2019 7:54:08 PM: 12 groups loaded
+23/8/2019 7:54:08 PM: Retrieving list of users..
+23/8/2019 7:54:08 PM: CONSOLE: isActive administrator
+23/8/2019 7:54:08 PM: CONSOLE: isActive True
+23/8/2019 7:54:08 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 7:54:08 PM: CONSOLE: isActive True
+23/8/2019 7:54:08 PM: CONSOLE: isActive MyActiveDirectory\jde roode
+23/8/2019 7:54:08 PM: CONSOLE: isActive True
+23/8/2019 7:54:08 PM: CONSOLE: isActive NoSyncActiveDirectory\abyrd
+23/8/2019 7:54:08 PM: CONSOLE: isActive True
+23/8/2019 7:54:08 PM: CONSOLE: isActive NoSyncActiveDirectory\bberry
+23/8/2019 7:54:08 PM: CONSOLE: isActive True
+23/8/2019 7:54:08 PM: 5 users loaded
+23/8/2019 7:54:08 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 7:54:08 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 7:54:08 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 7:54:08 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 7:54:08 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 7:54:12 PM: CONSOLE:Adding user LDAP ActiveDirectory\psmith a@mycheckmarx.com a a 0(scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+23/8/2019 7:54:12 PM: User Add: ActiveDirectory\psmith-a,a Success: True - 
+23/8/2019 7:54:12 PM: CONSOLE:User added: True
+23/8/2019 7:54:38 PM: ------------------------------------------
+23/8/2019 7:54:38 PM: Argument: adduser
+23/8/2019 7:54:38 PM: Argument: username=MyActiveDirectory\psmith
+23/8/2019 7:54:38 PM: Argument: role=scanner
+23/8/2019 7:54:38 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 7:54:38 PM: Argument: usertype=LDAP
+23/8/2019 7:54:38 PM: Argument: firstname=a
+23/8/2019 7:54:38 PM: Argument: lastname=a
+23/8/2019 7:54:38 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 7:54:38 PM: Argument: loggingenabled=true
+23/8/2019 7:54:38 PM: CLI Action - Add User
+23/8/2019 7:54:40 PM: Private SOAP:True:
+23/8/2019 7:54:40 PM: Public SOAP:True:
+23/8/2019 7:54:40 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 7:54:40 PM: Activating Session:True
+23/8/2019 7:54:40 PM: Retrieving list Of Teams/Groups..
+23/8/2019 7:54:40 PM: 12 groups loaded
+23/8/2019 7:54:40 PM: Retrieving list of users..
+23/8/2019 7:54:40 PM: CONSOLE: isActive administrator
+23/8/2019 7:54:40 PM: CONSOLE: isActive True
+23/8/2019 7:54:40 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 7:54:40 PM: CONSOLE: isActive True
+23/8/2019 7:54:40 PM: CONSOLE: isActive MyActiveDirectory\jde roode
+23/8/2019 7:54:40 PM: CONSOLE: isActive True
+23/8/2019 7:54:40 PM: CONSOLE: isActive NoSyncActiveDirectory\abyrd
+23/8/2019 7:54:40 PM: CONSOLE: isActive True
+23/8/2019 7:54:40 PM: CONSOLE: isActive NoSyncActiveDirectory\bberry
+23/8/2019 7:54:40 PM: CONSOLE: isActive True
+23/8/2019 7:54:40 PM: CONSOLE: isActive ActiveDirectory\psmith
+23/8/2019 7:54:40 PM: CONSOLE: isActive True
+23/8/2019 7:54:40 PM: 6 users loaded
+23/8/2019 7:54:40 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 7:54:40 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 7:54:40 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 7:54:40 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 7:54:40 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 7:54:40 PM: Get All users from user directory successful
+23/8/2019 7:54:40 PM: username: psmith
+23/8/2019 7:54:40 PM: FirstName: pauline
+23/8/2019 7:54:40 PM: LastName:  smith
+23/8/2019 7:54:40 PM: Email:  pauline.smith@mycheckmarx.com
+23/8/2019 7:54:40 PM: CONSOLE:Adding user LDAP MyActiveDirectory\psmith pauline.smith@mycheckmarx.com pauline smith 0(scanner) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+23/8/2019 7:54:40 PM: User Add: MyActiveDirectory\psmith-smith,pauline Success: True - 
+23/8/2019 7:54:40 PM: CONSOLE:User added: True
+23/8/2019 7:57:10 PM: ------------------------------------------
+23/8/2019 7:57:10 PM: Argument: adduser
+23/8/2019 7:57:10 PM: Argument: username=MyActiveDirectory\psmith
+23/8/2019 7:57:10 PM: Argument: role=reviewer
+23/8/2019 7:57:10 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 7:57:10 PM: Argument: usertype=LDAP
+23/8/2019 7:57:10 PM: Argument: firstname=a
+23/8/2019 7:57:10 PM: Argument: lastname=a
+23/8/2019 7:57:10 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 7:57:10 PM: Argument: loggingenabled=true
+23/8/2019 7:57:10 PM: CLI Action - Add User
+23/8/2019 7:57:13 PM: Private SOAP:True:
+23/8/2019 7:57:13 PM: Public SOAP:True:
+23/8/2019 7:57:13 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 7:57:13 PM: Activating Session:True
+23/8/2019 7:57:13 PM: Retrieving list Of Teams/Groups..
+23/8/2019 7:57:13 PM: 12 groups loaded
+23/8/2019 7:57:13 PM: Retrieving list of users..
+23/8/2019 7:57:13 PM: CONSOLE: isActive administrator
+23/8/2019 7:57:13 PM: CONSOLE: isActive True
+23/8/2019 7:57:13 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 7:57:13 PM: CONSOLE: isActive True
+23/8/2019 7:57:13 PM: CONSOLE: isActive MyActiveDirectory\jde roode
+23/8/2019 7:57:13 PM: CONSOLE: isActive True
+23/8/2019 7:57:13 PM: CONSOLE: isActive NoSyncActiveDirectory\abyrd
+23/8/2019 7:57:13 PM: CONSOLE: isActive True
+23/8/2019 7:57:13 PM: CONSOLE: isActive NoSyncActiveDirectory\bberry
+23/8/2019 7:57:13 PM: CONSOLE: isActive True
+23/8/2019 7:57:13 PM: CONSOLE: isActive MyActiveDirectory\psmith
+23/8/2019 7:57:13 PM: CONSOLE: isActive True
+23/8/2019 7:57:13 PM: 6 users loaded
+23/8/2019 7:57:13 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 7:57:13 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 7:57:13 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 7:57:13 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 7:57:13 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 7:57:13 PM: Get All users from user directory successful
+23/8/2019 7:57:13 PM: username: psmith
+23/8/2019 7:57:13 PM: FirstName: pauline
+23/8/2019 7:57:13 PM: LastName:  smith
+23/8/2019 7:57:13 PM: Email:  pauline.smith@mycheckmarx.com
+23/8/2019 7:57:13 PM: CONSOLE:Adding user LDAP MyActiveDirectory\psmith pauline.smith@mycheckmarx.com pauline smith 1(reviewer) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+23/8/2019 7:57:13 PM: User Add: MyActiveDirectory\psmith-smith,pauline Success: False - Failed to register user. please refer to application admin
+23/8/2019 7:57:13 PM: CONSOLE:User added: Failed to register user. please refer to application admin
+23/8/2019 7:58:09 PM: ------------------------------------------
+23/8/2019 7:58:09 PM: Argument: adduser
+23/8/2019 7:58:09 PM: Argument: username=MyActiveDirectory\psmith
+23/8/2019 7:58:09 PM: Argument: role=reviewer
+23/8/2019 7:58:09 PM: Argument: team=CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2
+23/8/2019 7:58:09 PM: Argument: usertype=LDAP
+23/8/2019 7:58:09 PM: Argument: firstname=a
+23/8/2019 7:58:09 PM: Argument: lastname=a
+23/8/2019 7:58:09 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 7:58:09 PM: Argument: loggingenabled=true
+23/8/2019 7:58:09 PM: CLI Action - Add User
+23/8/2019 7:58:11 PM: Private SOAP:True:
+23/8/2019 7:58:11 PM: Public SOAP:True:
+23/8/2019 7:58:11 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 7:58:11 PM: Activating Session:True
+23/8/2019 7:58:11 PM: Retrieving list Of Teams/Groups..
+23/8/2019 7:58:11 PM: 12 groups loaded
+23/8/2019 7:58:11 PM: Retrieving list of users..
+23/8/2019 7:58:11 PM: CONSOLE: isActive administrator
+23/8/2019 7:58:11 PM: CONSOLE: isActive True
+23/8/2019 7:58:11 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 7:58:11 PM: CONSOLE: isActive True
+23/8/2019 7:58:11 PM: CONSOLE: isActive MyActiveDirectory\jde roode
+23/8/2019 7:58:11 PM: CONSOLE: isActive True
+23/8/2019 7:58:11 PM: CONSOLE: isActive NoSyncActiveDirectory\abyrd
+23/8/2019 7:58:11 PM: CONSOLE: isActive True
+23/8/2019 7:58:11 PM: CONSOLE: isActive NoSyncActiveDirectory\bberry
+23/8/2019 7:58:11 PM: CONSOLE: isActive True
+23/8/2019 7:58:11 PM: 5 users loaded
+23/8/2019 7:58:11 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 7:58:11 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 7:58:11 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 7:58:11 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 7:58:11 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 7:58:11 PM: Get All users from user directory successful
+23/8/2019 7:58:11 PM: username: psmith
+23/8/2019 7:58:11 PM: FirstName: pauline
+23/8/2019 7:58:11 PM: LastName:  smith
+23/8/2019 7:58:11 PM: Email:  pauline.smith@mycheckmarx.com
+23/8/2019 7:58:11 PM: CONSOLE:Adding user LDAP MyActiveDirectory\psmith pauline.smith@mycheckmarx.com pauline smith 1(reviewer) CxServer\SP\APAC\DevOps\Team1,CxServer\SP\APAC\DevOps\Team2 2 1033 False True 365
+23/8/2019 7:58:11 PM: User Add: MyActiveDirectory\psmith-smith,pauline Success: True - 
+23/8/2019 7:58:11 PM: CONSOLE:User added: True
+23/8/2019 8:09:20 PM: ------------------------------------------
+23/8/2019 8:09:20 PM: Argument: adduser
+23/8/2019 8:09:20 PM: Argument: username=MyActiveDirectory\pedric
+23/8/2019 8:09:20 PM: Argument: role=scanner
+23/8/2019 8:09:20 PM: Argument: team=CxServer\SP\APAC\RND,CxServer\SP\APAC\DevOps
+23/8/2019 8:09:20 PM: Argument: usertype=LDAP
+23/8/2019 8:09:20 PM: Argument: firstname=a
+23/8/2019 8:09:20 PM: Argument: lastname=a
+23/8/2019 8:09:20 PM: Argument: email=a@mycheckmarx.com
+23/8/2019 8:09:20 PM: Argument: loggingenabled=true
+23/8/2019 8:09:20 PM: CLI Action - Add User
+23/8/2019 8:09:22 PM: Private SOAP:True:
+23/8/2019 8:09:22 PM: Public SOAP:True:
+23/8/2019 8:09:22 PM: Obtained Session IDs For PORTAL And SDK APIs
+23/8/2019 8:09:22 PM: Activating Session:True
+23/8/2019 8:09:22 PM: Retrieving list Of Teams/Groups..
+23/8/2019 8:09:22 PM: 13 groups loaded
+23/8/2019 8:09:22 PM: Retrieving list of users..
+23/8/2019 8:09:22 PM: CONSOLE: isActive administrator
+23/8/2019 8:09:22 PM: CONSOLE: isActive True
+23/8/2019 8:09:22 PM: CONSOLE: isActive MyActiveDirectory\myadmin
+23/8/2019 8:09:22 PM: CONSOLE: isActive True
+23/8/2019 8:09:22 PM: CONSOLE: isActive MyActiveDirectory\jde roode
+23/8/2019 8:09:22 PM: CONSOLE: isActive True
+23/8/2019 8:09:22 PM: CONSOLE: isActive NoSyncActiveDirectory\abyrd
+23/8/2019 8:09:22 PM: CONSOLE: isActive True
+23/8/2019 8:09:22 PM: CONSOLE: isActive NoSyncActiveDirectory\bberry
+23/8/2019 8:09:22 PM: CONSOLE: isActive True
+23/8/2019 8:09:22 PM: CONSOLE: isActive MyActiveDirectory\psmith
+23/8/2019 8:09:22 PM: CONSOLE: isActive True
+23/8/2019 8:09:22 PM: 6 users loaded
+23/8/2019 8:09:22 PM: CONSOLE:DEFAULT audituser=false
+23/8/2019 8:09:22 PM: CONSOLE:DEFAULT activeuser=true
+23/8/2019 8:09:22 PM: CONSOLE:DEFAULT langlcid=1033 (English)
+23/8/2019 8:09:22 PM: CONSOLE:DEFAULT expiredays=365
+23/8/2019 8:09:22 PM: CONSOLE: Lookup user in LDAP
+23/8/2019 8:09:22 PM: Get All users from user directory successful
+23/8/2019 8:09:22 PM: username: pedric
+23/8/2019 8:09:22 PM: FirstName: pedric
+23/8/2019 8:09:22 PM: LastName:  pedric
+23/8/2019 8:09:22 PM: Email:  pedric@org
+23/8/2019 8:09:22 PM: CONSOLE:Adding user LDAP MyActiveDirectory\pedric pedric@org pedric pedric 0(scanner) CxServer\SP\APAC\RND,CxServer\SP\APAC\DevOps 2 1033 False True 365
+23/8/2019 8:09:22 PM: User Add: MyActiveDirectory\pedric-pedric,pedric Success: True - 
+23/8/2019 8:09:22 PM: CONSOLE:User added: True

@@ -13,3 +13,17 @@ C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\bin\Debug\CxCLI.app
 C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.exe.manifest
 C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.application
 C:\Users\micha\Desktop\Materials\Source\CLI_Util\CxCLI\CxCLI\obj\Debug\CxCLI.vbprojAssemblyReference.cache
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\bin\Debug\CxCLI.exe.config
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\bin\Debug\CxCLI.exe.manifest
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\bin\Debug\CxCLI.application
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\bin\Debug\CxCLI.exe
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\bin\Debug\CxCLI.pdb
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\bin\Debug\CxCLI.xml
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\obj\Debug\CxCLI.Resources.resources
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\obj\Debug\CxCLI.vbproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\obj\Debug\CxCLI.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\obj\Debug\CxCLI.exe.manifest
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\obj\Debug\CxCLI.application
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\obj\Debug\CxCLI.exe
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\obj\Debug\CxCLI.xml
+C:\Users\Administrator\Downloads\CxCLI-master\CxCLI\obj\Debug\CxCLI.pdb

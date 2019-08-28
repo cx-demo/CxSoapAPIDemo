@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0DCBBC55-C40E-42B0-8FF3-2E988B0D2E17}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>ConsoleApp2.Module1</StartupObject>
+    <RootNamespace>ConsoleApp2</RootNamespace>
+    <AssemblyName>ConsoleApp2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ConsoleApp2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ConsoleApp2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\CxPortal\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\CxSDKns\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxQueryCollectionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxTeamPathsResponseResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSBasicRepsonse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSCreateReportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSCxMoveTeamResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSCxVersionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSDataRetentionRequestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSDataRetentionStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSImportQueriesRepsonse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSIssueTrackingSystemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSProjectBranchingStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSQueryVersionDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSReportStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponceFileNames.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponceQuerisForScan.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponceResultPath.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponceScanCompareResults.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponceScanResults.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseAssignUsers.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseBasicScanData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseBool.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseCache.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseCompaniesLicenseData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWsResponseCompanyProperties.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseConfigSetList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseCountLines.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseCustomFields.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseCustomFieldValues.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseDeleteProjects.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseDeleteScans.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseDomainUserList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseEngineServerId.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseEngineServers.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseExistsingTransportedPresetQueries.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseExtendedScanStatus.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseExtendedScanStatusArray.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseFailedScansDisplayData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseFileSystemLayer.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseGroupList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseHierarchyGroupNodes.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseIdNamePairList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseInstallationSettings.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseJSONData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseLDAPServerGroups.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseLDAPServersConfiguration.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseLicenseExpirationDateDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseLoginData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseNameList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponsePendingUsersList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponsePivotLayouts.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponsePivotTable.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponsePredefinedCommands.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponsePreset.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponsePresetDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponsePresetList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseProfileData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseProjectConfig.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseProjectScannedDisplayData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseProjectsData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseProjectsDisplayData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseProjectsScansList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseQueries.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseQueriesCategories.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseQueryDescription.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseQueueRunID.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseResultCollection.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseResultDescription.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseResultGraph.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseResultPaths.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseResultStateList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseResultStateUpdate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CXWSResponseResultSummary.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseRunID.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseSaasLoginData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseSaasPackage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseScanCompareSummary.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseScanLog.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseScanProperties.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseScanResults.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseScansDisplayData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseScansDisplayExtendedData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseScanSummaryExtended.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseServerLicenseData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseShortQueryDescription.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseSingleUserData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseSourceActionList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseSourceContainer.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseSourceContent.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseSourceID.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseSourcesContent.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseSPLicenseData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseSystemLanguages.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWsResponseSystemSettings.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseTeamData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseTeamLdapGroupMappingData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseTransportedQueries.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseUserData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseUserDirectories.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponseUsersLicenseData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponsProjectChartData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSResponsProjectProperties.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.CxWSUserPreferencesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.GetExistingPresetQueriesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.GetExistingQueriesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.ImportPresetResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\ConsoleApp2.CxPortal.ImportQueriesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxPortal\CxWebService.wsdl" />
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.BranchProjectByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CancelScanResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CreateScanReportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSBasicRepsonse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSCreateReportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSReportStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseConfigSetList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseGroupList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseLoginData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponsePresetList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseProjectConfig.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseProjectScannedDisplayData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseProjectsDisplayData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseRunID.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseScanResults.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseScansDisplayData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseScanStatus.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseScanSummary.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseTeamLdapGroupMappingData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.CxWSResponseUserData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.DeleteProjectsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.DeleteScansResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.DeleteUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.ExecuteDataRetentionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetAllUsersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetAssociatedGroupsListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetConfigurationSetListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetPresetListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetProjectConfigurationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetProjectScannedDisplayDataResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetProjectsDisplayDataResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetScanReportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetScanReportStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetScansDisplayDataForAllProjectsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetScanSummaryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetStatusOfSingleScanResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.GetTeamLdapGroupsMappingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.IsValidProjectNameResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.LoginResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.LoginWithTokenResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.LogoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.ScanResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.ScanWithOriginNameResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.ScanWithSchedulingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.ScanWithSchedulingWithCronResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.SetTeamLdapGroupsMappingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.SsoLoginResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.StopDataRetentionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.UpdateProjectConfigurationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.UpdateProjectIncrementalConfigurationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\ConsoleApp2.CxSDKns.UpdateScanCommentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CxSDKns\CxSDKWebService.wsdl" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\CxPortal\" />
+    <WCFMetadataStorage Include="Connected Services\CxSDKns\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CxSDKns\CxSDKWebService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CxSDKns\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CxSDKns\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CxSDKns\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CxPortal\CxWebService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CxPortal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CxPortal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CxPortal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\Administrator\Downloads\CxCLI-master\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Administrator\Downloads\CxCLI-master\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Administrator\Downloads\CxCLI-master\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Administrator\Downloads\CxCLI-master\ConsoleApp2\bin\Debug\ConsoleApp2.xml
+C:\Users\Administrator\Downloads\CxCLI-master\ConsoleApp2\obj\Debug\ConsoleApp2.Resources.resources
+C:\Users\Administrator\Downloads\CxCLI-master\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\CxCLI-master\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\CxCLI-master\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Administrator\Downloads\CxCLI-master\ConsoleApp2\obj\Debug\ConsoleApp2.xml
+C:\Users\Administrator\Downloads\CxCLI-master\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

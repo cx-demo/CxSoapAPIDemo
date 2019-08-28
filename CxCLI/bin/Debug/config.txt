@@ -1,2 +1,2 @@
-CXUN=mhorty
-CXPW=Iq3WZzgIhgeurEwxu25Q4odfU3nJ3iFP
+CXUN=administrator
+CXPW=N7BviBTGnS3J0D3+cd1r/dxseLxCi+qy
